@@ -1,0 +1,71 @@
+name: Taming the BEAST
+description: BEAST2 tutorials for the community, by the community!
+baseurl: 
+url: http://taming-the-beast.github.io/
+
+markdown: redcarpet
+permalink: /:categories/:title/
+future: true
+
+redcarpet: 
+  extensions:
+   - tables
+   - no_intra_emphasis
+   - autolink
+   - superscript
+   - strikethrough
+
+exclude:
+  - "*.branches"
+  - "*.kml"
+  - "*.log"
+  - "*.nb"
+  - "*.trees"
+  - "*.cpp"
+  - "*.h"
+  - "*.hh"
+  - "*.java"
+  - "*.jar"
+  - "*.csv"
+  - "*.tsv"
+  - "*.txt"
+  - "*.rb"
+  - "*.py"
+  - "*.class"
+  - "*.tips"
+  - "*.fasta"
+  - "*.nex"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+tutorials:
+  - laduplessis/Introduction-to-BEAST2
+  - laduplessis/Skyline-plots-tutorial
+
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  group_by: none
+  group_order: ascending
+
+  source: ./
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: true
+  bibtex_filters:
+  - superscript
+  - latex
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"

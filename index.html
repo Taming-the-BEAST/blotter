@@ -1,0 +1,138 @@
+---
+layout: default
+title: Taming the BEAST
+categories:
+ - home
+---
+
+<div class="row">
+	<div class="col-md-12">
+		<object class="pull-left biglogo" data="{{ site.baseurl }}/images/logo_bw.svg" type="image/svg+xml"></object>
+		<div class="bigtitle logobox">
+			Taming the BEAST (demo)
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="smallhead">
+			This is a demo for the Taming the BEAST website (based on Trevor Bedford's lab website). I added some documentation about the site architecture and style under the news posts and I added a couple of test tutorials.
+		</div>
+	</div>	
+</div>
+
+<div class="bigspacer"></div>
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="head">
+			<a class="off" href="{{ site.baseurl }}/news/">news</a>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="row">		
+	{% for post in site.categories.news limit:4 %}
+	
+	{% for member in site.categories.team %}
+		{% if member.title == post.author %}
+			{% assign author = member %}
+		{% endif %}
+	{% endfor %}		
+	
+	<div class="col-md-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-comment-o fa-fw"></i>
+				<a class="off" href="{{ post.url | prepend: site.baseurl }}">
+				{{ post.title }}
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				Posted
+				{{ post.date | date: "%-d %b %Y" }}
+				{% if author %}
+				by <a class="off" href="{{ author.url | prepend: site.baseurl }}">{{ author.handle }}</a>
+				{% endif %}						
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>			
+	{% endfor %}	
+</div>
+
+<div class="spacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="head">
+			<a class="off" href="{{ site.baseurl }}/tutorials/">recently updated tutorials</a>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="row">		
+	{% for tutorial in site.data.tutorials limit:4 %}		
+	<div class="col-md-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-edit fa-fw"></i>
+				<a class="off" href="{{ tutorial.url | prepend: site.baseurl }}">
+				{{ tutorial.title | replace: '-', ' ' }} - {{ tutorial.description }}
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				Updated
+				<a class="off" href="{{ tutorial.commits.first.url }}">
+				{{ tutorial.commits.first.date | date: "%-d %b %Y" }}
+				</a>
+				by
+				<a class="off" href="{{ tutorial.commits.first.author_url }}">				
+				{{ tutorial.commits.first.author_login }}
+				</a>
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+	{% endfor %}	
+</div>
+
+<div class="spacer"></div>
+
+<!--div class="row">
+	<div class="col-md-12">
+		<div class="head">		
+			Misc
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-12 reduced-gutter">
+		<div class="pad-left">
+			<ul class="list-inline">
+				{% for page in site.categories.misc %}
+				<li class="footernav">
+					<i class="fa fa-angle-right"></i> <a class="off" href="{{ page.url }}">{{ page.title }}</a>
+				</li>
+				{% endfor %}
+				<li class="footernav">
+					<i class="fa fa-angle-right"></i> <a class="off" href="/talks/">Talks</a>
+				</li>
+				<li class="footernav">
+					<i class="fa fa-angle-right"></i> <a class="off" href="http://www.fredhutch.org/">Fred Hutch</a>
+				</li>				
+			</ul>
+		</div>
+		<div class="spacer"></div>		
+	</div>
+</div-->
