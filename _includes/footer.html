@@ -4,24 +4,28 @@
 	<div class="col-md-12 reduced-gutter">
 		<div class="bigspacer"></div>		
 		<div class="container">
-			<div class="pad-left">
+			<div class="foot-left">
 				<ul class="list-inline" width="50%">
 					{% for page in site.categories.misc %}
 					<li class="footernav">
-						<i class="fa fa-angle-right"></i> <a class="off" href="{{ page.url | prepend: site.baseurl}}">{{ page.title }}</a>
+						<i class="fa"></i> <a class="off" href="{{ page.url | prepend: site.baseurl}}">{{ page.title }}</a>
 					</li>
 					{% endfor %}
 					<li class="footernav">
-						<i class="fa fa-angle-right"></i> <a class="off" href="/talks/">contact</a>
+						<i class="fa"></i> <a class="off" href="/team/">contact</a>
+					</li>	
+				</ul>
+			</div>
+			<div class="foot-right">
+				<ul class="list-inline" width="50%">					
+					<li class="footernav">
+						<i class="fa"></i> <a class="off" href="/talks/">license</a>
 					</li>
 					<li class="footernav">
-						<i class="fa fa-angle-right"></i> <a class="off" href="/talks/">license</a>
-					</li>
-					<li class="footernav">
-						<i class="fa fa-angle-right"></i> <a class="off" href="/talks/">hosting</a>
+						<i class="fa"></i> <a class="off" href="/talks/">hosting</a>
 					</li>				
 					<li class="footernav">
-						<i class="fa fa-angle-right"></i> <a class="off" href="/talks/">copyright</a>
+						<i class="fa"></i> <a class="off" href="/talks/">copyright</a>
 					</li>				
 				</ul>
 			</div>

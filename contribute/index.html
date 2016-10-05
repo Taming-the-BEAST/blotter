@@ -1,0 +1,43 @@
+---
+layout: default
+title: Taming the BEAST / contribute
+categories: 
+ - contribute
+---
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="bigtitle titlebox">
+			<ol class="breadcrumb">			
+				<li>Contribute</li>							
+			</ol>
+		</div>
+		<p>
+		<div class="head">
+			Everyone can contribute new tutorials to Taming the BEAST or modify existing tutorials!
+		</div>
+	</div>				
+</div>
+
+<div class="bigspacer"></div>
+
+{% for post in site.categories.contribute %}
+
+    {% cycle 'add rows': '<div class="row">', nil, nil %}
+		<div class="col-md-4 postbox">
+			<div class="smallhead">
+				<a href="{{ post.url | prepend: site.baseurl }}" class="off">{{ post.title }}</a>
+			</div>				
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				{{ post.date | date: "%-d %b %Y" }}
+				{% if author %}
+				by <a class="off" href="{{ author.url | prepend: site.baseurl }}">{{ author.handle }}</a>
+				{% endif %}	
+			</div>
+			<div class="bigspacer"></div>
+			<div class="spacer"></div>		
+        </div>
+    {% cycle 'close rows': nil, nil, '</div>' %}
+{% endfor %}
+{% cycle 'close rows': nil, '</div>', '</div>' %}
