@@ -74,6 +74,10 @@ h6 {
      text-align: center;
 }
 
+.text-right {
+     text-align: right;
+}
+
 /* logo */
 
 .logo {
@@ -209,6 +213,14 @@ a.off {
 	color: inherit; 
 }
 
+a.foot {
+	color: inherit;
+}
+
+a.foot:hover {
+	color: @gray;
+}
+
 pre {
     overflow-x: auto;
 }
@@ -326,23 +338,9 @@ figcaption {
 	background-color: @navbar-default-bg;
 }
 
-.foot-left {
-	float: left;
-	padding-left: 10px;
-	width: 50%;
-	text-align: left;
-}
-
-.foot-right {
-	float: right;
-	padding-right: 10px;
-	width: 50%;
-	text-align: right;
-}
-
 .footernav {
 	.note;
-	.text-dark-gray;
+	.text-gray;
 	text-align: center;
 	margin-right: 2px;
 }
