@@ -38,10 +38,6 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
 
-tutorials:
-  - laduplessis/Introduction-to-BEAST2
-  - laduplessis/Skyline-plots-tutorial
-
 scholar:
   style: apa
   locale: en
@@ -69,3 +65,7 @@ scholar:
   details_link:   Details
 
   query: "@*"
+
+  tutorials:
+  - laduplessis/Introduction-to-BEAST2
+  - laduplessis/Skyline-plots-tutorial

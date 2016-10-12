@@ -1,0 +1,84 @@
+---
+layout: default
+title: Taming the BEAST / team
+categories: 
+ - team
+---
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="title">
+			Upcoming workshops
+		</div>	
+	</div>
+</div>	
+
+<div class="bigspacer"></div>
+
+{% for workshop in site.categories.workshops reversed %}
+	{% capture todaysdate %}{{ 'now' | date: '%s '}}{% endcapture %}
+	{% capture workshopdate %}{{ workshop.startdate | date: '%s '}}{% endcapture %}
+	{% if workshopdate > todaysdate %}
+    {% cycle 'add rows': '<div class="row">', nil, nil %}
+		<div class="col-md-6 memberbox">
+			<div class="media">
+  				<a class="pull-left" href="{{ workshop.homepage }}">
+    				<img width=160 class="media-object" src="{{ workshop.image | prepend: site.baseurl }}">
+  				</a>
+ 			 	<div class="media-body">
+    				<div class="head media-heading"><a href="{{ workshop.homepage }}" class="off">{{ workshop.title }}</a></div>
+    				<div class="pad-left smallnote">
+    					<ul class="list-unstyled">
+    						<li><i class="fa fa-map-marker fa-fw"></i>{{ workshop.location }}</li>
+    						<li><i class="fa fa-calendar fa-fw"></i>{{ workshop.startdate | date: '%B %d, %Y' }}-{{ workshop.enddate | date: '%B %d, %Y' }}</li> 
+    						<li><i class="fa fa-file-text-o fa-fw"></i><a class="off" href="{{ workshop.flyer }}">Flyer</a></li>
+    					</ul>
+    				</div>    				
+  				</div>
+			</div>
+			<div class="bigspacer"></div>
+			<div class="bigspacer"></div>			
+        </div>	  
+    {% cycle 'close rows': nil, nil, '</div>' %}
+    {% endif %}
+{% endfor %}
+{% cycle 'close rows': nil, '</div>', '</div>' %}
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="title">
+			Past workshops
+		</div>	
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+{% for workshop in site.categories.workshops reversed %}
+	{% capture todaysdate %}{{ 'now' | date: '%s '}}{% endcapture %}
+	{% capture workshopdate %}{{ workshop.startdate | date: '%s '}}{% endcapture %}
+	{% if workshopdate < todaysdate %}
+    {% cycle 'add rows 2': '<div class="row">', nil, nil %}
+		<div class="col-md-6 memberbox">
+			<div class="media">
+  				<a class="pull-left" href="{{ workshop.homepage }}">
+    				<img width=160 class="media-object" src="{{ workshop.image | prepend: site.baseurl }}">
+  				</a>
+ 			 	<div class="media-body">
+    				<div class="head media-heading"><a href="{{ workshop.homepage }}" class="off">{{ workshop.title }}</a></div>
+    				<div class="pad-left smallnote">
+    					<ul class="list-unstyled">
+    						<li><i class="fa fa-map-marker fa-fw"></i>{{ workshop.location }}</li>
+    						<li><i class="fa fa-calendar fa-fw"></i>{{ workshop.startdate | date: '%B %d, %Y' }}-{{ workshop.enddate | date: '%B %d, %Y' }}</li> 
+    						<li><i class="fa fa-file-text-o fa-fw"></i><a class="off" href="{{ workshop.flyer }}">Flyer</a></li>
+    					</ul>
+    				</div>    				
+  				</div>
+			</div>
+			<div class="bigspacer"></div>
+			<div class="bigspacer"></div>			
+        </div>	  
+    {% cycle 'close rows 2': nil, nil, '</div>' %}
+    {% endif %}
+{% endfor %}
+{% cycle 'close rows 2': nil, '</div>', '</div>' %}
