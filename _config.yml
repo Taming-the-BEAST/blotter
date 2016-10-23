@@ -48,14 +48,14 @@ scholar:
   group_by: none
   group_order: ascending
 
-  source: ./
+  source: /tutorials
   bibliography: references.bib
   bibliography_template: "{{reference}}"
 
   replace_strings: true
   join_strings:    true
 
-  use_raw_bibtex_entry: true
+  use_raw_bibtex_entry: True
   bibtex_filters:
   - superscript
   - latex
@@ -66,6 +66,10 @@ scholar:
 
   query: "@*"
 
-  tutorials:
+
+tutorials:
   - laduplessis/Introduction-to-BEAST2
-  - laduplessis/Skyline-plots-tutorial
+  - taming-the-beast/Prior-selection
+  - taming-the-beast/Tutorial-Template
+
+

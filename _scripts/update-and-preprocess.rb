@@ -14,7 +14,12 @@ config["tutorials"].each do |repo|
 	Dir.chdir($basedir + "/tutorials/" + name)			# drop into blotter dir	
 	`git clean -f`										# remove untracked files, but keep directories
 	`git reset --hard HEAD`								# bring back to head state
-	`git pull origin master`							# git pull					
+	`git pull origin master`							# git pull			
+
+	`pdflatex main.tex`									# build tutorial pdf
+	`bibtex main`
+	`pdflatex main.tex`
+	`pdflatex main.tex`		
 end
 
 Dir.chdir($basedir)
