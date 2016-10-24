@@ -58,23 +58,31 @@ Note that all tutorials should be licensed under the [Creative Commons Attributi
 
 # Writing a new tutorial in Markdown
 
-Markdown is a lightweight, readable markup language that can easily be converted to many different formats. Tutorials written in Markdown should be saved into the file `README.md`. This file should **not** have a yaml header. If you write the tutorial in Markdown you do not need to add any LaTeX or Pdf files to the tutorial. 
+Markdown is a lightweight, readable markup language that can be easily converted to many different formats. Tutorials written in Markdown should be saved into the file `README.md`. This file should **not** have a yaml header. If you write the tutorial in Markdown you do not need to add any LaTeX or Pdf files to the tutorial. 
 
 In the [tutorial template repository](https://github.com/Taming-the-BEAST/Tutorial-Template) there is an example tutorial written in Markdown. More Markdown syntax is given in the [Markdown style guide](/contribute/Style). Although you should be able to preview the tutorial by looking at the repository on GitHub, some objects will not be in the correct format, because the website uses a custom style with a few extensions. The best way to preview what the tutorial will look like on the website is to [build a local copy of the site](/contribute/Building-a-local-copy-of-the-site/). 
 
-References can be added to a Markdown tutorial using [Jekyll-scholar](https://github.com/inukshuk/jekyll-scholar). An example is given in the [tutorial template repository](https://github.com/Taming-the-BEAST/Tutorial-Template). To add references simply add the bibtex database to the repository root. If your tutorial is called `My-Awesome-Tutorial` and your references are saved in a file called `master_refs.bib`, add the line 
+References can be added to a Markdown tutorial using [Jekyll-scholar](https://github.com/inukshuk/jekyll-scholar). An example is given in the [tutorial template repository](https://github.com/Taming-the-BEAST/Tutorial-Template). To add references add the bibtex library to the repository root.  Add an empty yaml header to the bibtex file so Jekyll-scholar will know to parse the file. Do this by adding these lines to the start of the file, 
+
+```
+---
+---
+
+```
+
+To print the references in your tutorial, if your tutorial is called `My-Awesome-Tutorial` and your references are saved in a file called `master_refs.bib`, add the line, 
 
 ```
 {`% bibliography --cited --file My-Awesome-Tutorial/master_refs %`}
 ```
 
-where you want to print all cited references (but remove the ticks between the "{" and "%"). To cite a reference simply add
+to `README.md` (but remove the ticks between the "{" and "%"). This will print all cited references. To cite a reference simply add,
 
 ```
 {`% cite AwesomeBook --file My-Awesome-Tutorial/master_refs.bib %`}
 ```
 
-to cite a reference saved as "AwesomeBook" in the file `master_refs.bib`. Note that you have to always enter the name of the bibtex file and enter the path relative to the parent directory of your GitHub repository. Note that there may also be some issues with Jekyll-scholar parsing some bibtex entries.
+This will add a citation to a reference saved as "AwesomeBook" in the file `master_refs.bib`. Note that you have to always enter the name of the bibtex file and enter the path relative to the parent directory of your GitHub repository. Note that there may also be some issues with Jekyll-scholar parsing some bibtex entries.
 
 
 

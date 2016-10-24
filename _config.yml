@@ -55,7 +55,7 @@ scholar:
   replace_strings: true
   join_strings:    true
 
-  use_raw_bibtex_entry: True
+  use_raw_bibtex_entry: true
   bibtex_filters:
   - superscript
   - latex
@@ -68,8 +68,11 @@ scholar:
 
 
 tutorials:
+  - taming-the-beast/Tutorial-Template
   - laduplessis/Introduction-to-BEAST2
   - taming-the-beast/Prior-selection
-  - taming-the-beast/Tutorial-Template
+  - taming-the-beast/Structured-coalescent
+  - taming-the-beast/Troubleshooting
+  - taming-the-beast/Skyline-plots
 
 

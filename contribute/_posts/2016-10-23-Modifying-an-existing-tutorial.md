@@ -5,10 +5,9 @@ author: Louis du Plessis
 ---
 
 
-Fixing a bug.
-
-
+Fixing a bug, adding an extra exercise or updating for a newer version of BEAST.
 
 1. Fork the repository
+2. Make the changes
 1. Do a pull request
-1. One of us evaluates and accepts/rejects the pull request.
+1. One of the administrators evaluates and accepts/rejects the pull request.
