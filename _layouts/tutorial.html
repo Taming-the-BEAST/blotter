@@ -34,6 +34,24 @@ categories:
 		<div class="head">
 			{{ tutorial.description }}
 		</div>
+		{% if page.author %}
+		<div class="smallhead">
+			by
+			{% assign authors = page.author | split: ',' %}
+			{% for author in authors %}
+				{% case forloop.index %}
+					{% when 1 %}
+						{{ author }}
+					{% when forloop.length - 1 %}
+						{% unless forloop.length == 1 %}
+							{{ author | prepend: 'and ' }}
+						{% endunless %}
+					{% else %}
+						{{ author | prepend: ', ' }}
+				{% endcase %}
+			{% endfor %}
+		</div>
+		{% endif %}
 	</div>				
 </div>
 

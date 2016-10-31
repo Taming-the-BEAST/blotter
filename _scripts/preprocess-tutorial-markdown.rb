@@ -1,3 +1,5 @@
+require 'yaml'
+
 # Preprocessing script
 # Run before `jekyll build` to walk through directories and add YAML front matter to Markdown files
 # and to rename readme.md files to index.md
@@ -25,25 +27,41 @@ mdarray.each { |md|
 	temp_name = dirarray[dirarray.index("tutorials") + 1]
 	if temp_name =~ /^[^_]/
 		tutorial_name = temp_name
+		title = md.sub(/^.*tutorials\//, '').sub(/.md$/, '').sub(/index$/, '')
+
 	end
 
 	# if file is lacking YAML front matter, add some
 	contents = File.open(md, "r").read	
 	out = File.new(md, "w")	
-	if contents !~ /^(---\s*\n.*?\n?)^(---\s*$\n?)/m
+	#if contents !~ /^(---\s*\n.*?\n?)^(---\s*$\n?)/m
+	if contents !~ /\A---(.|\n)*?---/
 		out.puts "---"
 		out.puts "layout: tutorial"
 		if tutorial_name != nil
-			title = md.sub(/^.*tutorials\//, '').sub(/.md$/, '').sub(/index$/, '')
-			#if title.inclue? '-'
-			#	title = title.gsub! '-', ' '
-
 			out.puts "title: #{title}"		
 			out.puts "tutorial: #{tutorial_name}"
 			out.puts "permalink: /:path/:basename:output_ext"
+			out.puts "author: unknown"
 		end
 		out.puts "---"
-		out.puts	
+		out.puts
+	else
+		pos = contents.enum_for(:scan, /\A---(.|\n)*?---/).map { Regexp.last_match.end(0) }
+
+		header   = YAML.load(contents[0..pos[0]])
+		contents = contents[pos[0]..-1]
+
+		if (tutorial_name != nil)
+			header["layout"] = "tutorial"
+			header["title"] = title
+			header["tutorial"] = tutorial_name
+			header["permalink"] = "/:path/:basename:output_ext"
+		end
+
+		out.puts YAML.dump(header)
+		out.puts "---"
+		out.puts
 	end
 	
 	# go through file and replace all links that point to .md files with the equivalent .html file
