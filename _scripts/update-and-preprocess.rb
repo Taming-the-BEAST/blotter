@@ -16,10 +16,12 @@ config["tutorials"].each do |repo|
 	`git reset --hard HEAD`								# bring back to head state
 	`git pull origin master`							# git pull			
 
-	#{}`pdflatex main.tex`									# build tutorial pdf
-	#{}`bibtex main`
-	#{}`pdflatex main.tex`
-	#{}`pdflatex main.tex`		
+	if File.exists?("main.tex")							# build tutorial pdf if main.tex exists
+		`pdflatex main.tex`									
+		`bibtex main`
+		`pdflatex main.tex`
+		`pdflatex main.tex`		
+	end
 end
 
 Dir.chdir($basedir)
