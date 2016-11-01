@@ -52,6 +52,14 @@ To include the tutorials in the website you have to run a Ruby script that will 
 > - Type: `ruby _scripts/update-and-preprocess.rb`
 > - Recompile the website
 
+Note that this script uses `octokit` to request metadata from GitHub. Since unauthorized requests are rate-limited you should probably generate a personal GitHub access token and use that to authorize your requests. The token itself can be generated from your GitHub profile page, under `Developer settings`. Copy the token and add it to your environment as follows, 
+
+```bash
+export GITHUB_TOKEN=<token>
+```
+
+Since you do not want to generate a new token every time you restart your environment you will probably want to save the token in a secure location. (do **NOT** add the token to any of your GitHub repositories!)
+
 ## Useful links
 
 - https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/

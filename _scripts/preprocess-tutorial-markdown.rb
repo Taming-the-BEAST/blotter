@@ -42,7 +42,6 @@ mdarray.each { |md|
 			out.puts "title: #{title}"		
 			out.puts "tutorial: #{tutorial_name}"
 			out.puts "permalink: /:path/:basename:output_ext"
-			out.puts "author: unknown"
 		end
 		out.puts "---"
 		out.puts
