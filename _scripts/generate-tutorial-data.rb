@@ -22,6 +22,18 @@ require 'yaml'
 
 module Tutorials
 
+	def self.find_files(prefix, wildcard)
+
+		ignore_list = ["index.md", "index.mdown"]
+
+		file_list = Dir.glob(prefix+"/"+wildcard)
+		ignore_list.each do |str| 
+			file_list.delete(prefix+"/"+str)
+		end
+		
+		return file_list
+	end
+
 	def self.generate_data(config_file)
 	
 		tutorial_data = {}
@@ -48,7 +60,20 @@ module Tutorials
 				tutorial_date = octokit_repo.updated_at
 
 				# Get all pdfs in the root
-				pdf_array = Dir.glob("tutorials/#{tutorial_title}/*.pdf")
+				pdf_array = Dir.glob("tutorials/#{tutorial_title}/**/*.pdf").reject{ |f| f['/figures/']}
+
+				# Get data files 
+				data_array = Dir.glob("tutorials/#{tutorial_title}/data/*").reject{ |f| f['index.md'] || f['README.mdown'] || f['README.md']}				
+
+				# Get xml files
+				xml_array = Dir.glob("tutorials/#{tutorial_title}/xml/*.xml")
+
+				# Get scripts files
+				script_array = Dir.glob("tutorials/#{tutorial_title}/scripts/*").reject{ |f| f['index.md'] || f['README.mdown'] || f['README.md']}				
+
+				# Get output files
+				out_array = Dir.glob("tutorials/#{tutorial_title}/precooked_runs/*").reject{ |f| f['index.md'] || f['README.mdown'] || f['README.md']}				
+
 			
 				# load contributor metadata
 				octokit_contributors = client.contributors(repo)					
@@ -96,7 +121,11 @@ module Tutorials
 					"url" => tutorial_url,
 					"contributors" => tutorial_contributors,
 					"commits" => tutorial_commits,
-					"pdfs" => pdf_array
+					"pdfs" => pdf_array,
+					"data" => data_array,
+					"xmls" => xml_array,
+					"scripts" => script_array,
+					"outputs" => out_array
 				)
 			
 				# sort by date

@@ -17,10 +17,10 @@ config["tutorials"].each do |repo|
 	`git pull origin master`							# git pull			
 
 	if File.exists?("main.tex")							# build tutorial pdf if main.tex exists
-		`pdflatex main.tex`									
-		`bibtex main`
-		`pdflatex main.tex`
-		`pdflatex main.tex`		
+		File.rename("main.tex", "#{name}.tex")
+		`pdflatex #{name}.tex`									
+		`bibtex #{name}`
+		`pdflatex #{name}.tex`									
 	end
 end
 
