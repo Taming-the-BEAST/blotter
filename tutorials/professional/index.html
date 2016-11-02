@@ -1,0 +1,49 @@
+---
+layout: default
+title: Taming the BEAST / tutorials
+categories: 
+ - tutorials
+filter: professional
+---
+
+{% include tutorials_header.html %}
+
+{% assign tutorials = site.data.tutorials | sort:"title" %}
+
+{% for tutorial in tutorials %}
+		
+	{% for page in site.pages %}
+		{% if page.tutorial == tutorial.title %}
+			{% assign level = page.level | downcase %}
+		{% endif %}
+	{% endfor %}
+
+	{% if level == "professional" %}
+	
+	    {% cycle 'add rows': '<div class="row">', nil, nil %}
+			<div class="col-md-4 tutorialbox">
+				<div class="head">
+					<a href="{{ tutorial.url | prepend: site.baseurl }}" class="off">{{ tutorial.title  | replace: '-', ' ' }}</a>
+				</div>	
+				<div class="smallspacer"></div>
+				<div class="note">
+					<a href="{{ tutorial.url | prepend: site.baseurl }}" class="off">{{ tutorial.description }}</a>
+				</div>
+				<div class="smallspacer"></div>
+				<div class="smallnote">
+					Updated
+					<a class="off" href="{{ tutorial.commits.first.url }}">
+					{{ tutorial.commits.first.date | date: "%-d %b %Y" }}
+					</a>
+					by
+					<a class="off" href="{{ tutorial.commits.first.author_url }}">				
+					{{ tutorial.commits.first.author_login }}
+					</a>
+				</div>
+				<div class="bigspacer"></div>
+				<div class="spacer"></div>
+			</div>
+	    {% cycle 'close rows': nil, nil, '</div>' %}
+	{% endif %}
+{% endfor %}
+{% cycle 'close rows': nil, '</div>', '</div>' %}	

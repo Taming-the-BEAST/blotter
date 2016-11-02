@@ -3,9 +3,14 @@ layout: default
 title: Taming the BEAST / tutorials
 categories: 
  - tutorials
+filter: all
 ---
 
-{% for tutorial in site.data.tutorials %}
+{% include tutorials_header.html %}
+
+{% assign tutorials = site.data.tutorials | sort:"title" %}
+
+{% for tutorial in tutorials %}
 
     {% cycle 'add rows': '<div class="row">', nil, nil %}
 		<div class="col-md-4 tutorialbox">
@@ -31,5 +36,6 @@ categories:
 			<div class="spacer"></div>
 		</div>
     {% cycle 'close rows': nil, nil, '</div>' %}
+
 {% endfor %}
 {% cycle 'close rows': nil, '</div>', '</div>' %}	
