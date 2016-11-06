@@ -1,0 +1,47 @@
+<div class="row">
+	<div class="col-md-12">
+		<div class="centered-pills">
+			<ul class="nav nav-pills note">
+				{% if page.filter == "all" %}
+				<li role="presentation" class="active">
+				{% else %}
+				<li role="presentation">
+				{% endif %}
+					<a class="off" href="{{ site.baseurl }}/tutorials/">
+						<i class="fa fa-reply-all fa-fw"></i> All
+					</a>
+				</li>				
+				{% if page.filter == "beginner" %}
+				<li role="presentation" class="active">
+				{% else %}
+				<li role="presentation">
+				{% endif %}
+					<a class="off" href="{{ site.baseurl }}/tutorials/beginner/">
+						<i class="fa fa-user fa-fw"></i> Beginner
+					</a>
+				</li>				
+				{% if page.filter == "intermediate" %}
+				<li role="presentation" class="active">
+				{% else %}
+				<li role="presentation">
+				{% endif %}
+					<a class="off" href="{{ site.baseurl }}/tutorials/intermediate/">
+						<i class="fa fa-truck fa-fw"></i> Intermediate
+					</a>
+				</li>				
+				{% if page.filter == "professional" %}
+				<li role="presentation" class="active">
+				{% else %}
+				<li role="presentation">
+				{% endif %}
+					<a class="off" href="{{ site.baseurl }}/tutorials/professional/">
+						<i class="fa fa-rocket fa-fw"></i> Professional
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="bigspacer"></div>
+	</div>
+</div>
+
+

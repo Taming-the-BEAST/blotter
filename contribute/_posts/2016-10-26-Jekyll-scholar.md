@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jekyll-scholar
+title: Adding references with Markdown
 author: Louis du Plessis
 ---
 
@@ -19,13 +19,13 @@ To add references add the bibtex library to the repository root. Add an empty ya
 To print the references in your tutorial, assuming your tutorial is called `My-Awesome-Tutorial` and your references are saved in a file called `master_refs.bib`, add the line, 
 
 ```
-{`% bibliography --cited --file My-Awesome-Tutorial/master_refs %`}
+{{ "{% bibliography --cited --file My-Awesome-Tutorial/master_refs.bib " }} %}
 ```
 
-to `README.md` (but remove the ticks between the "{" and "%") at the location you want to print the bibliography. This will print all cited references. To cite a reference simply add,
+to `README.md` at the location you want to print the bibliography. This will print all cited references. To cite a reference simply add,
 
 ```
-{`% cite AwesomeBook --file My-Awesome-Tutorial/master_refs.bib %`}
+{{ "{% cite AwesomeBook --file My-Awesome-Tutorial/master_refs.bib " }} %}
 ```
 
 This will add a citation to a reference saved as "AwesomeBook" in the file `master_refs.bib`. Note that you have to always enter the name of the bibtex file and enter the path *relative* to the parent directory of your GitHub repository.

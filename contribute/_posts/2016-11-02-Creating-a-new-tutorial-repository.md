@@ -23,8 +23,7 @@ The easiest way to create a new tutorial is to simply clone the template (or any
 > 2. Rename the directory to the new tutorial's name: `mv Tutorial-Template My-Awesome-Tutorial` (this step is optional, but keeps everything nice and tidy)
 > 2. Enter the tutorial directory: `cd My-Awesome-Tutorial`
 > 4. Change the origin of the repository so it points to the newly created repository on your GitHub account: `git remote set-url origin git@github.com:<your-username>/My-Awesome-Tutorial.git`
-> 6. Type: `git push -u origin master`
-```
+> 6. Type: `git push -u origin master` 
 
 Alternatively, it is also possible to create a blank repository and set up the same directory structure. The default structure of a tutorial is: 
 

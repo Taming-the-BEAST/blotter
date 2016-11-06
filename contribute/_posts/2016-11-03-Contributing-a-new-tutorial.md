@@ -12,6 +12,6 @@ Most of the tutorial repositories belong to the [Taming the BEAST](https://githu
 
 Submitting a new tutorial to Taming the BEAST comprises the following three steps (described in more detail below):
 
-1. [Create the tutorial repository](/contribute/creating-a-new-tutorial-repository)
-2. [Write the tutorial](/contribute/writing-a-new-tutorial)
-3. [Submit the tutorial](/contribute/submitting-a-new-tutorial)
+1. [Create the tutorial repository](/contribute/Creating-a-new-tutorial-repository)
+2. [Write the tutorial](/contribute/Writing-a-new-tutorial)
+3. [Submit the tutorial](/contribute/Submitting-a-new-tutorial)
