@@ -14,4 +14,4 @@ Submitting a new tutorial to Taming the BEAST comprises the following three step
 
 1. [Create the tutorial repository](/contribute/Creating-a-new-tutorial-repository)
 2. [Write the tutorial](/contribute/Writing-a-new-tutorial)
-3. [Submit the tutorial](/contribute/Submitting-a-new-tutorial)
+3. [Submit the tutorial for review](/contribute/Submitting-a-new-tutorial-for-review)

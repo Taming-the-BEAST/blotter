@@ -6,7 +6,7 @@ author: Louis du Plessis
 
 [Jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) is a plugin that can be used to add Bibtex references to Markdown tutorials. 
 
-# Adding references to a tutorial with Jekyll-scholar
+## Adding references to a tutorial with Jekyll-scholar
 
 To add references add the bibtex library to the repository root. Add an empty yaml header to the bibtex file so Jekyll-scholar will know to parse the file. Do this by adding these two lines to the start of the file, 
 
@@ -33,11 +33,11 @@ This will add a citation to a reference saved as "AwesomeBook" in the file `mast
 
 
 
-# Common issues with Jekyll-scholar
+## Common issues with Jekyll-scholar
 - For the moment Jekyll-scholar cannot parse items enclosed between double braces ({`{ and }`}), but interprets it as a liquid tag. 
 - Jekyll-scholar can only parse your bibliography if it is encoded in UTF-8. This can easily be done in most text proper text editors (e.g. [Sublime](http://sublimetext.com/)).
 
 
 
-# Useful links
+## Useful links
 - [Jekyll-scholar](https://github.com/inukshuk/jekyll-scholar)

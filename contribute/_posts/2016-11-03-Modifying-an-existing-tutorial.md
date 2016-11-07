@@ -4,7 +4,7 @@ title: Modifying an existing tutorial
 author: Louis du Plessis
 ---
 
-# Reporting errors
+## Reporting errors
 
 It is very likely that a few errors slipped into some of the tutorials. Many of these errors are difficult to spot for the developers and will only become apparent once people start doing the tutorials. If you run into problems while doing a tutorial, or if you used a tutorial in a workshop or a course and discovered any issues, we ask you to please report any bugs to help us improve the tutorials on Taming the BEAST.
 
@@ -22,7 +22,7 @@ Perform the following steps:
 One of the administrators will then evaluate the changes and either accept or reject the pull request.
 
 
-# Extending or updating tutorials
+## Extending or updating tutorials
 
 From time to time tutorials need to be updated to reflect the latest BEAST2 or package release. 
 It is also possible that a tutorial does not cover all aspects of the topic in question. If you feel that a tutorial is out of date or incomplete we encourage you to help us update the tutorial. To extend or update tutorials follow the same procedure as for reporting errors. 

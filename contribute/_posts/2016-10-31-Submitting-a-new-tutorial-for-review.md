@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Submitting a new tutorial
+title: Submitting a new tutorial for review
 author: Louis du Plessis
 ---
 
 Before submitting the tutorial you need to go through a couple of final steps. This is mostly to ensure that everything is where it should be, so the submission process can proceed smoothly.
 
-# Add tutorial metadata
+## Add tutorial metadata
 
 Tutorial metadata are used to store the names of the authors and the level of the tutorial. 
 Metadata should be added to the yaml header of `README.md`. 
@@ -29,17 +29,17 @@ If there are multiple authors they should be separated by commas (no spaces). At
 Note that if no level is given the tutorial will be labeled as "intermediate."
 
 
-# Add licensing information
+## Add licensing information
 
 Add information about the license at the end of the tutorial. We require that all tutorials be licensed under a [Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/). This will ensure that you will get proper attribution if someone uses your tutorial, while still allowing other people to modify the tutorial.
 
 
-# Testing
+## Testing
 
 After writing the tutorial run through all the exercises using the latest version of BEAST2 and save all the XML files and output. Make sure that all data, scripts, XML and output files are stored in the correct directories in the GitHub repository **before** submitting the tutorial.
 
 
-# New tutorial checklist
+## New tutorial checklist
 Please go through the [checklist](/contribute/New-tutorial-checklist) to make sure that the tutorial is complete!
 
 
