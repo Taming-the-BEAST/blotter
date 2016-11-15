@@ -9,7 +9,7 @@ The idea of holding a BEAST 2 workshop has been brewing for a while, motivated b
 During the workshop we realised that the materials we created and assembled for the workshop represent a very useful resource and that we could reach many more users by making them available to the community. 
 
 <figure>
-	<img src="{{ site.baseurl }}/images/workshops/Taming-the-BEAST-Engelberg.jpg" alt="">
+	<img src="{{ site.baseurl }}/images/workshops/Taming-the-BEAST-Engelberg.JPG" alt="">
 	<figcaption>The 2016 workshop organisers and participants.</figcaption>
 </figure>
 <br>
