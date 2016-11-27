@@ -22,6 +22,8 @@ config["tutorials"].each do |repo|
 		`bibtex #{name}`
 		`pdflatex #{name}.tex`									
 	end
+
+	#{}`python ParseMdtoLatex.py -i README.md -t pandoctemplate.tex -L`
 end
 
 Dir.chdir($basedir)
