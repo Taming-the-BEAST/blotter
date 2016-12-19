@@ -14,7 +14,12 @@ config["tutorials"].each do |repo|
 	Dir.chdir($basedir + "/tutorials/" + name)			# drop into blotter dir	
 	`git clean -f`										# remove untracked files, but keep directories
 	`git reset --hard HEAD`								# bring back to head state
-	`git pull origin master`							# git pull			
+	`git pull origin master`							# git pull	
+
+	# Check if license files exist
+	if Dir.glob("LICENSE*").length == 0
+		`cp ../../_layouts/CCby4.0.txt LICENSE`
+	end
 
 	if File.exists?("main.tex")							# build tutorial pdf if main.tex exists
 		File.rename("main.tex", "#{name}.tex")
@@ -28,4 +33,5 @@ end
 
 Dir.chdir($basedir)
 `ruby _scripts/preprocess-tutorial-markdown.rb`
+`ruby _scripts/generate-tutorial-licenses.rb`
 `ruby _scripts/generate-tutorial-data.rb`

@@ -74,7 +74,6 @@ module Tutorials
 				# Get output files
 				out_array = Dir.glob("tutorials/#{tutorial_title}/precooked_runs/*").reject{ |f| f['index.md'] || f['README.mdown'] || f['README.md']}				
 
-			
 				# load contributor metadata
 				octokit_contributors = client.contributors(repo)					
 				tutorial_contributors = Array.new
