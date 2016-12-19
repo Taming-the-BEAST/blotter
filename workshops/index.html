@@ -29,12 +29,16 @@ categories:
     				<div class="head media-heading"><a href="{{ workshop.homepage }}" class="off">{{ workshop.title }}</a></div>
     				<div class="pad-left smallnote">
     					<ul class="list-unstyled">
+                            <div class="smallspacer"></div>
     						<li><i class="fa fa-calendar fa-fw"></i>{{ workshop.startdate | date: '%B %d, %Y' }}-{{ workshop.enddate | date: '%B %d, %Y' }}</li> 
+                            <div class="smallspacer"></div>
     						<li><i class="fa fa-map-marker fa-fw"></i>{{ workshop.location }}</li>
                             {% if workshop.repo %}
+                            <div class="smallspacer"></div>
                             <li><i class="fa fa-file-text-o fa-fw"></i><a class="off" href="{{ workshop.repo }}">Lecture slides</a></li>
                             {% endif %}
                             {% if workshop.flyer %}
+                            <div class="smallspacer"></div>
     						<li><i class="fa fa-picture-o fa-fw"></i><a class="off" href="{{ workshop.flyer }}">Flyer</a></li>
                             {% endif %}
     					</ul>
@@ -73,12 +77,16 @@ categories:
     				<div class="head media-heading"><a href="{{ workshop.homepage }}" class="off">{{ workshop.title }}</a></div>
     				<div class="pad-left smallnote">
     					<ul class="list-unstyled">
+                            <div class="smallspacer"></div>
     						<li><i class="fa fa-calendar fa-fw"></i>{{ workshop.startdate | date: '%B %d, %Y' }}-{{ workshop.enddate | date: '%B %d, %Y' }}</li> 
+                            <div class="smallspacer"></div>
     						<li><i class="fa fa-map-marker fa-fw"></i>{{ workshop.location }}</li>
                             {% if workshop.repo %}
+                            <div class="smallspacer"></div>
                             <li><i class="fa fa-file-text-o fa-fw"></i><a class="off" href="https://github.com/{{ workshop.repo }}" target="_blank">Lecture slides</a></li>
                             {% endif %}
                             {% if workshop.flyer %}
+                            <div class="smallspacer"></div>
                             <li><i class="fa fa-picture-o fa-fw"></i><a class="off" href="{{ workshop.flyer }}">Flyer</a></li>
                             {% endif %}    					
                         </ul>
