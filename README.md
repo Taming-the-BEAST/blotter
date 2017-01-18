@@ -44,7 +44,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-## TODO
+## TODOs
 
 ### Website source
 - Add RSS/Atom feed for updated tutorials
@@ -62,7 +62,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 ### Tutorials
-- Add licenses to each tutorial repository (not complete at the moment)
 - Update Latex and layout for all latex tutorials (should use auto-generated latex from markdown tutorial)
 - Fix Structured coalescent tutorial (estimate gamma shape)
 - Fix Structured birth-death tutorial (estimate gamma shape)
