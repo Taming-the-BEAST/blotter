@@ -15,6 +15,12 @@ filter: professional
 	{% for page in site.pages %}
 		{% if page.tutorial == tutorial.title %}
 			{% assign level = page.level | downcase %}
+			{% assign title = page.title %}
+			{% if tutorial.description == blank %}
+				{% assign description = page.subtitle %}
+			{% else %}
+				{% assign description = tutorial.description %}
+			{% endif %}
 		{% endif %}
 	{% endfor %}
 
@@ -23,11 +29,11 @@ filter: professional
 	    {% cycle 'add rows': '<div class="row">', nil, nil %}
 			<div class="col-md-4 tutorialbox">
 				<div class="head">
-					<a href="{{ tutorial.url | prepend: site.baseurl }}" class="off">{{ tutorial.title  | replace: '-', ' ' }}</a>
+					<a href="{{ tutorial.url | prepend: site.baseurl }}" class="off">{{ title  | replace: '-', ' ' }}</a>
 				</div>	
 				<div class="smallspacer"></div>
 				<div class="note">
-					<a href="{{ tutorial.url | prepend: site.baseurl }}" class="off">{{ tutorial.description }}</a>
+					<a href="{{ tutorial.url | prepend: site.baseurl }}" class="off">{{ description }}</a>
 				</div>
 				<div class="smallspacer"></div>
 				<div class="smallnote">

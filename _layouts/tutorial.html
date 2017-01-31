@@ -32,7 +32,11 @@ categories:
 		</div>
 		<p>
 		<div class="head">
-			{{ tutorial.description }}
+			{% if tutorial.description == blank %}
+				{{ page.subtitle }}
+			{% else %}
+				{{ tutorial.description }}
+			{% endif %}
 		</div>
 		{% if page.author %}
 		<div class="smallhead">
