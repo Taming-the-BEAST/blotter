@@ -8,9 +8,13 @@ filter: all
 
 {% include tutorials_header.html %}
 
-{% assign tutorials = site.data.tutorials | sort:"title" %}
+{% for repo in site.tutorials %}
 
-{% for tutorial in tutorials %}
+	{% for t in site.data.tutorials %} 
+		{% if t.repo == repo %}
+			{% assign tutorial = t %}
+		{% endif %}
+	{% endfor %} 
 
     {% cycle 'add rows': '<div class="row">', nil, nil %}
 		<div class="col-md-4 tutorialbox">
