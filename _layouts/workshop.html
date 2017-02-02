@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="row">
+	<div class="col-md-10">
+		<div class="bigtitle titlebox">
+			{{ page.title }}
+		</div>
+		<p>
+		<div class="head">
+			{{ page.address}}, {{ page.location }}
+		</div>
+		<div class="smallhead">
+			{{ page.startdate | date: '%B %d, %Y' }}-{{ page.enddate | date: '%B %d, %Y' }}</li> 
+		</div>
+	</div>		
+
+	<div class="col-md-2 text-right">
+    	<img width=160 class="media-object" src="{{ page.image | prepend: site.baseurl }}">
+	</div>		
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		{{ content }}
+	</div>
+</div>

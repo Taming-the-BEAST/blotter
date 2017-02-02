@@ -30,16 +30,23 @@ categories:
     				<div class="pad-left smallnote">
     					<ul class="list-unstyled">
                             <div class="smallspacer"></div>
-    						<li><i class="fa fa-calendar fa-fw"></i>{{ workshop.startdate | date: '%B %d, %Y' }}-{{ workshop.enddate | date: '%B %d, %Y' }}</li> 
+    						<li><i class="fa fa-clock-o fa-fw"></i>
+                            {{ workshop.startdate | date: '%B %d, %Y' }}-{{ workshop.enddate | date: '%B %d, %Y' }}</li> 
                             <div class="smallspacer"></div>
-    						<li><i class="fa fa-map-marker fa-fw"></i>{{ workshop.location }}</li>
+    						<li><i class="fa fa-map-marker fa-fw"></i>
+                            {{ workshop.location }}</li>
+                            <div class="smallspacer"></div>
+                            <li><i class="fa fa-calendar fa-fw"></i>
+                            <a class="off" href="{{ workshop.url | prepend: site.baseurl }}">Program</a></li> 
                             {% if workshop.repo %}
                             <div class="smallspacer"></div>
-                            <li><i class="fa fa-file-text-o fa-fw"></i><a class="off" href="{{ workshop.repo }}">Lecture slides</a></li>
+                            <li><i class="fa fa-file-text-o fa-fw"></i>
+                            <a class="off" href="{{ workshop.repo }}">Lecture slides</a></li>
                             {% endif %}
                             {% if workshop.flyer %}
                             <div class="smallspacer"></div>
-    						<li><i class="fa fa-picture-o fa-fw"></i><a class="off" href="{{ workshop.flyer }}">Flyer</a></li>
+    						<li><i class="fa fa-picture-o fa-fw"></i>
+                            <a class="off" href="{{ workshop.flyer }}">Flyer</a></li>
                             {% endif %}
     					</ul>
     				</div>    				
