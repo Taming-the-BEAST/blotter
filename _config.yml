@@ -73,8 +73,11 @@ tutorials:
   - taming-the-beast/Troubleshooting
   - taming-the-beast/Skyline-plots
   - taming-the-beast/Substitution-model-selection
+  - taming-the-beast/FBD-tutorial
   - taming-the-beast/Bacter-Tutorial
   - taming-the-beast/StarBeast-Tutorial
+  - genomescale/species-tree-clocks
+  - genomescale/calibrated-species-trees
   - taming-the-beast/Structured-coalescent
   - taming-the-beast/Structured-birth-death-model
   - duchene/adequacy_tutorial

@@ -12,19 +12,20 @@ flyer: /images/workshops/Taming-the-BEAST-in-the-South-Pacific-Flyer.pdf
 
 # Programme
 
-Participants are expected to arrive between 18:00 and 19:00 on Sunday, 2017/02/05, followed by a garden BBQ.
+Participants are expected to arrive between 18:00 and 19:00 on Sunday, 2017/02/05, followed by a garden BBQ at Venue Waiheke.
 
               |  Monday <br> 2017/02/06   | Tuesday <br> 2017/02/07 | Wednesday <br> 2017/02/08 | Thursday <br> 2017/02/09 | Friday <br> 2017/02/10 
 --------------| -------- | -------- | --------|-----------|----------|--------
+			  | Bayesian phylogenetics and relaxed clocks | Phylodynamics: macroevolution + infectious disease | Species tree and gene trees | Phylogenetic model comparison, selection averaging | Phylogeography and trait evolution
 08:30 - 10:30 | Speaker: <br> **Simon Ho** | Speaker: <br> **Tracy Heath** | Speaker: <br> **David Bryant** | Speaker: <br> **Remco Bouckaert** | Speaker: <br> **Alexei Drummond**
 10:30 - 11:00 | _Morning tea_ | _Morning tea_ | _Morning tea_ | _Morning tea_ | _Morning tea_ 
-11:00 - 12:30 | Tutorial 1a: <br> [Relaxed phylogenetics](/tutorials/Introduction-to-Beast2) | Tutorial 2a: <br> Fossilized birth-death tree prior       | Tutorial 3a: <br> [Bayes Factor Delimitation of Species](https://github.com/BEAST2-Dev/beast-docs/releases/download/v1.0/BFD-tutorial-2017.zip)     | Tutorial 4a: <br> [bModelTest](/tutorials/substitution-model-selection)       | Panel discussion and free tutorial session       
+11:00 - 12:30 | Tutorial 1a: <br> [Relaxed phylogenetics](/tutorials/Introduction-to-BEAST2/) | Tutorial 2a: <br> [Fossilized birth-death tree prior](/tutorials/FBD-tutorial/)       | Tutorial 3a: <br> [Bayes factor delimitation of species](https://github.com/BEAST2-Dev/beast-docs/releases/download/v1.0/BFD-tutorial-2017.zip)     | Tutorial 4a: <br> [Substitution model averaging](/tutorials/Substitution-model-selection)       | Panel discussion and free tutorial session       
 12:30 - 14:00 | _Lunch_       | _Lunch_       | _Lunch_      | _Lunch_        | _Lunch_      
-14:00 - 14:30 | Speaker: <br> **Alexei Drummond**       | Speaker: <br> **Louis du Plessis**       |       | Speaker: <br> **Huw Ogilvie**   | Speaker: <br> **Tim Vaughan**
-14:30 - 16:00 | Tutorial 1b: <br> MEP + Bayesian Skyline plot | Tutorial 2b: <br> Birth-death skyline plot       |       | Tutorial 4b: <br> StarBEAST2 analyses        | Tutorial 5b: <br> MultiTypeTree       
+14:00 - 14:30 | Speaker: <br> **Alexei Drummond**       | Speaker: <br> **Veronika Bošková**       |       | Speaker: <br> **Huw Ogilvie**   | Speaker: <br> **Tim Vaughan**
+14:30 - 16:00 | Tutorial 1b: <br> [Bayesian Skyline plot](/tutorials/Skyline-plots/) | Tutorial 2b: <br> [Setting priors](/tutorials/Prior-selection) and [troubleshooting](/tutorials/Troubleshooting)    |   *Free time for<br>excursions*    | Tutorial 4b: <br> [Species trees with StarBEAST2](/tutorials/species-tree-clocks/) and [calibrated species trees](/tutorials/calibrated-species-trees/)         | Tutorial 5b: <br> [Structured coalescent with MultiTypeTree](/tutorials/Structured-coalescent/)
 16:00 - 16:30 | _Afternoon tea_ | _Afternoon tea_ |       | _Afternoon tea_         | _Afternoon tea_ 
-16:30 - 17:00 | Speaker: <br> **Veronika Bošková**      | Speaker: <br> **Tim Vaughan**       |       | Speaker: <br> **David Duchêne**  |        
-17:00 - 18:30 | Tutorial 1c: <br> [Setting priors](/tutorials/Prior-selection) and [troubleshooting](/tutorials/Troubleshooting) | Tutorial 2c: <br> [BACTER](/tutorials/Bacter-Tutorial)  |       |   Tutorial 4c: <br> [Model adequacy](/tutorials/adequacy_tutorial/)  | _Departure_   
+16:30 - 17:00 | Speaker: <br> **Louis du Plessis**      | Speaker: <br> **Tim Vaughan**       |       | Speaker: <br> **David Duchêne**  |        
+17:00 - 18:30 | Tutorial 1c: <br> [Birth-death skyline plot](/tutorials/Skyline-plots/)   | Tutorial 2c: <br> [Bacter](/tutorials/Bacter-Tutorial)  |       |   Tutorial 4c: <br> [Model adequacy](/tutorials/adequacy_tutorial/)  | _Departure_   
 19:00         | *Gourmet fish & chips at Venue Waiheke* | *Dinner at Charlie Farleys* | | *Dinner at the Goldie Room* |      
 
 
