@@ -17,8 +17,8 @@ categories:
 
 {% for workshop in site.categories.workshops reversed %}
 	{% capture todaysdate %}{{ 'now' | date: '%s '}}{% endcapture %}
-	{% capture workshopdate %}{{ workshop.startdate | date: '%s '}}{% endcapture %}
-	{% if workshopdate > todaysdate %}
+	{% capture workshopdate %}{{ workshop.enddate | date: '%s '}}{% endcapture %}
+	{% if workshopdate >= todaysdate %}
     {% cycle 'add rows': '<div class="row">', nil, nil %}
 		<div class="col-md-6 memberbox">
 			<div class="media">
