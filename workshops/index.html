@@ -41,7 +41,7 @@ categories:
                             {% if workshop.repo %}
                             <div class="smallspacer"></div>
                             <li><i class="fa fa-file-text-o fa-fw"></i>
-                            <a class="off" href="{{ workshop.repo }}">Lecture slides</a></li>
+                            <a class="off" href="https://github.com/{{ workshop.repo }}">Lecture slides</a></li>
                             {% endif %}
                             {% if workshop.flyer %}
                             <div class="smallspacer"></div>
@@ -72,7 +72,7 @@ categories:
 
 {% for workshop in site.categories.workshops reversed %}
 	{% capture todaysdate %}{{ 'now' | date: '%s '}}{% endcapture %}
-	{% capture workshopdate %}{{ workshop.startdate | date: '%s '}}{% endcapture %}
+	{% capture workshopdate %}{{ workshop.enddate | date: '%s '}}{% endcapture %}
 	{% if workshopdate < todaysdate %}
     {% cycle 'add rows 2': '<div class="row">', nil, nil %}
 		<div class="col-md-6 memberbox">
@@ -85,17 +85,21 @@ categories:
     				<div class="pad-left smallnote">
     					<ul class="list-unstyled">
                             <div class="smallspacer"></div>
-    						<li><i class="fa fa-calendar fa-fw"></i>{{ workshop.startdate | date: '%B %d, %Y' }}-{{ workshop.enddate | date: '%B %d, %Y' }}</li> 
+                            <li><i class="fa fa-clock-o fa-fw"></i>
+                            {{ workshop.startdate | date: '%B %d, %Y' }}-{{ workshop.enddate | date: '%B %d, %Y' }}</li> 
                             <div class="smallspacer"></div>
-    						<li><i class="fa fa-map-marker fa-fw"></i>{{ workshop.location }}</li>
+                            <li><i class="fa fa-map-marker fa-fw"></i>
+                            {{ workshop.location }}</li>
                             {% if workshop.repo %}
                             <div class="smallspacer"></div>
-                            <li><i class="fa fa-file-text-o fa-fw"></i><a class="off" href="https://github.com/{{ workshop.repo }}" target="_blank">Lecture slides</a></li>
+                            <li><i class="fa fa-file-text-o fa-fw"></i>
+                            <a class="off" href="https://github.com/{{ workshop.repo }}">Lecture slides</a></li>
                             {% endif %}
                             {% if workshop.flyer %}
                             <div class="smallspacer"></div>
-                            <li><i class="fa fa-picture-o fa-fw"></i><a class="off" href="{{ workshop.flyer }}">Flyer</a></li>
-                            {% endif %}    					
+                            <li><i class="fa fa-picture-o fa-fw"></i>
+                            <a class="off" href="{{ workshop.flyer }}">Flyer</a></li>
+                            {% endif %}			
                         </ul>
     				</div>    				
   				</div>

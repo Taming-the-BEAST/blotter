@@ -7,6 +7,7 @@ startdate: 2017-02-05
 enddate: 2017-02-10
 image: /images/workshops/Taming-the-BEAST-in-the-South-Pacific.jpg
 homepage: https://www.compevol.auckland.ac.nz/en/events/events-2017/02/beast-south-pacific-1.html
+repo: Taming-the-BEAST/Taming-the-BEAST-2017-Waiheke-Lectures
 flyer: /images/workshops/Taming-the-BEAST-in-the-South-Pacific-Flyer.pdf
 ---
 
@@ -22,7 +23,7 @@ Participants are expected to arrive between 18:00 and 19:00 on Sunday, 2017/02/0
 11:00 - 12:30 | Tutorial 1a: <br> [Relaxed phylogenetics](/tutorials/Introduction-to-BEAST2/) | Tutorial 2a: <br> [Fossilized birth-death tree prior](/tutorials/FBD-tutorial/)       | Tutorial 3a: <br> [Bayes factor delimitation of species](https://github.com/BEAST2-Dev/beast-docs/releases/download/v1.0/BFD-tutorial-2017.zip)     | Tutorial 4a: <br> [Substitution model averaging](/tutorials/Substitution-model-selection)       | Panel discussion and free tutorial session       
 12:30 - 14:00 | _Lunch_       | _Lunch_       | _Lunch_      | _Lunch_        | _Lunch_      
 14:00 - 14:30 | Speaker: <br> **Alexei Drummond**       | Speaker: <br> **Veronika Bošková**       |       | Speaker: <br> **Huw Ogilvie**   | Speaker: <br> **Tim Vaughan**
-14:30 - 16:00 | Tutorial 1b: <br> [Bayesian Skyline plot](/tutorials/Skyline-plots/) | Tutorial 2b: <br> [Setting priors](/tutorials/Prior-selection) and [troubleshooting](/tutorials/Troubleshooting)    |   *Free time for<br>excursions*    | Tutorial 4b: <br> [Species trees with StarBEAST2](/tutorials/species-tree-clocks/) and [calibrated species trees](/tutorials/calibrated-species-trees/)         | Tutorial 5b: <br> [Structured coalescent with MultiTypeTree](/tutorials/Structured-coalescent/)
+14:30 - 16:00 | Tutorial 1b: <br> [Bayesian Skyline plot](/tutorials/Skyline-plots/) | Tutorial 2b: <br> [Troubleshooting](/tutorials/Troubleshooting) and [setting priors](/tutorials/Prior-selection)    |   *Free time for<br>excursions*    | Tutorial 4b: <br> [Species trees with StarBEAST2](/tutorials/species-tree-clocks/) and [calibrated species trees](/tutorials/calibrated-species-trees/)         | Tutorial 5b: <br> [Structured coalescent with MultiTypeTree](/tutorials/Structured-coalescent/)
 16:00 - 16:30 | _Afternoon tea_ | _Afternoon tea_ |       | _Afternoon tea_         | _Afternoon tea_ 
 16:30 - 17:00 | Speaker: <br> **Louis du Plessis**      | Speaker: <br> **Tim Vaughan**       |       | Speaker: <br> **David Duchêne**  |        
 17:00 - 18:30 | Tutorial 1c: <br> [Birth-death skyline plot](/tutorials/Skyline-plots/)   | Tutorial 2c: <br> [Bacter](/tutorials/Bacter-Tutorial)  |       |   Tutorial 4c: <br> [Model adequacy](/tutorials/adequacy_tutorial/)  | _Departure_   
