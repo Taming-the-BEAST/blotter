@@ -90,6 +90,9 @@ categories:
                             <div class="smallspacer"></div>
                             <li><i class="fa fa-map-marker fa-fw"></i>
                             {{ workshop.location }}</li>
+                            <div class="smallspacer"></div>
+                            <li><i class="fa fa-calendar fa-fw"></i>
+                            <a class="off" href="{{ workshop.url | prepend: site.baseurl }}">Program</a></li> 
                             {% if workshop.repo %}
                             <div class="smallspacer"></div>
                             <li><i class="fa fa-file-text-o fa-fw"></i>
@@ -99,7 +102,7 @@ categories:
                             <div class="smallspacer"></div>
                             <li><i class="fa fa-picture-o fa-fw"></i>
                             <a class="off" href="{{ workshop.flyer }}">Flyer</a></li>
-                            {% endif %}			
+                            {% endif %}
                         </ul>
     				</div>    				
   				</div>

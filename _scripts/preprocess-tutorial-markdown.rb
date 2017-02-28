@@ -53,8 +53,10 @@ mdarray.each { |md|
 
 		if (tutorial_name != nil)
 			header["layout"] = "tutorial"
-			header["title"] = title
-			header["tutorial"] = tutorial_name
+			unless (header.key?("title"))
+				header["title"] = title
+			end
+			header["tutorial"]  = tutorial_name
 			header["permalink"] = "/:path/:basename:output_ext"
 		end
 
