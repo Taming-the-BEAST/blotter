@@ -5,7 +5,7 @@ author: Louis du Plessis
 ---
 
 <figure>
-	<img src="{{ site.baseurl }}/images/workshops/Taming-the-BEAST-Waiheke1.JPG" alt="">
+	<img src="{{ site.baseurl }}/images/workshops/Taming-the-BEAST-Waiheke1.jpg" alt="">
 	<figcaption>The workshop organisers and participants on the beach outside the workshop venue.</figcaption>
 </figure>
 <br>
@@ -23,7 +23,7 @@ Finally, all of the lecture slides from the workshop have been uploaded and are 
 We are currently discussing and planning the next workshop in the series and it will be posted here as soon as the dates have been finalised! 
 
 <figure>
-	<img src="{{ site.baseurl }}/images/workshops/Taming-the-BEAST-Waiheke2.JPG" alt="">
+	<img src="{{ site.baseurl }}/images/workshops/Taming-the-BEAST-Waiheke2.jpg" alt="">
 	<figcaption>At the Goldie estate vineyard where we had the workshop dinner.</figcaption>
 </figure>
 <br>
