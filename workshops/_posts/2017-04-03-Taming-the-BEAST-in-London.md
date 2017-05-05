@@ -10,16 +10,19 @@ homepage: http://www.lshtm.ac.uk/newsevents/events/2017/07/taming-the-beast-2017
 flyer: /images/workshops/Taming-the-BEAST-in-London-Flyer.jpg
 ---
 
+
 # Preliminary programme
+
+This is only a preliminary programme and the titles of talks and contents of tutorial sessions are subject to change. 
 
        |  Monday <br> 2017/06/24   | Tuesday <br> 2017/06/25 | Wednesday <br> 2017/06/26 | Thursday <br> 2017/06/27 | Friday <br> 2017/06/28 
 -------| -------- | -------- | --------|-----------|----------|--------
 08:15  | Welcome and organisation | _Announcements_ | _Announcements_ | _Announcements_ | _Announcements_ 
-08:30  | _Participant introduction_ |  **Alexei Drummond:** <br> _Tree priors, clocks and skylines_ |  **Tim Vaughan:** <br> _Phylogeography and structured populations_ <br> _Stochastic simulations_ |  **Tanja Stadler:** <br> _Modelling birth-death processes_ | **Erik Volz:** <br> _Pathogen source attribution_ <br>  **Nuno Faria:** <br> _Real-time phylodynamics_
+08:30  | _Introduction of instructors and participants_ |  **Alexei Drummond:** <br> _Tree priors, clocks and skylines_ |  **Tim Vaughan:** <br> _Phylogeography and structured populations_ <br> _Stochastic simulations_ |  **Tanja Stadler:** <br> _Modelling birth-death processes_ | **Erik Volz:** <br> _Pathogen source attribution_ <br>  **Nuno Faria:** <br> _Real-time phylodynamics_
 10:30  | _Coffee break_ | _Coffee break_ | _Coffee break_ | _Coffee break_ | _Coffee break_ 
-11:00  | **Oliver Pybus:** <br> _Basic principles of statistical inference_ <br> **Louis du Plessis:** <br> _Bayesian phylogenetics in BEAST2_  |  **Jessie Wu:** <br> _Bayesian model selection_ <br>  **Tutorial 2a:** <br> Substitution model selection  |  **Nicola Müller:** <br> _Structured coalescent  approximations_ <br> **Tutorial 3a:** <br> Structured coalescent approximations in BEAST2  |  **BEAST Clinic:** <br> _Personal projects <br> and troubleshooting_      | **Nicola de Maio:** <br> _Transmission tree reconstruction_ <br> **Tutorial 5a:** <br> Transmission tree inference in BEAST2 with SCOTTI 
+11:00  | **Oliver Pybus:** <br> _Basic principles of statistical inference_ <br> **Louis du Plessis:** <br> _Bayesian phylogenetics in BEAST 2_  |  **Jessie Wu:** <br> _Bayesian model selection_ <br>  **Tutorial 2a:** <br> Substitution model selection  |  **Nicola Müller:** <br> _Structured coalescent  approximations_ <br> **Tutorial 3a:** <br> Structured coalescent approximations in BEAST 2  |  **BEAST Clinic:** <br> _Personal projects <br> and troubleshooting_      | **Nicola de Maio:** <br> _Transmission tree reconstruction_ <br> **Tutorial 5a:** <br> Transmission tree inference in BEAST 2 with SCOTTI 
 13:00  | _Lunch_       | _Lunch_       | _Lunch_      | _Lunch_        | _Lunch_      
-14:00  | **Oliver Pybus:** <br> _Introduction to infectious disease phylodynamics_ <br> **Tutorial 1a:** <br> [Relaxed phylogenetics in BEAST2](/tutorials/Introduction-to-BEAST2/) <br> | **Stéphane Hué:** <br> _Setting priors & Troubleshooting_ <br> **Tutorial 2b:** <br> [Skyline plots](/tutorials/Skyline-plots/)  |  **Tutorial 3b:** <br> Stochastic simulations in BEAST2 with MASTER   | **J. Pečerska & J. Barido-Sottani:** <br> Advanced birth-death models <br><br> **Tutorial 4a:** <br> [Population structure using the multitype birth-death model](/tutorials/Structured-birth-death-model/) | **Tim Vaughan:** <br> _Inferring bacterial recombination graphs_ <br> **Tutorial 5b:** <br> [Bacterial phylogenetics in BEAST2 with BACTER](/tutorials/Bacter-Tutorial)  
+14:00  | **Oliver Pybus:** <br> _Introduction to infectious disease phylodynamics_ <br> **Tutorial 1a:** <br> [Relaxed phylogenetics in BEAST 2](/tutorials/Introduction-to-BEAST2/) <br> | **Stéphane Hué:** <br> _Setting priors & Troubleshooting_ <br> **Tutorial 2b:** <br> [Skyline plots](/tutorials/Skyline-plots/)  |  **Tutorial 3b:** <br> Stochastic simulations in BEAST 2 with MASTER   | **J. Pečerska & J. Barido-Sottani:** <br> _Advanced birth-death models_ <br><br> **Tutorial 4a:** <br> [Population structure using the multitype birth-death model](/tutorials/Structured-birth-death-model/) | **Tim Vaughan:** <br> _Inferring bacterial recombination graphs_ <br> **Tutorial 5b:** <br> [Bacterial phylogenetics in BEAST 2 with BACTER](/tutorials/Bacter-Tutorial)  
 16:00  | _Afternoon tea_ | _Afternoon tea_ |       | _Afternoon tea_         | _Afternoon tea_ 
 16:30  | **Stéphane Hué:** <br> _Setting priors and initial values_ <br> **Tutorial 1b:** <br> [Prior selection and clock calibration](/tutorials/Prior-selection/)   | **BEAST Clinic:** <br> _Personal projects and troubleshooting_      | <br> _Free time for excursions_      | **Tutorial 4b:** <br> [Dating species divergences with the fossilized birth-death process](/tutorials/FBD-tutorial/)  |  <br> _General discussion and closure_ <br><br> _Departure at 17:00_     
 19:00         | *Dinner in Indian curry house* | *London walking tour* | | *Pub quiz* |      
@@ -29,41 +32,32 @@ flyer: /images/workshops/Taming-the-BEAST-in-London-Flyer.jpg
 
 **You are required to bring your own laptop to the workshop.** Power strips are available for each participant to keep their devices charged during the workshop. The software below **must** be installed prior to arrival. 
 
-### BEAST 2
-
-BEAST2 is a cross-platform program for Bayesian phylogenetic analysis of molecular sequences. We will be using this software to perform analyses on the data brought to the workshop. We will be using BEAST v2.4.5 for the workshop.
-
-[Download](http://beast2.org/)
-
-### FigTree
-
-FigTree is a graphical viewer of phylogenetic trees, specificly designed to display summarized and annotated trees produced by BEAST. Allows visual analysis of trees.
-
-[Download](http://tree.bio.ed.ac.uk/software/figtree/)
-
-### Tracer
-
-Tracer is a program for analysing the trace files generated by Bayesian MCMC runs. It can be used to check mixing, ESS, parameter correlations, etc.
-
-[Download](http://tree.bio.ed.ac.uk/software/tracer/)
+- **BEAST 2:** BEAST 2 is a cross-platform program for Bayesian phylogenetic analysis of molecular sequences. We will be using this software to perform analyses on the data brought to the workshop. We will be using BEAST v2.4.5 for the workshop [(download)](http://beast2.org/).
+- **FigTree:** FigTree is a graphical viewer of phylogenetic trees, specificly designed to display summarized and annotated trees produced by BEAST. Allows visual analysis of trees [(download)](http://tree.bio.ed.ac.uk/software/figtree/).
+- **Tracer:** Tracer is a program for analysing the trace files generated by Bayesian MCMC runs. It can be used to check mixing, ESS, parameter correlations, etc. [(download)](http://tree.bio.ed.ac.uk/software/tracer/).
+- **R:** R is a free software environment that provides a wide variety of statistical (linear and nonlinear modelling, classical statistical tests, time-series analysis, classification, clustering) and graphical techniques, and is highly extensible [(download)](https://www.r-project.org/).
+- **Java 8 JDK:** This Java SE Developlment Kit is required for BEAST 2 [(download)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
+- **RStudio (optional):** RStudio IDE is a user interface for R [(download)](https://www.rstudio.com/).
 
 
-### R
-
-R is a free software environment that provides a wide variety of statistical (linear and nonlinear modelling, classical statistical tests, time-series analysis, classification, clustering) and graphical techniques, and is highly extensible.
-
-[Download](https://www.r-project.org/)
+# Pre-workshop recommended reading
 
 
-### Java 8 JDK
+### Statistics and mathematics primers
 
-This Java SE Developlment Kit is required for BEAST 2.
+We are aware that some of the workshop participants do not have a mathematical background and may have difficulty understanding some of the theory. The two links below can help to refresh the basic concepts, but are by no means meant to be comprehensive resources.
 
-[Download](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [Seeing Theory](http://students.brown.edu/seeing-theory/index.html): This website gives a very brief, but pretty and easy to understand introduction to many of the fundamental concepts in statistics. 
+- Ziheng Yang's [statistics primer](http://abacus.gene.ucl.ac.uk/PPS/PrimerProbabilityStatistics.pdf): Gives a more in-depth 
 
+### Phylogenetics and phylodynamics books
 
-### RStudio (optional)
+The books below are not all focused on BEAST or even Bayesian phylogenetics. However, each of the books contains at least one background chapter on the theory of molecular evolution, as well as more in-depth chapters on the models implemented in BEAST and BEAST 2. Most of the books also contain at least some discussion of Bayesian inference.
 
-RStudio IDE is a user interface for R.
+- [Bayesian Evolutionary Analysis with BEAST](https://www.beast2.org/book/), _Alexei J. Drummond, Remco R. Bouckaert_
+- [Molecular Evolution: A Statistical Approach](http://abacus.gene.ucl.ac.uk/MESA/), _Ziheng Yang_
+- [The Phylogenetic Handbook](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521877107), _Philippe Lemey, Marco Salemi, Anne-Mieke Vandamme_
+- [Molecular Evolution: A Phylogenetic Approach](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0865428891.html), _Roderick D.M. Page, Edward C. Holmes_
+- [Inferring Phylogenies](https://www.amazon.co.uk/Inferring-Phylogenies-Joseph-Felsenstein/dp/0878931775), _Joseph Felsenstein_
 
-[Download](https://www.rstudio.com/)
+_We are aware that most of the books on this list are all quite expensive and may not be available in your institution's library. However, with a moderate amount of Googling you can get your hands on preprints or older versions of some of these books. (There is also currently a 20% discount available for Ziheng Yang's book...)_
