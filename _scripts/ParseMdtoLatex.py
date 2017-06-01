@@ -93,7 +93,7 @@ parser.add_option("-L","--latex",
 
 inputfile  = os.path.abspath(options.inputfile)
 outputfile = os.path.abspath(options.outputfile) if options.outputfile != "" else inputfile[:inputfile.rfind('.')]+".tex"
-template   = os.path.abspath(options.template)
+template   = os.path.abspath(options.template) if options.template != "" else ""
 
 title      = options.title
 subtitle   = options.subtitle
@@ -232,7 +232,7 @@ def parseFigures(text):
 
 			if (tag == "style"):
 				if (content[1:6].lower() == "width" and content[-3:-1] == '%;'):
-					mult  = int(content[content.find(':')+1:content.find('%')])/100
+					mult  = float(content[content.find(':')+1:content.find('%')])/100
 					scale = "[width=%.6f\\textwidth]" % mult
 				else:
 					sys.stdout.write("WARNING Unsupported image style specification %s in '%.20s...'\n" % (part, caption))
@@ -288,7 +288,7 @@ def parseFiguresStepwise(text):
 
 				if (tag == "style"):
 					if (content[1:6].lower() == "width" and content[-3:-1] == '%;'):
-						mult  = int(content[content.find(':')+1:content.find('%')])/100
+						mult  = float(content[content.find(':')+1:content.find('%')])/100
 						scale = "[width=%.6f\\textwidth]" % mult
 					else:
 						sys.stdout.write("WARNING Unsupported image style specification %s in '%.20s...'\n" % (part, caption))
@@ -350,7 +350,7 @@ def removeMdLines(text):
 		# Match the next horizontal line
 		# Three or more dashes (---)
 		# Can be multiline
-		match = re.search(r'---*', text, re.DOTALL)
+		match = re.search(r'\n\n---*', text, re.DOTALL)
 
 		# No more matches
 		if (match == None):
