@@ -26,7 +26,7 @@ categories:
     				<img width=160 class="media-object" src="{{ workshop.image | prepend: site.baseurl }}">
   				</a>
  			 	<div class="media-body">
-    				<div class="head media-heading"><a href="{{ workshop.homepage }}" class="off">{{ workshop.title }}</a></div>
+    				<div class="head media-heading"><a href="{{ workshop.homepage }}" target="_blank" class="off">{{ workshop.title }}</a></div>
     				<div class="pad-left smallnote">
     					<ul class="list-unstyled">
                             <div class="smallspacer"></div>
@@ -34,10 +34,15 @@ categories:
                             {{ workshop.startdate | date: '%B %d, %Y' }}-{{ workshop.enddate | date: '%B %d, %Y' }}</li> 
                             <div class="smallspacer"></div>
     						<li><i class="fa fa-map-marker fa-fw"></i>
-                            {{ workshop.location }}</li>
+                            {% if workshop.latitude and workshop.longitude %}
+                                <a class="off" target="_blank" href="http://www.google.com/maps/place/{{ workshop.latitude }},{{ workshop.longitude }}">{{ workshop.location }}</a>
+                            {% else %}
+                                {{ workshop.location }}
+                            {% endif %}
+                            </li>
                             <div class="smallspacer"></div>
                             <li><i class="fa fa-calendar fa-fw"></i>
-                            <a class="off" href="{{ workshop.url | prepend: site.baseurl }}">Program</a></li> 
+                            <a class="off" href="{{ workshop.url | prepend: site.baseurl }}">Programme</a></li> 
                             {% if workshop.repo %}
                             <div class="smallspacer"></div>
                             <li><i class="fa fa-file-text-o fa-fw"></i>
@@ -46,7 +51,7 @@ categories:
                             {% if workshop.flyer %}
                             <div class="smallspacer"></div>
     						<li><i class="fa fa-picture-o fa-fw"></i>
-                            <a class="off" href="{{ workshop.flyer }}">Flyer</a></li>
+                            <a class="off" target="_blank" href="{{ workshop.flyer }}">Flyer</a></li>
                             {% endif %}
     					</ul>
     				</div>    				
@@ -81,7 +86,7 @@ categories:
     				<img width=160 class="media-object" src="{{ workshop.image | prepend: site.baseurl }}">
   				</a>
  			 	<div class="media-body">
-    				<div class="head media-heading"><a href="{{ workshop.homepage }}" class="off">{{ workshop.title }}</a></div>
+    				<div class="head media-heading"><a href="{{ workshop.homepage }}" target="_blank" class="off">{{ workshop.title }}</a></div>
     				<div class="pad-left smallnote">
     					<ul class="list-unstyled">
                             <div class="smallspacer"></div>
@@ -89,10 +94,15 @@ categories:
                             {{ workshop.startdate | date: '%B %d, %Y' }}-{{ workshop.enddate | date: '%B %d, %Y' }}</li> 
                             <div class="smallspacer"></div>
                             <li><i class="fa fa-map-marker fa-fw"></i>
-                            {{ workshop.location }}</li>
+                            {% if workshop.latitude and workshop.longitude %}
+                                <a class="off" target="_blank" href="http://www.google.com/maps/place/{{ workshop.latitude }},{{ workshop.longitude }}">{{ workshop.location }}</a>
+                            {% else %}
+                                {{ workshop.location }}
+                            {% endif %}
+                            </li>
                             <div class="smallspacer"></div>
                             <li><i class="fa fa-calendar fa-fw"></i>
-                            <a class="off" href="{{ workshop.url | prepend: site.baseurl }}">Program</a></li> 
+                            <a class="off" href="{{ workshop.url | prepend: site.baseurl }}">Programme</a></li> 
                             {% if workshop.repo %}
                             <div class="smallspacer"></div>
                             <li><i class="fa fa-file-text-o fa-fw"></i>
@@ -101,7 +111,7 @@ categories:
                             {% if workshop.flyer %}
                             <div class="smallspacer"></div>
                             <li><i class="fa fa-picture-o fa-fw"></i>
-                            <a class="off" href="{{ workshop.flyer }}">Flyer</a></li>
+                            <a class="off" target="_blank" href="{{ workshop.flyer }}">Flyer</a></li>
                             {% endif %}
                         </ul>
     				</div>    				

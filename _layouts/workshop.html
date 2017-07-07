@@ -5,11 +5,15 @@ layout: default
 <div class="row">
 	<div class="col-md-10">
 		<div class="bigtitle titlebox">
-			<a class="off" href="{{ page.homepage }}">{{ page.title }}</a>
+			<a class="off" target="_blank" href="{{ page.homepage }}">{{ page.title }}</a>
 		</div>
 		<p>
 		<div class="head">
-			{{ page.address}}, {{ page.location }}
+			{% if page.latitude and page.longitude %}
+            	<a class="off" target="_blank" href="http://www.google.com/maps/place/{{ page.latitude }},{{ page.longitude }}">{{ page.address}}, {{ page.location }}</a>
+            {% else %}
+				{{ page.address}}, {{ page.location }}
+            {% endif %}
 		</div>
 		<div class="smallhead">
 			{{ page.startdate | date: '%B %d, %Y' }}-{{ page.enddate | date: '%B %d, %Y' }}</li> 

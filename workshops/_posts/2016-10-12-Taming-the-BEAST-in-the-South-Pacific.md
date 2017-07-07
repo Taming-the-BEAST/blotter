@@ -3,6 +3,8 @@ title: Taming the BEAST in the South Pacific
 layout: workshop
 address: The Venue Waiheke, 21 The Strand, Onetangi Beach
 location: Waiheke island, New Zealand
+latitude: -36.788502
+longitude: 175.082424
 startdate: 2017-02-05
 enddate: 2017-02-10
 image: /images/workshops/Taming-the-BEAST-in-the-South-Pacific.jpg
