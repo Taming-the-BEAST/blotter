@@ -1,0 +1,20 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>{{ site.name | xml_escape }} - Tutorials</title>
+		<description>{{ site.description | xml_escape }} - Recently modified tutorials</description>
+		<link>{{ site.url }}</link>
+		<atom:link href="{{ site.url }}/feed.tutorials.xml" rel="self" type="application/rss+xml" />
+		{% for tutorial in site.data.tutorials limit:25 %}		
+			<item>
+				<title>{{ tutorial.title | replace: '-', ' ' | xml_escape }}</title>
+				<description>{{ tutorial.description | xml_escape }}</description>
+				<pubDate>{{ tutorial.commits.first.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+				<link>{{ site.url }}{{ tutorial.url }}</link>
+				<guid isPermaLink="true">{{ site.url }}{{ tutorial.url }}</guid>
+			</item>
+		{% endfor %}
+	</channel>
+</rss>
