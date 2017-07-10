@@ -16,7 +16,9 @@
 			<item>
 				<title>{{ tutorial.title | replace: '-', ' ' | xml_escape }}</title>
 				<description>
-					{{ tutorial.description | xml_escape }}. By 
+					{{ tutorial.description | xml_escape }}
+					{{ "<br>" | xml_escape }}
+					By 
 					{% assign authors = tutorial.author | split: ',' %}
 					{% for author in authors %}
 						{% case forloop.index %}
@@ -29,17 +31,27 @@
 							{% else %}
 								{{ author | prepend: ', ' }}
 						{% endcase %}
-					{% endfor %}.
-					<br>
-					Last update:
-					{{ tutorial.commits.first.message }} on
-					<a class="off" href="{{ tutorial.commits.first.url }}">
-					{{ tutorial.commits.first.date | date: "%-d %b %Y" }}
-					</a>
+					{% endfor %}
+					{{ "<br><br>" | xml_escape }}
+					Updated on 
+					{{ "<a class='off' href=" | xml_escape }}
+						'{{ tutorial.commits.first.url }}'
+					{{ ">" | xml_escape }}
+						{{ tutorial.commits.first.date | date: "%-d %b %Y" }}
+					{{ "</a>" | xml_escape }}
 					by
-					<a class="off" href="{{ tutorial.commits.first.author_url }}">				
-					{{ tutorial.commits.first.author_login }}
-					</a>
+					{{ "<a class='off' href=" | xml_escape }}
+						'{{ tutorial.commits.first.author_url }}'
+					{{ ">" | xml_escape }}
+						{{ tutorial.commits.first.author_login }}
+					{{ "</a>" | xml_escape }}
+					: {{ tutorial.commits.first.message }}
+					{{ "<br><br>" | xml_escape }}
+					Level: {{ tutorial.level }}
+					{% if tutorial.beastversion %}
+						{{ "<br>" | xml_escape }}
+						Requires: BEAST v{{ tutorial.beastversion }}
+					{% endif %}
 				</description>
 				<pubDate>{{ tutorial.commits.first.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<author>{{ tutorial.commits.first.author_login }}</author>
