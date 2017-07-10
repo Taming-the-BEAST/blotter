@@ -26,6 +26,7 @@
 ---
 
 ## Bugs
-- Check tutorial names are displayed correctly everywhere (also in recently updated tutorials). There were issues when the tutorial name and the github repository were not the same.
+- ~~Check tutorial names are displayed correctly everywhere (also in recently updated tutorials). There were issues when the tutorial name and the github repository were not the same.~~
+	- Updated the whole tutorial structure
 
 

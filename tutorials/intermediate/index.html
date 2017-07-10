@@ -11,45 +11,10 @@ filter: intermediate
 {% assign tutorials = site.data.tutorials | sort:"title" %}
 
 {% for tutorial in tutorials %}
-		
-	{% for page in site.pages %}
-		{% if page.tutorial == tutorial.title %}
-			{% assign level = page.level | downcase %}
-			{% assign title = page.title %}
-			{% if tutorial.description == blank %}
-				{% assign description = page.subtitle %}
-			{% else %}
-				{% assign description = tutorial.description %}
-			{% endif %}
-		{% endif %}
-	{% endfor %}
-
-	{% if level != "beginner" and level != "professional" %}
-
-	    {% cycle 'add rows': '<div class="row">', nil, nil %}
-			<div class="col-md-4 tutorialbox">
-				<div class="head">
-					<a href="{{ tutorial.url | prepend: site.baseurl }}" class="off">{{ title  | replace: '-', ' ' }}</a>
-				</div>	
-				<div class="smallspacer"></div>
-				<div class="note">
-					<a href="{{ tutorial.url | prepend: site.baseurl }}" class="off">{{ description }}</a>
-				</div>
-				<div class="smallspacer"></div>
-				<div class="smallnote">
-					Updated
-					<a class="off" href="{{ tutorial.commits.first.url }}">
-					{{ tutorial.commits.first.date | date: "%-d %b %Y" }}
-					</a>
-					by
-					<a class="off" href="{{ tutorial.commits.first.author_url }}">				
-					{{ tutorial.commits.first.author_login }}
-					</a>
-				</div>
-				<div class="bigspacer"></div>
-				<div class="spacer"></div>
-			</div>
-	    {% cycle 'close rows': nil, nil, '</div>' %}
+	{% assign level = tutorial.level | downcase %}
+	{% if level == page.filter %}
+	    {% include tutorial_item.html %}
 	{% endif %}
 {% endfor %}
+
 {% cycle 'close rows': nil, '</div>', '</div>' %}	

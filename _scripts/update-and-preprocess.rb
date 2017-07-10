@@ -1,4 +1,5 @@
 # go through tutorials and clean and update
+# build latex tutorials
 
 require 'yaml'
 

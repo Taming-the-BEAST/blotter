@@ -1,22 +1,45 @@
 # Preprocessing script
 # Run before `jekyll build` to go through _config.yml and use octokit to fill out metadata
+# 
+# Gathers tutorial metadata from _config.yml, github and the yaml header for the tutorial and 
+# save in tutorials.yml
 #
 # Example:
-#  - repo: trvrb/coaltrace
-#  - owner: trvrb
-#  - title: coaltrace
-#  - description: Simulating genealogies using charged particles
-#  - url: /tutorials/coaltrace/
-#  - date: 2013-10-19 04:12:17 UTC
-#  - contributors:
-#      - login: trvrb
-#      - avatar: https://2.gravatar.com/avatar/ab7fe2db559c7924316c4391ba00b3f0
-#      - url: https://github.com/trvrb
-#  - commits:
-#      - date: 2013-10-19T04:12:06Z
-#      - message: Update readme.
-#      - url: https://github.com/trvrb/coaltrace/commit/ebb95806f989d8fd6ecbf6aa8308647298dd21ad 
+# - repo: taming-the-beast/Introduction-to-BEAST2
+#   url: /tutorials/Introduction-to-BEAST2/
+#   title: Introduction to BEAST2
+#   description: This is a simple introductory tutorial to help you get started with
+#     using BEAST2 and its accomplices.
+#   owner: Taming-the-BEAST
+#   author: Jūlija Pečerska,Veronika Bošková
+#   contributors:
+#   - login: laduplessis
+#     avatar: https://avatars0.githubusercontent.com/u/8872277?v=3&s=50
+#     url: https://github.com/laduplessis
+#   level: Beginner
+#   beastversion: 
+#   commits:
+#   - date: 2017-01-18 15:02:03.000000000 Z
+#     message: Add license
+#     url: https://github.com/Taming-the-BEAST/Introduction-to-BEAST2/commit/97763b6b679d208c094790f3aa437298e568f562
+#     author_login: laduplessis
+#     author_url: https://github.com/laduplessis
+#   pdfs:
+#   - tutorials/Introduction-to-BEAST2/Introduction-to-BEAST2.pdf
+#   data:
+#   - tutorials/Introduction-to-BEAST2/data/primate-mtDNA.nex
+#   xmls:
+#   - tutorials/Introduction-to-BEAST2/xml/Primates.xml
+#   - tutorials/Introduction-to-BEAST2/xml/Primates_long.xml
+#   scripts: []
+#   outputs:
+#   - tutorials/Introduction-to-BEAST2/precooked_runs/primate-mtDNA.log
+#   - tutorials/Introduction-to-BEAST2/precooked_runs/primate-mtDNA.trees
+#   - tutorials/Introduction-to-BEAST2/precooked_runs/primate-mtDNA_long.log
+#   - tutorials/Introduction-to-BEAST2/precooked_runs/primate-mtDNA_long.trees
+#   - tutorials/Introduction-to-BEAST2/precooked_runs/Primates.MCC.tree
 
+  
 require 'octokit'
 require 'yaml'
 
@@ -53,26 +76,38 @@ module Tutorials
 			
 				# load repo metadata
 				octokit_repo = client.repository(repo)
-				tutorial_title = octokit_repo.name
+				reponame  = octokit_repo.name
+
 				tutorial_owner = octokit_repo.owner.login
 				tutorial_description = octokit_repo.description
-				tutorial_url = "/tutorials/#{tutorial_title}/"
+				tutorial_url = "/tutorials/#{reponame}/"
 				tutorial_date = octokit_repo.updated_at
 
+				# load tutorial header metadata
+				# overwrite description with tutorial header description if not empty
+				tutorial_header = YAML.load_file("tutorials/#{reponame}/index.md")
+				tutorial_level  = tutorial_header["level"]
+				tutorial_title  = tutorial_header["title"]
+				tutorial_author = tutorial_header["author"]
+				tutorial_beast  = tutorial_header["beastversion"]
+				if (tutorial_header["subtitle"] != nil && tutorial_description != tutorial_header["subtitle"])
+				   tutorial_description = tutorial_header["subtitle"]
+				end
+
 				# Get all pdfs in the root
-				pdf_array = Dir.glob("tutorials/#{tutorial_title}/**/*.pdf").reject{ |f| f['/figures/']}
+				pdf_array = Dir.glob("tutorials/#{reponame}/**/*.pdf").reject{ |f| f['/figures/']}
 
 				# Get data files 
-				data_array = Dir.glob("tutorials/#{tutorial_title}/data/*").reject{ |f| f['index.md'] || f['README.mdown'] || f['README.md']}				
+				data_array = Dir.glob("tutorials/#{reponame}/data/*").reject{ |f| f['index.md'] || f['README.mdown'] || f['README.md']}				
 
 				# Get xml files
-				xml_array = Dir.glob("tutorials/#{tutorial_title}/xml/*.xml")
+				xml_array = Dir.glob("tutorials/#{reponame}/xml/*.xml")
 
 				# Get scripts files
-				script_array = Dir.glob("tutorials/#{tutorial_title}/scripts/*").reject{ |f| f['index.md'] || f['README.mdown'] || f['README.md']}				
+				script_array = Dir.glob("tutorials/#{reponame}/scripts/*").reject{ |f| f['index.md'] || f['README.mdown'] || f['README.md']}				
 
 				# Get output files
-				out_array = Dir.glob("tutorials/#{tutorial_title}/precooked_runs/*").reject{ |f| f['index.md'] || f['README.mdown'] || f['README.md']}				
+				out_array = Dir.glob("tutorials/#{reponame}/precooked_runs/*").reject{ |f| f['index.md'] || f['README.mdown'] || f['README.md']}				
 
 				# load contributor metadata
 				octokit_contributors = client.contributors(repo)					
@@ -114,11 +149,14 @@ module Tutorials
 				# assemble metadata
 				tutorial_data = tutorial_data.push(
 					"repo" => repo,
-					"title" => tutorial_title,						
-					"owner" => tutorial_owner,
-					"description" => tutorial_description,
 					"url" => tutorial_url,
+					"title" => tutorial_title,						
+					"description" => tutorial_description,
+					"owner" => tutorial_owner,
+					"author" => tutorial_author,
 					"contributors" => tutorial_contributors,
+					"level" => tutorial_level,
+					"beastversion" => tutorial_beast,
 					"commits" => tutorial_commits,
 					"pdfs" => pdf_array,
 					"data" => data_array,

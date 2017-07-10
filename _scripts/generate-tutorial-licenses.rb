@@ -7,7 +7,7 @@ licensearray = Dir.glob("tutorials/**/LICENSE*")
 licensearray.each { |license|
 	
 	# if LICENSE, rename to LICENSE.md
-	# if index.html already exists, remove
+	# if LICENSE.html already exists, remove
 	if File.basename(license) =~ /LICENSE/i
 		if File.exists?(File.dirname(license) + "/LICENSE.html")
 			File.delete(File.dirname(license) + "/LICENSE.html")

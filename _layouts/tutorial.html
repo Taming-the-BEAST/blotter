@@ -5,7 +5,7 @@ categories:
 ---
 
 {% for test in site.data.tutorials %}
-	{% if test.title == page.tutorial %}
+	{% if test.title == page.title %}
 		{% assign tutorial = test %}
 	{% endif %}
 {% endfor %}
