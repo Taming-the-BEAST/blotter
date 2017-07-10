@@ -5,14 +5,20 @@
 	<channel>
 		<title>{{ site.name | xml_escape }} - Tutorials</title>
 		<description>{{ site.description | xml_escape }} - Recently modified tutorials</description>
-		<link>{{ site.url }}</link>
+		<link>{{ site.url }}/tutorials</link>
 		<atom:link href="{{ site.url }}/feed.tutorials.xml" rel="self" type="application/rss+xml" />
+		<image>
+			<url>{{ site.url }}/images/logo_bw.svg</url>
+			<title>{{ site.name | xml_escape }}</title>
+			<link>{{ site.url }}/tutorials</link>
+		</image>
 		{% for tutorial in site.data.tutorials limit:25 %}		
 			<item>
 				<title>{{ tutorial.title | replace: '-', ' ' | xml_escape }}</title>
 				<description>
-					{{ tutorial.description | xml_escape }} by 
-					{% for author in tutorial.author %}
+					{{ tutorial.description | xml_escape }} By 
+					{% assign authors = page.author | split: ',' %}
+					{% for author in authors %}
 						{% case forloop.index %}
 							{% when 1 %}
 								{{ author }}
