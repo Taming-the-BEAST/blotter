@@ -16,8 +16,8 @@
 			<item>
 				<title>{{ tutorial.title | replace: '-', ' ' | xml_escape }}</title>
 				<description>
-					{{ tutorial.description | xml_escape }} By 
-					{% assign authors = page.author | split: ',' %}
+					{{ tutorial.description | xml_escape }}. By 
+					{% assign authors = tutorial.author | split: ',' %}
 					{% for author in authors %}
 						{% case forloop.index %}
 							{% when 1 %}
@@ -29,7 +29,17 @@
 							{% else %}
 								{{ author | prepend: ', ' }}
 						{% endcase %}
-					{% endfor %}
+					{% endfor %}.
+					<br>
+					Last update:
+					{{ tutorial.commits.first.message }} on
+					<a class="off" href="{{ tutorial.commits.first.url }}">
+					{{ tutorial.commits.first.date | date: "%-d %b %Y" }}
+					</a>
+					by
+					<a class="off" href="{{ tutorial.commits.first.author_url }}">				
+					{{ tutorial.commits.first.author_login }}
+					</a>
 				</description>
 				<pubDate>{{ tutorial.commits.first.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<author>{{ tutorial.commits.first.author_login }}</author>
