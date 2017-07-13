@@ -54,7 +54,6 @@
 					{% endif %}
 				</description>
 				<pubDate>{{ tutorial.commits.first.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-				<author>{{ tutorial.commits.first.author_login }}</author>
 				<category>{{ tutorial.level }}</category>
 				<link>{{ site.url }}{{ tutorial.url }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ tutorial.url }}</guid>
