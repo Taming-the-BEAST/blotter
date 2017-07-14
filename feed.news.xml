@@ -6,7 +6,7 @@
 		<title>{{ site.name | xml_escape }} - News</title>
 		<description>{{ site.description | xml_escape }}</description>
 		<link>{{ site.url }}</link>
-		<atom:link href="{{ site.url }}/feed.news.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="{{ site.url }}feed.news.xml" rel="self" type="application/rss+xml" />
 		<image>
 			<url>{{ site.url }}/images/logo_bw.svg</url>
 			<title>{{ site.name | xml_escape }}</title>
