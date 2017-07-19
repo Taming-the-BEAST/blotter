@@ -79,8 +79,9 @@ tutorials:
   - genomescale/species-tree-clocks
   - genomescale/calibrated-species-trees
   - taming-the-beast/Structured-coalescent
-  - taming-the-beast/Structured-birth-death-model
+  - taming-the-beast/SCOTTI-tutorial
   - duchene/adequacy_tutorial
+
 
 
 
