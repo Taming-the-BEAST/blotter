@@ -4,6 +4,9 @@ categories:
  - tutorials
 ---
 
+<script src="{{site.baseurl}}/js/sidebar.js"></script>
+
+
 {% for test in site.data.tutorials %}
 	{% if test.title == page.title %}
 		{% assign tutorial = test %}
@@ -63,6 +66,7 @@ categories:
 
 <div class="row">
 	<div class="col-md-3">
+	<div id="sidebar">
 		<div class="bigspacer"></div>
 		<div class="smallhead">
 			Tutorial
@@ -210,6 +214,7 @@ categories:
 			</ul>
 		</div>		
 		<div class="spacer"></div>	
+	</div>
 	</div>
 
 	<div class="col-md-8">				
