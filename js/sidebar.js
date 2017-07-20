@@ -1,20 +1,41 @@
+var lastScrollPos = 0;
+
 function sidebarUpdate() {
+
+    var currScrollPos = $(this).scrollTop();
+
+    // Get sidebar location + size
 	var padding = 70;
     var sidebarWidth  = $("#sidebar").parent().width();
     var sidebarHeight = $("#sidebar").height();
-    var windowHeight  = $(window).height() - padding;
     var upper  = $("#sidebar").parent().position().top;
     var lower  = upper + sidebarHeight;
-    var newpos = Math.min(0,windowHeight - sidebarHeight);
     
-    if ($(this).scrollTop() > upper && $(this).scrollTop()+windowHeight > lower) {
+    // New position
+    var windowHeight  = $(window).height() - padding;
+
+    if (currScrollPos > upper && currScrollPos+windowHeight > lower) {
+
+        if (currScrollPos > lastScrollPos) {
+            // Scrolling down
+            var newpos = Math.min(0,windowHeight - sidebarHeight);
+
+            //var newpos = Math.min(0, $("#sidebar").position().top + (currScrollPos - lastScrollPos) + sidebarHeight);
+        } else {
+            // Scrolling up
+            var newpos = Math.min(0, $("#sidebar").position().top + (lastScrollPos - currScrollPos));
+        }
+
         $("#sidebar").addClass("sidebar-fixed");
         $("#sidebar").width(sidebarWidth);
         $("#sidebar").css('top', newpos)
     } else {
         $("#sidebar").removeClass("sidebar-fixed");
         $("#sidebar").width("");
-    }
+    }   
+
+
+    lastScrollPos = currScrollPos;
 }
 $(window).scroll(sidebarUpdate);
 $(window).resize(sidebarUpdate);
