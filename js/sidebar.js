@@ -14,11 +14,12 @@ function sidebarUpdate() {
     // New position
     var windowHeight  = $(window).height() - padding;
 
-    if (currScrollPos > upper && currScrollPos+windowHeight > lower) {
+    if (currScrollPos > upper) {
 
         if (currScrollPos > lastScrollPos) {
             // Scrolling down
-            var newpos = Math.min(0,windowHeight - sidebarHeight);
+            var scrolledpos = Math.max(windowHeight - sidebarHeight, $("#sidebar").position().top + (lastScrollPos - currScrollPos));
+            var newpos = Math.min(0,scrolledpos);
 
             //var newpos = Math.min(0, $("#sidebar").position().top + (currScrollPos - lastScrollPos) + sidebarHeight);
         } else {
