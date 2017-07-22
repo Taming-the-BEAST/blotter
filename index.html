@@ -109,6 +109,38 @@ categories:
 
 <div class="spacer"></div>
 
+<div class="row">
+	<div class="col-md-12">
+		<div class="head">
+			<a class="off" href="{{ site.baseurl }}/tutorials/">workshops</a>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="row">		
+	{% for workshop in site.categories.workshops limit:4 %}		
+	<div class="col-md-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-users fa-fw"></i>
+				<a class="off" href="{{ workshop.url | prepend: site.baseurl }}">
+				{{ workshop.title | replace: '-', ' ' }}
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote text-gray">
+				{{ workshop.location }}
+			</div>
+			<div class="smallnote text-gray">
+				{{ workshop.startdate | date: '%B %d, %Y' }}-{{ workshop.enddate | date: '%B %d, %Y' }}
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+	{% endfor %}	
+</div>
+
 <!--div class="row">
 	<div class="col-md-12">
 		<div class="head">		
