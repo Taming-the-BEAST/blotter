@@ -9,6 +9,7 @@ startdate: 2017-07-24
 enddate: 2017-07-28
 image: /images/workshops/Taming-the-BEAST-in-London.jpg
 homepage: http://www.lshtm.ac.uk/newsevents/events/2017/07/taming-the-beast-2017
+repo: Taming-the-BEAST/Taming-the-BEAST-2017-London-Lectures
 flyer: /images/workshops/Taming-the-BEAST-in-London-Flyer.jpg
 ---
 
