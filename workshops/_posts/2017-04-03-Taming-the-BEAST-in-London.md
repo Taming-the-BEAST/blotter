@@ -14,7 +14,7 @@ flyer: /images/workshops/Taming-the-BEAST-in-London-Flyer.jpg
 ---
 
 
-# Preliminary programme
+# Programme
 
 This is only a preliminary programme and the titles of talks and contents of tutorial sessions are subject to change. 
 
@@ -29,6 +29,14 @@ This is only a preliminary programme and the titles of talks and contents of tut
 16:00  | _Afternoon tea_ | _Afternoon tea_ |  _Free time for excursions_      | _Afternoon tea_         | _Afternoon tea_ 
 16:30  | **Stéphane Hué:** <br> _Setting priors and initial values_ <br> **Tutorial 1b:** <br> [Prior selection and clock calibration](/tutorials/Prior-selection/)   | **BEAST Clinic:** <br> _Personal projects and troubleshooting_      |      | **Jūlija Pečerska:** <br> _Advanced birth-death models_ <br><br> **Tutorial 4a:** <br> [Population structure using the multitype birth-death model](/tutorials/Structured-birth-death-model/)  |  <br> _General discussion and closure_ <br><br> _Departure at 17:00_     
 19:00         | *Dinner in Indian curry house* | *London walking tour* | | *Pub dinner* |      
+
+{% if page.repo %}
+
+# Lecture slides
+
+Slides to lectures are available from [here]( https://github.com/{{ page.repo }} )
+
+{% endif %}
 
 
 # Required Software
