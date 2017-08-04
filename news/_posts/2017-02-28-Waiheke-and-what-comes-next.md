@@ -10,7 +10,7 @@ author: Louis du Plessis
 </figure>
 <br>
 
-It has already been more tha two weeks since the second Taming the BEAST workshop took place on Waiheke island in New Zealand. 
+It has already been more than two weeks since the second Taming the BEAST workshop took place on Waiheke island in New Zealand. 
 Thanks to the [group](https://www.compevol.auckland.ac.nz/en.html) from the University of Auckland for putting up an amazing workshop in a stunning location! 
 Thanks also to all the speakers for agreeing to take part and making the long journey to New Zealand! 
 
