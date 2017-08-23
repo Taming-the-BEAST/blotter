@@ -10,7 +10,7 @@ config["tutorials"].each do |repo|
 	name = repo.split('/').drop(1).join('')		
 	Dir.chdir($basedir + "/tutorials")			
 	if !Dir.exists?(name)								# clone tutorial repo
-		`git clone https://github.com/#{repo}.git`
+		`git clone --depth 1 https://github.com/#{repo}.git`
 	end
 	Dir.chdir($basedir + "/tutorials/" + name)			# drop into blotter dir	
 	`git clean -f`										# remove untracked files, but keep directories
@@ -24,9 +24,9 @@ config["tutorials"].each do |repo|
 
 	if File.exists?("main.tex")							# build tutorial pdf if main.tex exists
 		File.rename("main.tex", "#{name}.tex")
-		`pdflatex #{name}.tex`									
+		`pdflatex --interaction nonstopmode #{name}.tex`									
 		`bibtex #{name}`
-		`pdflatex #{name}.tex`									
+		`pdflatex --interaction nonstopmode #{name}.tex`									
 	end
 
 	#{}`python ParseMdtoLatex.py -i README.md -t pandoctemplate.tex -L`
