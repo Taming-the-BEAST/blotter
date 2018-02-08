@@ -40,9 +40,11 @@ categories:
                                 {{ workshop.location }}
                             {% endif %}
                             </li>
+                            {% if workshop.has_programme != false %}
                             <div class="smallspacer"></div>
                             <li><i class="fa fa-calendar fa-fw"></i>
                             <a class="off" href="{{ workshop.url | prepend: site.baseurl }}">Programme</a></li> 
+                            {% endif %}
                             {% if workshop.repo %}
                             <div class="smallspacer"></div>
                             <li><i class="fa fa-file-text-o fa-fw"></i>
