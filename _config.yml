@@ -1,7 +1,6 @@
 name: Taming the BEAST
 description: BEAST2 tutorials for the community, by the community!
-baseurl: 
-url: http://taming-the-beast.github.io/
+url: https://taming-the-beast.org/
 
 markdown: redcarpet
 permalink: /:categories/:title/
