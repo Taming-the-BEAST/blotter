@@ -22,14 +22,22 @@
 					{% else %}
 					<li>
 					{% endif %}
-					<a href="{{ site.baseurl }}/news/">news</a>
-					</li>
+					<a href="{{ site.baseurl }}/news/">news</a></li>
+
+					{% if page.categories.first == 'workshops' %}
+                                        <li class="active">
+					{% else %}
+                                        <li>
+					{% endif %}
+                                        <a href="{{ site.baseurl }}/workshops/">workshops</a></li>
+
 					{% if page.categories.first == 'tutorials' %}
 					<li class="active">
 					{% else %}
 					<li>
 					{% endif %}
 					<a href="{{ site.baseurl }}/tutorials/">tutorials</a></li>	    	  
+
 					{% if page.categories.first == 'contribute' %}
 					<li class="active">
 					{% else %}
