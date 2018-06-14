@@ -174,6 +174,6 @@ The books below are not all focused on BEAST or even Bayesian phylogenetics. How
 
 In addition, the following review papers might be useful:
 
-- [Bayesian molecular clock dating of species divergences in the genomics era](https://www.nature.com/articles/nrg.2015.8), _Mario dos Reis, Phillip Donoghue, Ziheng Yang
+- [Bayesian molecular clock dating of species divergences in the genomics era](https://www.nature.com/articles/nrg.2015.8), _Mario dos Reis, Phillip Donoghue, Ziheng Yang_
 - [Evolutionary analysis of the dynamics of viral infectious disease](https://www.nature.com/articles/nrg2583), _Oliver Pybus, Andrew Rambaut_
 - [Bayesian molecular dating: opening up the black box](https://onlinelibrary.wiley.com/doi/abs/10.1111/brv.12390), _Lindell Bromham, Sebastián Duchêne, Xia Hua, Andrew M. Ritchie, David A. Duchêne, Simon Y. W. Ho_
