@@ -171,3 +171,9 @@ The books below are not all focused on BEAST or even Bayesian phylogenetics. How
 - [The Phylogenetic Handbook](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521877107), _Philippe Lemey, Marco Salemi, Anne-Mieke Vandamme_
 - [Molecular Evolution: A Phylogenetic Approach](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0865428891.html), _Roderick D.M. Page, Edward C. Holmes_
 - [Inferring Phylogenies](https://www.amazon.co.uk/Inferring-Phylogenies-Joseph-Felsenstein/dp/0878931775), _Joseph Felsenstein_
+
+In addition, the following review papers might be useful:
+
+- [Bayesian molecular clock dating of species divergences in the genomics era](https://www.nature.com/articles/nrg.2015.8), _Mario dos Reis, Phillip Donoghue, Ziheng Yang
+- [Evolutionary analysis of the dynamics of viral infectious disease](https://www.nature.com/articles/nrg2583), _Oliver Pybus, Andrew Rambaut_
+- [Bayesian molecular dating: opening up the black box](https://onlinelibrary.wiley.com/doi/abs/10.1111/brv.12390), _Lindell Bromham, Sebastián Duchêne, Xia Hua, Andrew M. Ritchie, David A. Duchêne, Simon Y. W. Ho_
