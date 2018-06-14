@@ -117,7 +117,7 @@ has_programme: true
 </tr>
 
 <tr>
-<td> 18:00 </td>
+<td> 19:00 </td>
 <td> Dinner </td>
 <td> Dinner </td>
 <td> Dinner </td>
