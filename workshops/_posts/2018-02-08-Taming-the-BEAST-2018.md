@@ -14,9 +14,7 @@ flyer: /images/workshops/Taming-the-BEAST-Oberageri-Flyer.jpg
 has_programme: true
 ---
 
-# Preliminary Programme
-
-*This is a draft programme and may be subject to change.*
+# Workshop Programme
 
 <table>
 <thead>
