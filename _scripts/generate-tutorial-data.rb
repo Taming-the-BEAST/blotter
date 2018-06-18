@@ -132,17 +132,22 @@ module Tutorials
 					commit_date = commit.commit.author.date
 					commit_message = commit.commit.message
 					commit_url = commit.rels[:html].href
-					if commit.author != nil then
+					if commit.author == nil then 
+					   	commit.author = "Unknown"
+					   	commit_author_login = "Unknown"
+					   	commit_author_url = "" 
+					else
 						commit_author_login = commit.author.login
-						commit_author_url = commit.author.rels[:html].href				
-						tutorial_commits = tutorial_commits.push(
-							"date" => commit_date,
-							"message" => commit_message,
-							"url" => commit_url,
-							"author_login" => commit_author_login,							
-							"author_url" => commit_author_url					
-						)
+						commit_author_url = commit.author.rels[:html].href		
 					end
+					
+					tutorial_commits = tutorial_commits.push(
+						"date" => commit_date,
+						"message" => commit_message,
+						"url" => commit_url,
+						"author_login" => commit_author_login,							
+						"author_url" => commit_author_url					
+					)
 				
 				end
 			
@@ -164,10 +169,12 @@ module Tutorials
 					"scripts" => script_array,
 					"outputs" => out_array
 				)
-			
+
 				# sort by date
 				tutorial_data.sort! { |x, y| y["commits"].first["date"] <=> x["commits"].first["date"] } 
 			
+				puts "\tDone (#{repo})"
+
 			end
 		end
 			
