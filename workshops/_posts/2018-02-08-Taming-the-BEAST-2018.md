@@ -9,6 +9,7 @@ startdate: 2018-06-17
 enddate: 2018-06-22
 image: /images/workshops/Taming-the-BEAST-Oberageri.png
 homepage: https://www.bsse.ethz.ch/cevo/taming-the-beast/overview-2018.html
+repo: Taming-the-BEAST/Taming-the-BEAST-2018-Oberaegeri-Lectures
 flyer: /images/workshops/Taming-the-BEAST-Oberageri-Flyer.jpg
 
 has_programme: true
@@ -135,6 +136,14 @@ has_programme: true
 
 </tbody>
 </table>
+
+{% if page.repo %}
+
+# Lecture slides
+
+Slides to lectures are available from [here]( https://github.com/{{ page.repo }} )
+
+{% endif %}
 
 
 # Required Software
