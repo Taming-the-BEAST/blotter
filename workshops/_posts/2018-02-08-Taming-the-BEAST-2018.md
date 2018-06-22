@@ -6,7 +6,7 @@ location: Oberägeri, Switzerland
 latitude: 47.130264
 longitude: 8.631210
 startdate: 2018-06-17
-enddate: 2018-06-22
+enddate: 2018-06-23
 image: /images/workshops/Taming-the-BEAST-Oberageri.png
 homepage: https://www.bsse.ethz.ch/cevo/taming-the-beast/overview-2018.html
 repo: Taming-the-BEAST/Taming-the-BEAST-2018-Oberaegeri-Lectures
@@ -85,7 +85,7 @@ has_programme: true
 <td rowspan="4" style="background-color: white; border: 1px solid lightgray">
     Activities (e.g. Hiking, swimming, etc.)<br> Details TBA </td>
 <td> <b>Rachel Warnock</b> <br> <a href="{{site.baseurl}}/tutorials/FBD-tutorial/">FBD Model Tutorial</a> </td>
-<td> <b>Nicola Müller</b> <br> StarBEAST and IM Tutorial </td>
+<td> <b>Nicola Müller</b> <br><a href="{{site.baseurl}}/tutorials/starbeast2-tutorial/">StarBEAST and IM Tutorial</a> </td>
 </tr>
 
 <tr>
