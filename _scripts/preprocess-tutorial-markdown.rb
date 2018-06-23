@@ -67,6 +67,6 @@ mdarray.each { |md|
 	
 	# go through file and replace all links that point to .md files with the equivalent .html file
 	contents.gsub!(/\((\S+)\.md\)/, "(\\1.html)")
-	out.puts contents		
-	
+	out.puts contents	
+
 }
