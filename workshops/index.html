@@ -78,7 +78,7 @@ categories:
 
 <div class="bigspacer"></div>
 
-{% for workshop in site.categories.workshops reversed %}
+{% for workshop in site.categories.workshops %}
 	{% capture todaysdate %}{{ 'now' | date: '%s '}}{% endcapture %}
 	{% capture workshopdate %}{{ workshop.enddate | date: '%s '}}{% endcapture %}
 	{% if workshopdate < todaysdate %}
@@ -86,7 +86,7 @@ categories:
 		<div class="col-md-6 memberbox">
 			<div class="media">
   				<a class="pull-left" href="{{ workshop.homepage }}">
-    				<img width=160 class="media-object" src="{{ workshop.image | prepend: site.baseurl }}">
+    				<img style="width: 160px" class="media-object" src="{{ workshop.image | prepend: site.baseurl }}">
   				</a>
  			 	<div class="media-body">
     				<div class="head media-heading"><a href="{{ workshop.homepage }}" target="_blank" class="off">{{ workshop.title }}</a></div>

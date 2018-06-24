@@ -38,9 +38,9 @@ has_programme: true
 <td> 09:00</td>
 <td></td>
 <td> <b>Alexei Drummond</b> <br> Introduction to Bayesian Phylogenetics (part 1) </td>
-<td> <b>Sebastián Duchêne</b> <br> Clock models, site models, model comparison </td>
+<td> <b>Sebastián Duchêne</b> <br> <a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2018-Oberaegeri-Lectures/raw/master/2018_06_19_Tuesday_09h00_SitesClocksModelSelection.pdf">Clock models, site models, model comparison</a> </td>
 <td> <b>Tanja Stadler</b> <br> Birth-death models </td>
-<td> <b>Alexandra Gavryushkina</b> <br> Modelling Fossilization </td>
+<td> <b>Alexandra Gavryushkina</b> <br> <a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2018-Oberaegeri-Lectures/raw/master/2018_06_21_Thursday_09h00_FBD%2BSA.pdf">Modelling Fossilization</a> </td>
 <td> <b>Nicola Müller</b> <br> Multi-species models <br>
      <b>Tim Vaughan</b> <br> <a href="https://tgvaughan.github.io/TTB_Lectures/ARGs">Modelling recombination</a> </td>
 </tr>
@@ -59,8 +59,13 @@ has_programme: true
 <tr>
 <td> 11:15 </td>
 <td></td>
-<td> <b>Louis Du Plessis</b> <br> <a href="{{site.baseulr}}/tutorials/Introduction-to-BEAST2/">First Steps in BEAST</a> </td>
-<td> <b>Carsten Magnus</b> <br> <a href="{{site.baseurl}}/tutorials/Substitution-model-averaging/">bModelTest Tutorial</a> </td>
+<td> <b>Louis Du Plessis</b>
+    <br> First Steps in BEAST <br>
+    (<a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2018-Oberaegeri-Lectures/raw/master/2018_06_18_Monday_11h15_IntroductionToBEAST2.pdf">lecture</a>,
+    <a href="{{site.baseulr}}/tutorials/Introduction-to-BEAST2/">tutorial</a>) </td>
+<td> <b>Carsten Magnus</b> <br> Model Averaging and bModelTest<br>
+    (<a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2018-Oberaegeri-Lectures/raw/master/2018_06_21_Thursday_09h00_FBD%2BSA.pdf">lecture,
+    <a href="{{site.baseurl}}/tutorials/Substitution-model-averaging/">tutorial</a>) </td>
 <td> <b>Tim Vaughan</b> <br> <a href="{{site.baseurl}}/tutorials/Skyline-plots/">Bayesian Skyline Plot and Birth-death Skyline Tutorial</a> </td>
 <td> <b>Jérémie Sciré</b> <br> <a href="{{site.baseurl}}/tutorials/Structured-birth-death-model/">Structured Birth-death Tutorial</a> </td>
 <td> <b>Tim Vaughan</b> <br> <a href="{{site.baseurl}}/tutorials/Bacter-Tutorial/">Bacter tutorial</a> </td>
@@ -79,7 +84,7 @@ has_programme: true
 <tr>
 <td> 14:00 </td>
 <td></td>
-<td> <b>Vladimir Minin</b> <br> Introduction to Bayesian Phylogenetics (part 2) </td>
+<td> <b>Vladimir Minin</b> <br> <a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2018-Oberaegeri-Lectures/raw/master/2018_06_18_Monday_14h00_BayesianPhylogenetics2.pdf">Introduction to Bayesian Phylogenetics (part 2)</a> </td>
 <td> <b>Nicola Müller</b> <br> The Structured Coalescent <br>
     <b>Nicola Müller</b> <br> <a href="{{site.baseurl}}/tutorials/Mascot-Tutorial/">MASCOT Tutorial</a> </td>
 <td rowspan="4" style="background-color: white; border: 1px solid lightgray">
@@ -100,7 +105,7 @@ has_programme: true
 <tr>
 <td> 16:15 </td>
 <td> </td>
-<td> <b>Veronika Boskova</b> <br> Setting Priors </td>
+<td> <b>Veronika Boskova</b> <br> <a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2018-Oberaegeri-Lectures/raw/master/2018_06_18_Monday_16h15_SettingPriors.pdf">Setting Priors</a> </td>
 <td> <b>Jūlija Pečerska</b> <br> Trouble-shooting </td>
 <td> <b>Tim Vaughan</b> <br> <a href="https://tgvaughan.github.io/TTB_Lectures/XML">Understanding BEAST&nbsp;2 XML </a></td>
 <td> BEAST Clinic </td>
