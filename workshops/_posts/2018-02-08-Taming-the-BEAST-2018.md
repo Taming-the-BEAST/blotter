@@ -6,7 +6,7 @@ location: Oberägeri, Switzerland
 latitude: 47.130264
 longitude: 8.631210
 startdate: 2018-06-17
-enddate: 2018-06-23
+enddate: 2018-06-22
 image: /images/workshops/Taming-the-BEAST-Oberageri.png
 homepage: https://www.bsse.ethz.ch/cevo/taming-the-beast/overview-2018.html
 repo: Taming-the-BEAST/Taming-the-BEAST-2018-Oberaegeri-Lectures
@@ -39,9 +39,9 @@ has_programme: true
 <td></td>
 <td> <b>Alexei Drummond</b> <br> Introduction to Bayesian Phylogenetics (part 1) </td>
 <td> <b>Sebastián Duchêne</b> <br> <a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2018-Oberaegeri-Lectures/raw/master/2018_06_19_Tuesday_09h00_SitesClocksModelSelection.pdf">Clock models, site models, model comparison</a> </td>
-<td> <b>Tanja Stadler</b> <br> Birth-death models </td>
+<td> <b>Tanja Stadler</b> <br> <a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2018-Oberaegeri-Lectures/raw/master/2018_06_20_Wednesday_09h00-Birth-death.pdf">Birth-death models</a> </td>
 <td> <b>Alexandra Gavryushkina</b> <br> <a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2018-Oberaegeri-Lectures/raw/master/2018_06_21_Thursday_09h00_FBD%2BSA.pdf">Modelling Fossilization</a> </td>
-<td> <b>Nicola Müller</b> <br> Multi-species models <br>
+<td> <b>Nicola Müller</b> <br><a href="https://nicfel.github.io/Talks/20180622-TtB/">Multi-species models</a> <br>
      <b>Tim Vaughan</b> <br> <a href="https://tgvaughan.github.io/TTB_Lectures/ARGs">Modelling recombination</a> </td>
 </tr>
 
@@ -85,7 +85,7 @@ has_programme: true
 <td> 14:00 </td>
 <td></td>
 <td> <b>Vladimir Minin</b> <br> <a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2018-Oberaegeri-Lectures/raw/master/2018_06_18_Monday_14h00_BayesianPhylogenetics2.pdf">Introduction to Bayesian Phylogenetics (part 2)</a> </td>
-<td> <b>Nicola Müller</b> <br> The Structured Coalescent <br>
+<td> <b>Nicola Müller</b> <br> <a href="https://nicfel.github.io/Talks/20180619-TtB/">The Structured Coalescent</a><br>
     <b>Nicola Müller</b> <br> <a href="{{site.baseurl}}/tutorials/Mascot-Tutorial/">MASCOT Tutorial</a> </td>
 <td rowspan="4" style="background-color: white; border: 1px solid lightgray">
     Activities (e.g. Hiking, swimming, etc.)</td>
@@ -106,7 +106,7 @@ has_programme: true
 <td> 16:15 </td>
 <td> </td>
 <td> <b>Veronika Boskova</b> <br> <a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2018-Oberaegeri-Lectures/raw/master/2018_06_18_Monday_16h15_SettingPriors.pdf">Setting Priors</a> </td>
-<td> <b>Jūlija Pečerska</b> <br> Trouble-shooting </td>
+<td> <b>Jūlija Pečerska</b> <br> <a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2018-Oberaegeri-Lectures/raw/master/2018_06_19_Tuesday_16h15_Troubleshooting.pdf">Trouble-shooting </a></td>
 <td> <b>Tim Vaughan</b> <br> <a href="https://tgvaughan.github.io/TTB_Lectures/XML">Understanding BEAST&nbsp;2 XML </a></td>
 <td> BEAST Clinic </td>
 </tr>
