@@ -88,7 +88,7 @@ has_programme: true
 <td> <b>Nicola Müller</b> <br> The Structured Coalescent <br>
     <b>Nicola Müller</b> <br> <a href="{{site.baseurl}}/tutorials/Mascot-Tutorial/">MASCOT Tutorial</a> </td>
 <td rowspan="4" style="background-color: white; border: 1px solid lightgray">
-    Activities (e.g. Hiking, swimming, etc.)<br> Details TBA </td>
+    Activities (e.g. Hiking, swimming, etc.)</td>
 <td> <b>Rachel Warnock</b> <br> <a href="{{site.baseurl}}/tutorials/FBD-tutorial/">FBD Model Tutorial</a> </td>
 <td> <b>Nicola Müller</b> <br><a href="{{site.baseurl}}/tutorials/starbeast2-tutorial/">StarBEAST2 Tutorial</a> </td>
 </tr>
