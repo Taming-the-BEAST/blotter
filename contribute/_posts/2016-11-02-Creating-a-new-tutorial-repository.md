@@ -46,4 +46,6 @@ Alternatively, it is also possible to create a blank repository and set up the s
 
 ```
 
-The three `.tex` files are optional and are used for tutorials written in LaTeX. If you want to add any further documentation or lecture slides to the tutorial, either add them to the root of the tutorial or to a directory with a descriptive name. All PDF files will be automatically detected and available to view or download from the website.
+The three `.tex` files are optional and are used for tutorials written in LaTeX. If you do **not** want to include a LaTeX version of the tutorial, be sure to **remove `main.tex` from the repository**.
+
+If you want to add any further documentation or lecture slides to the tutorial, either add them to the root of the tutorial or to a directory with a descriptive name. All PDF files will be automatically detected and available to view or download from the website.
