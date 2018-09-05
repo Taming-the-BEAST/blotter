@@ -13,10 +13,13 @@ filter: all
 	{% for t in site.data.tutorials %} 
 		{% if t.repo == repo %}
 			{% assign tutorial = t %}
+			{% assign level = tutorial.level | downcase %}
 		{% endif %}
 	{% endfor %} 
 		
-    {% include tutorial_item.html %}
+	{% if level != 'deprecated' %}
+    	{% include tutorial_item.html %}
+    {% endif %}
 
 {% endfor %}
 {% cycle 'close rows': nil, '</div>', '</div>' %}

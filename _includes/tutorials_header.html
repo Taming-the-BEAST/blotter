@@ -38,6 +38,15 @@
 						<i class="fa fa-rocket fa-fw"></i> Professional
 					</a>
 				</li>
+				{% if page.filter == "deprecated" %}
+				<li role="presentation" class="active">
+				{% else %}
+				<li role="presentation">
+				{% endif %}
+					<a class="off" href="{{ site.baseurl }}/tutorials/deprecated/">
+						<i class="fa fa-wheelchair fa-fw"></i> Deprecated
+					</a>
+				</li>
 				<li role="presentation">
 					<a class="off" href="{{ site.baseurl }}/news/archive/">
 						<a class="off" type="application/rss+xml" href="{{ site.baseurl }}/feed.tutorials.xml"><i class="fa fa-rss"></i> Subscribe</a>
@@ -45,8 +54,17 @@
 				</li>
 			</ul>
 		</div>
+
+		{% if page.description %}
+			<div class="description">
+				{{ page.description }}
+			</div>
+		{% endif %}
+
 		<div class="bigspacer"></div>
 	</div>
+
 </div>
+
 
 
