@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Taming the BEAST Down Under
+title: Taming the BEAST Down Under!
 author: Tim Vaughan
 ---
 
 We are delighted to announce that the next Taming the BEAST workshop
 will be in Sydney, Australia!
 
-The workshop will take place from 17-22 January next year, and is being organized
+The workshop will take place from **17-22 February** next year, and is being organized
 by the
 [Molecular Ecology, Evolution and Phylogenetics](https://sydney.edu.au/science/biology/meep/index.shtml)
 lab at the University of Sydney.
