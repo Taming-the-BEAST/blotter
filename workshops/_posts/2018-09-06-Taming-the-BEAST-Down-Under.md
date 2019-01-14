@@ -72,7 +72,7 @@ The following is a <b>preliminary</b> programme and will be subject to change.
 <tr>
 <td> 12:30 </td>
 <td></td>
-<td rowspan="9" style="border: solid 1px gray"> Free afternoon (packed lunch provided)</td>
+<td rowspan="9" style="border: solid 1px gray"> Free afternoon<br>(packed lunch provided)</td>
 </tr>
 
 <tr>
