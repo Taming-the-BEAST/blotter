@@ -42,7 +42,7 @@ The following is a <b>preliminary</b> programme and will be subject to change.
 <td> <b>Remco Bouckaert</b> <br> Phylogenetic model selection and averaging </td>
 <td> <b>TBA</b> <br> Birth-death Bayesian Phylodynamics: Skylines, Structure and Fossilization </td>
 <td> <b>Mike Lee</b> <br> Bayesian phylogenetics for phenotypic and palaeontological datasets </td>
-<td> <b>Sebastián Duchêne</b> Tip-dating and phylodynamics </td>
+<td> <b>Sebastián Duchêne</b> <br> Tip-dating and phylodynamics </td>
 </tr>
 
 <tr>
@@ -59,14 +59,20 @@ The following is a <b>preliminary</b> programme and will be subject to change.
 <tr>
 <td> 11:30 </td>
 <td></td>
-<td> <b>Tim Vaughan</b>
+<td rowspan="2"> <b>Tim Vaughan</b>
     <br> First Steps in BEAST&nbsp;2<br>
     (lecture and tutorial) </td>
-<td> <b>Remco Bouckaert</b> <br> Substitution model averaging <br>
+<td rowspan="2"> <b>Remco Bouckaert</b> <br> Substitution model averaging <br>
     (tutorial) </td>
 <td> <b>TBA</b> <br> Public Lecture </td>
-<td> <b>Jana Huisman</b> <br> Fossilized birth-death model analyses <br> (tutorial) </td>
-<td> <b>Nicola Müller</b> <br> Isolation with Migration using Coupled MCMC <br> (tutorial) </td>
+<td rowspan="2"> <b>Jana Huisman</b> <br> Fossilized birth-death model analyses <br> (tutorial) </td>
+<td rowspan="2"> <b>Nicola Müller</b> <br> Isolation with Migration using Coupled MCMC <br> (tutorial) </td>
+</tr>
+
+<tr>
+<td> 12:30 </td>
+<td></td>
+<td rowspan="9" style="border: solid 1px gray"> Free afternoon (packed lunch provided)</td>
 </tr>
 
 <tr>
@@ -74,8 +80,6 @@ The following is a <b>preliminary</b> programme and will be subject to change.
 <td></td>
 <td>Lunch</td>
 <td>Lunch</td>
-<td rowspan="4" style="background-color: white; border: 1px solid lightgray">
-    Free afternoon (packed lunch provided)</td>
 <td>Lunch</td>
 <td>Lunch</td>
 </tr>
@@ -101,35 +105,40 @@ The following is a <b>preliminary</b> programme and will be subject to change.
 <td></td>
 <td> Afternoon Tea </td>
 <td> Afternoon Tea </td>
-<td> Afternoon Tea </td>
+<td rowspan="3"> <b>Jérémie Sciré &amp; Nicola Müller</b> <br>
+    Analyzing structured populations under birth-death and coalescent models <br>
+    (tutorial)
+</td>
 <td> Afternoon Tea </td>
 </tr>
 
 <tr>
 <td> 16:00 </td>
-<td rowspan="3" style="background-color: white; border: 1px solid lightgray">
+<td rowspan="4" style="border: solid 1px gray">
 Welcome and registration<br> <i>University of Sydney</i></td>
-<td> <b>Nicola Müller</b> <br> Skyline Plot Tutorial </td>
-<td> <b>Cara Van Der Wal &amp; Perry Beasley-Hall</b> <br> Divergence time estimation</td>
-<td> <b>Jérémie Sciré &amp; Nicola Müller</b> <br> Analyzing structured populations under birth-death and coalescent models <br> (tutorial) </td>
-<td rowspan="3" style="background-color: white; border-left: 1px solid lightgray">
+<td rowspan="2"> <b>Nicola Müller</b> <br> Skyline Plot Tutorial </td>
+<td rowspan="2"> <b>Cara Van Der Wal &amp; Perry Beasley-Hall</b> <br> Divergence time estimation</td>
+<td rowspan="4" style="border: solid 1px gray">
 Departure</td>
+</tr>
+
+<tr>
+<td> 17:00 </td>
 </tr>
 
 <tr>
 <td> 18:00 </td>
 <td> </td>
 <td> </td>
-<td> </td>
-<td rowspan="2" style="background-color: white; border: 1px solid lightgray">
-buffet dinner cruise (sydney harbour, depart from king st wharf)</td>
+<td rowspan="2">
+Buffet dinner cruise<br>
+(Sydney Harbour, Depart from King St Wharf)</td>
 </tr>
 
 <tr>
-<td> 19:00 </td>
-<td style="border: 1px solid lightgray"> Dinner (Newtown)</td>
-<td style="background-color:white; border-top: none"> </td>
-<td style="background-color:white; border-top: none"> </td>
+<td> 18:30 </td>
+<td> Dinner (Newtown)</td>
+<td> </td>
 </tr>
 
 </tbody>
