@@ -64,7 +64,7 @@ has_programme: true
     (<a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2018-Oberaegeri-Lectures/raw/master/2018_06_18_Monday_11h15_IntroductionToBEAST2.pdf">lecture</a>,
     <a href="{{site.baseulr}}/tutorials/Introduction-to-BEAST2/">tutorial</a>) </td>
 <td> <b>Carsten Magnus</b> <br> Model Averaging and bModelTest<br>
-    (<a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2018-Oberaegeri-Lectures/raw/master/2018_06_21_Thursday_09h00_FBD%2BSA.pdf">lecture,
+    (<a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2018-Oberaegeri-Lectures/raw/master/2018_06_19_Tuesday_11h15_ModelAveraging.pdf">lecture,
     <a href="{{site.baseurl}}/tutorials/Substitution-model-averaging/">tutorial</a>) </td>
 <td> <b>Tim Vaughan</b> <br> <a href="{{site.baseurl}}/tutorials/Skyline-plots/">Bayesian Skyline Plot and Birth-death Skyline Tutorial</a> </td>
 <td> <b>Jérémie Sciré</b> <br> <a href="{{site.baseurl}}/tutorials/Structured-birth-death-model/">Structured Birth-death Tutorial</a> </td>
