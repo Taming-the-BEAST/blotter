@@ -64,7 +64,7 @@ The following is a <b>preliminary</b> programme and will be subject to change.
     (lecture and tutorial) </td>
 <td rowspan="2"> <b>Remco Bouckaert</b> <br> Substitution model averaging <br>
     (tutorial) </td>
-<td> <b>TBA</b> <br> Public Lecture </td>
+<td> <b>Mike Lee</b> <br> Public Lecture </td>
 <td rowspan="2"> <b>Jana Huisman</b> <br> Fossilized birth-death model analyses <br> (tutorial) </td>
 <td rowspan="2"> <b>Nicola Müller</b> <br> Isolation with Migration using Coupled MCMC <br> (tutorial) </td>
 </tr>
@@ -115,7 +115,7 @@ The following is a <b>preliminary</b> programme and will be subject to change.
 <tr>
 <td> 16:00 </td>
 <td rowspan="4" style="border: solid 1px gray">
-Welcome and registration<br> <i>University of Sydney</i></td>
+Welcome and registration<br> <i>(Courtyard Cafe,<br>University of Sydney)</i></td>
 <td rowspan="2"> <b>Nicola Müller</b> <br> Skyline Plot Tutorial </td>
 <td rowspan="2"> <b>Cara Van Der Wal &amp; Perry Beasley-Hall</b> <br> Divergence time estimation</td>
 <td rowspan="4" style="border: solid 1px gray">
@@ -132,12 +132,12 @@ Departure</td>
 <td> </td>
 <td rowspan="2">
 Buffet dinner cruise<br>
-(Sydney Harbour, Depart from King St Wharf)</td>
+<i>(Sydney Harbour, Depart from King St Wharf)</i></td>
 </tr>
 
 <tr>
 <td> 18:30 </td>
-<td> Dinner (Newtown)</td>
+<td> Dinner<br> <i>(Thai Pothong, Newtown)</i></td>
 <td> </td>
 </tr>
 
