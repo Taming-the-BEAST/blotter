@@ -16,8 +16,6 @@ has_programme: true
 
 # Workshop Programme
 
-The following is a <b>preliminary</b> programme and will be subject to change.
-
 <table>
 <thead>
 
