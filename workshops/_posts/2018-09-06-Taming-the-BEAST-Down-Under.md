@@ -8,6 +8,7 @@ longitude: 151.1835
 startdate: 2019-02-17
 enddate: 2019-02-22
 image: /images/workshops/Taming-the-BEAST-Down-Under-Logo.png
+
 homepage: https://sydney.edu.au/science/biology/meep/workshops/
 flyer: /images/workshops/Taming-the-BEAST-Down-Under-Flyer.jpg
 
@@ -59,7 +60,7 @@ has_programme: true
 <td></td>
 <td rowspan="2"> <b>Tim Vaughan</b>
     <br> First Steps in BEAST&nbsp;2<br>
-    (lecture and tutorial) </td>
+    (lecture and <a href="https://taming-the-beast.org/tutorials/Introduction-to-BEAST2/">tutorial</a>) </td>
 <td rowspan="2"> <b>Remco Bouckaert</b> <br> Substitution model averaging <br>
     (tutorial) </td>
 <td> <b>Mike Lee</b> <br> Arid biomes as a source, not sink, for Australian lizard biodiversity
