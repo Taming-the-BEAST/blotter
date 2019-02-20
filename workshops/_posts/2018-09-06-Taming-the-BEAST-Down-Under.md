@@ -69,7 +69,7 @@ Additional links will be added as they become available.
 <td> <b>Mike Lee</b> <br> Arid biomes as a source, not sink, for Australian lizard biodiversity
 <br> (public lecture) </td>
 <td rowspan="2"> <b>Jana Huisman</b> <br> Fossilized birth-death model analyses <br> (<a href="https://taming-the-beast.org/tutorials/FBD-tutorial/">tutorial</a>) </td>
-<td rowspan="2"> <b>Nicola Müller</b> <br> Isolation with Migration using Coupled MCMC <br> (tutorial) </td>
+<td rowspan="2"> <b>Nicola Müller</b> <br> Isolation with Migration using Coupled MCMC <br> (<a href="https://taming-the-beast.org/tutorials/AIM-Tutorial">tutorial</a>) </td>
 </tr>
 
 <tr>
