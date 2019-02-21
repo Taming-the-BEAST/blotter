@@ -92,7 +92,8 @@ Additional links will be added as they become available.
 <td></td>
 <td rowspan="2"> <b>Jana Huisman</b> <br> Prior Selection &amp; Troubleshooting <br> (<a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2019-Sydney-Lectures/raw/master/Priors_and_trouble.pdf">lecture</a>, <a href="https://taming-the-beast.org/tutorials/Prior-selection/">tutorial</a>)</td>
 <td rowspan="2"> <b>Simon Ho </b> <br> Molecular Dating (<a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2019-Sydney-Lectures/raw/master/Day2_MolecularDating.pdf">lecture</a>)</td>
-<td> <b>David Duchêne</b> <br> Species trees and gene trees</td>
+<td> <b>David Duchêne</b> <br> Species trees and gene trees
+(<a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2019-Sydney-Lectures/raw/master/Day4_SpeciesGeneTreesDDuchene.pdf">lecture</a>)</td>
 <td rowspan="2"> <b>Tim Vaughan</b> <br> Bacterial genomics </td>
 </tr>
 
