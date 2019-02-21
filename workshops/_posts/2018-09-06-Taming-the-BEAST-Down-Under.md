@@ -43,7 +43,8 @@ Additional links will be added as they become available.
 <td> <b>Alexei Drummond</b> <br> Bayesian Phylogenetics and BEAST </td>
 <td> <b>Remco Bouckaert</b> <br> <a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2019-Sydney-Lectures/raw/master/Day2_ModelSelection.pdf">Phylogenetic model selection and averaging</a> </td>
 <td> <b>Tim Vaughan, Jana Huisman, Nicola M&uuml;ller</b> <br> Bayesian Phylodynamics: <a href="https://tgvaughan.github.io/TTB_Lectures/Phylodynamics">Skylines</a>, Fossilization and <a href="https://slides.com/nicolamueller/20190218ttbstrutured#/20190218ttbstrutured">Structure</a> </td>
-<td> <b>Mike Lee</b> <br> Bayesian phylogenetics for phenotypic and palaeontological datasets </td>
+<td> <b>Mike Lee</b> <br> Bayesian phylogenetics for phenotypic and palaeontological datasets (<a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2019-Sydney-Lectures/raw/master/Day4_MikeLee_SydneyBayes1.pdf">part 1</a>,
+<a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2019-Sydney-Lectures/raw/master/Day4_MikeLee_SydneyBayes2.pdf">part 2</a>)</td>
 <td> <b>Sebastián Duchêne</b> <br> Tip-dating and phylodynamics </td>
 </tr>
 
