@@ -36,6 +36,7 @@ exclude:
   - "*.nex"
   - "Gemfile"
   - "Gemfile.lock"
+  - "github.token"
 
 scholar:
   style: apa
