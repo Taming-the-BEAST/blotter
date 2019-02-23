@@ -14,3 +14,6 @@ tutorials/
 
 # Other files
 .DS_Store
+
+# Secrets
+github.token
