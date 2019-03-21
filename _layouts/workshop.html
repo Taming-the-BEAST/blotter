@@ -10,10 +10,21 @@ layout: default
 		<p>
 		<div class="head">
 			{% if page.latitude and page.longitude %}
-            	<a class="off" target="_blank" href="http://www.google.com/maps/place/{{ page.latitude }},{{ page.longitude }}">{{ page.address}}, {{ page.location }}</a>
-            {% else %}
-				{{ page.address}}, {{ page.location }}
-            {% endif %}
+
+            	        <a class="off" target="_blank" href="http://www.google.com/maps/place/{{ page.latitude }},{{ page.longitude }}">
+                          {% if page.address %}
+                            {{ page.address}},
+                          {% endif %}
+                          {{ page.location }}</a>
+                        
+                        {% else %}
+
+                          {% if page.address %}
+                            {{ page.address}},
+                          {% endif %}
+                          {{ page.location }}
+
+                        {% endif %}
 		</div>
 		<div class="smallhead">
 			{{ page.startdate | date: '%B %d, %Y' }}-{{ page.enddate | date: '%B %d, %Y' }}</li> 
