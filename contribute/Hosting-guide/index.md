@@ -1,7 +1,5 @@
 ---
-layout: post
-title: Taming the BEAST Workshop Hosting Guide
-author: Genevieve Fitzjames, Louis du Plessis, Tanja Stadler
+title: "Taming the BEAST: Workshop Hosting Guide"
 ---
 
 <div>

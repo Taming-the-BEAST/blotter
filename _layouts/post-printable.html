@@ -1,0 +1,74 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+    
+    <div class="container">	
+      
+      {% for member in site.categories.team %}
+      {% if member.title == page.author %}
+      {% assign author = member %}
+      {% endif %}
+      {% endfor %}
+
+      <div class="blog-post">
+        <div class="row">
+          <div class="col-md-1"></div>	
+          <div class="col-md-10">
+            <div class="media">
+              <div class="media-body">
+                <div class="title media-heading">
+                  <h1>{{ page.title }}</h1>
+                </div>
+                <p>
+                  <div class="smallhead">
+                    {% if page.date %}
+                    {{ page.date | date_to_string }}
+                    {% endif %}
+                    {% if author %}
+                    by <a class="off" href="{{ author.url | prepend: site.baseurl }}">{{ author.handle }}</a>
+                    {% endif %}		
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1"></div>					
+        </div>
+
+        <div class="bigspacer"></div>
+
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">	
+            {% if page.image %}
+            {% if page.link %}
+            <a href="{{ page.link | prepend: site.baseurl }}">
+              <img class="offset" src="{{ page.image | prepend: site.baseurl }}">
+            </a>			
+            {% else %}
+            <img class="offset" src="{{ page.image | prepend: site.baseurl }}">
+            {% endif %}				
+            {% endif %}
+            <div class="post">
+              {{ content }}
+            </div>	
+          </div>			
+          <div class="col-md-1"></div>
+        </div>
+        
+        <div class="bigspacer"></div>
+        <div class="spacer"></div>	
+
+      </div>
+
+    </div>
+
+    <!--div id="footer"><span style="display:none">foo</span></div-->
+    
+  </body>
+</html>
+

@@ -40,6 +40,18 @@ exclude:
   - "Gemfile.lock"
   - "github.token"
 
+defaults:
+  -
+    scope:
+      path: "contribute/Hosting-guide"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "contribute/Hosting-guide-printable"
+    values:
+      layout: "post-printable"
+
 scholar:
   style: apa
   locale: en
