@@ -20,7 +20,7 @@ categories:
 	{% capture todaysdate %}{{ 'now' | date: '%s '}}{% endcapture %}
 	{% capture workshopdate %}{{ workshop.enddate | date: '%s '}}{% endcapture %}
 	{% if workshopdate >= todaysdate %}
-    {% cycle 'add rows': '<div class="row">', nil, nil %}
+    {% cycle 'add rows': '<div class="row">', '', '' %}
 		<div class="col-md-6 memberbox">
 			<div class="media">
   				<a class="pull-left" href="{{ workshop.homepage }}">
@@ -63,10 +63,10 @@ categories:
 			<div class="bigspacer"></div>
 			<div class="bigspacer"></div>			
         </div>	  
-    {% cycle 'close rows': nil, nil, '</div>' %}
+    {% cycle 'close rows': '', '', '</div>' %}
     {% endif %}
 {% endfor %}
-{% cycle 'close rows': nil, '</div>', '</div>' %}
+{% cycle 'close rows': '', '</div>', '</div>' %}
 
 <div class="row">
 	<div class="col-md-12">
@@ -82,7 +82,7 @@ categories:
 	{% capture todaysdate %}{{ 'now' | date: '%s '}}{% endcapture %}
 	{% capture workshopdate %}{{ workshop.enddate | date: '%s '}}{% endcapture %}
 	{% if workshopdate < todaysdate %}
-    {% cycle 'add rows 2': '<div class="row">', nil, nil %}
+    {% cycle 'add rows 2': '<div class="row">', '', '' %}
 		<div class="col-md-6 memberbox">
 			<div class="media">
   				<a class="pull-left" href="{{ workshop.homepage }}">
@@ -126,7 +126,7 @@ categories:
 			<div class="bigspacer"></div>
 			<div class="bigspacer"></div>			
         </div>	  
-    {% cycle 'close rows 2': nil, nil, '</div>' %}
+    {% cycle 'close rows 2': '', '', '</div>' %}
     {% endif %}
 {% endfor %}
-{% cycle 'close rows 2': nil, '</div>', '</div>' %}
+{% cycle 'close rows 2': '', '</div>', '</div>' %}
