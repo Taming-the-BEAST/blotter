@@ -4,6 +4,14 @@ title: Taming the BEAST Workshop Hosting Guide
 author: Genevieve Fitzjames, Louis du Plessis, Tanja Stadler
 ---
 
+<div>
+<img style='display:inline-block;width:19%' src="/images/logo_bw.svg">
+<img style='display:inline-block;width:19%' src='/images/workshops/Taming-the-BEAST-in-the-South-Pacific.jpg'>
+<img style='display:inline-block;width:19%' src='/images/workshops/Taming-the-BEAST-in-London.jpg'>
+<img style='display:inline-block;width:19%' src='/images/workshops/Taming-the-BEAST-Oberageri.png'>
+<img style='display:inline-block;width:19%' src='/images/workshops/Taming-the-BEAST-Down-Under-Logo.png'>
+</div>
+
 ## Introduction 
 
 Phylogenetics and phylodynamics are central topics in modern biology. Phylogenetic inferences reconstruct the evolutionary relationships between organisms, whereas phylodynamic inferences reveal the dynamics that lead to the observed relationships.
