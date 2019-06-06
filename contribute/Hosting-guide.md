@@ -31,7 +31,7 @@ Finally, we also encourage anyone else with useful BEAST 2 teaching materials to
 Find out how you can [contribute](/contribute).
 
 Taming the BEAST team<br>
- Alexei Drummond, Tanja Stadler, Tim Vaughan and Louis du Plessis
+Alexei Drummond, Tanja Stadler, Tim Vaughan and Louis du Plessis
 
 ## Previous workshops
 
@@ -66,21 +66,21 @@ Previous workshop programmes can be found [here](/workshops/).
 
 ## Funding
 
- With running an international standard workshop, comes associated costs that need to be anticipated to make Taming the BEAST accessible to all learners.
+With running an international standard workshop, comes associated costs that need to be anticipated to make Taming the BEAST accessible to all learners.
 It is understood that in order to host a successful workshop, the host/s need to be comfortable and able to afford most of the below costs.
 
 ### Venue
- The venue, which is assumed to be in a stimulating and accessible location will carry most of the cost.
+The venue, which is assumed to be in a stimulating and accessible location will carry most of the cost.
 Venues will have their preferred caterers and usually offer day delegate packages to cover meal breaks.
 Room and equipment may either be included in the event, but it may be an additional cost you incur.
 
 ### Teaching staff
- Previously members from Tanja Stadler’s cEvo group and members of the Centre for Computational Evolution have been able to secure their own funding to allow them to travel and teach at BEAST workshops.
+Previously members from Tanja Stadler’s cEvo group and members of the Centre for Computational Evolution have been able to secure their own funding to allow them to travel and teach at BEAST workshops.
 But for all other teaching and tutoring staff, there is the cost of their travel and accommodation and whatever else you allow for them.
 This and the venue are the bare minimum that you must account for.
 
 ### Activities
- As previously mentioned, the programme should have time allocated for social and networking opportunities.
+As previously mentioned, the programme should have time allocated for social and networking opportunities.
 Typically Taming the BEAST workshops have a cocktail style welcome event the night before the workshop starts.
 There are also one to two dinners across the week.
 As a host, anything beyond one dinner, you may then either absorb the cost or you could put it back on the participants.
@@ -88,16 +88,16 @@ Depending on the resources available, the unscheduled afternoon mid-week may pro
 There should be both adventurous and accessible options.
 
 ### Fee waivers
- Depending on the level of funding or sponsorship a host has access to, fee waivers have provided opportunities to learners that otherwise might have missed out.
+Depending on the level of funding or sponsorship a host has access to, fee waivers have provided opportunities to learners that otherwise might have missed out.
 This is an important consideration as it makes your Taming the BEAST workshop accessible to not only international participants, but also participants who may struggle financially.
 Fee waivers are a great drawcard and can be done partially or in full.
 However, they are important and tend to have positive effects.
 
 ### Fee structures
- There have previously been two types of fee structures that hosts have chosen between.
+There have previously been two types of fee structures that hosts have chosen between.
 
 * Fee Structure One: Registration and meals < 300€
-* Fee Structure Two: Registration, accommodation and meals <1000€ 
+* Fee Structure Two: Registration, accommodation and meals <1000€
 
 Hosts are encouraged to offer Fee Structure Two for logistical reasons in more remote locations with limited accommodation options and to create a more immersive learning environment.
 However, Fee Structure One may be preferred in larger cities where there is an abundance of accommodation options.
@@ -111,7 +111,7 @@ For registration, the applicant is required to provide their CV as it provides u
 It is also important that participants provide a link to their homepage or group website.
 Along with the CV, a relevant abstract (max 500 words) outlining why they should be chosen for the workshop and what they would gain from it in relation to their research interests.
 
- Ideally, if you have assigned 40 spaces for the workshop, you should aim for about 60 applicants, so you can select the most appropriate applicants and also allow for cancellations.
+Ideally, if you have assigned 40 spaces for the workshop, you should aim for about 60 applicants, so you can select the most appropriate applicants and also allow for cancellations.
 Whilst the recommended application period is one month, you can adjust this accordingly to suit your desired number of minimum applicants.
 Also keep in mind that you may need to extend the deadline to maximise the number of applications you have.
 However, an unnecessarily long application period is to be avoided since applicants need to put a lot of work into writing an application and conversely organisers have to invest a lot of effort to select the most appropriate applicants.
@@ -128,7 +128,7 @@ Once the participants have been decided upon, if there have been fee waivers all
 Generally the further a participant has to travel, the greater the benefit of a fee waiver or if there are participants from a disproportionately underrepresented group and/or disadvantaged background.
 In Sydney for example, full waivers were offered to those travelling internationally and half waivers were offered to those traveling domestically, but from another state.
 
-## Evaluation 
+## Evaluation
 
 Previous workshops have requested participants to anonymously evaluate their experience via Google Forms, such as [this example from the Oberägeri workshop](https://docs.google.com/forms/d/1c0BGHc9IlZBsie7mZU8EeRptxjQXBlGfw4lsFkoJP98/edit).
 Since every workshop will vary, this evaluation should be edited to suit the particular workshop, and the results should be exported as CSV or PDF files for distribution or for the workshop host to store.
@@ -174,11 +174,11 @@ Receive registration fees, pay deposits & assist participants.
 </tr>
 </table>
 
-## Things to keep in mind 
+## Things to keep in mind
 
 ### Workshop schedule:
 To make sure that people do not lose motivation on the 1st day, at the very least make sure that everyone finishes the 1st tutorial.
-In addition, if you are offering free after-dinner sessions, if your participants are overworked on the first day, this will not be a positive exercise.  
+In addition, if you are offering free after-dinner sessions, if your participants are overworked on the first day, this will not be a positive exercise. 
 
 ### Daily schedule suggestions:
 
@@ -227,7 +227,7 @@ Workshop organisers likely won’t have to specifically write new tutorials (the
 * The tutorial sessions could happen in parallel in two rooms, one room for the scheduled content tutorial and the other for a free tutorial with TAs in both rooms. This way people who are not interested in epidemiology or species evolution can pick which tutorials are most useful for them and then use the rest of the time to work on their own data before the last day. 
 
 * TAs should also be specifically assigned to these free tutorials. It may also be useful to convince some of the invited speakers to be available during some of the free sessions.
- Daily announcements and feedback:
+Daily announcements and feedback:
 
 * Collect all announcements and organizational details for the day by breakfast at the latest, so they can be announced by one person before the first talk.
 
@@ -265,11 +265,11 @@ In the example timetable below, talks from invited speakers are boxes with a blu
 
 * **R**: This is a free software environment that provides a wide variety of statistical (linear and nonlinear modelling, classical statistical tests, time-series analysis, classification, clustering) and graphical techniques, and is highly extensible [(download)](https://r-project.org).
 
-* **RStudio** (optional): This provides a friendly front-end for R [(download)](https://rstudio.com). 
+* **RStudio** (optional): This provides a friendly front-end for R [(download)](https://rstudio.com).
 
 **Email participants about the above requirements 1 – 2 weeks before commencement of workshop**
 
 ## Suggested reading
 
 The introductory chapters of the BEAST 2 book are a great way to get started for both hosts and participants alike.
- If it isn't found at your institution's library, then you can find it on [Google books](https://books.google.co.nz/books?id=deHUrQEACAAJ&dq=isbn:1107019656&hl=en&sa=X&ved=0CCIQ6AEwAWoVChMI0oPOlqHfxgIVA9qmCh3GWQPP).
+If it isn't found at your institution's library, then you can find it on [Google books](https://books.google.co.nz/books?id=deHUrQEACAAJ&dq=isbn:1107019656&hl=en&sa=X&ved=0CCIQ6AEwAWoVChMI0oPOlqHfxgIVA9qmCh3GWQPP).
