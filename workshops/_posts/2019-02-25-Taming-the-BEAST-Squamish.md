@@ -33,7 +33,7 @@ has_programme: true
 
 <tr>
 <td> 07:00 </td>
-<td rowspan="14"> Arrival </td>
+<td rowspan="14" class="padding"> Arrival </td>
 <td class="food"> Breakfast and Late Registration </td>
 <td class="food"> Breakfast </td>
 <td class="food"> Breakfast </td>
@@ -54,38 +54,38 @@ BC Centre for Excellence in HIV/AIDS </td>
 
 <tr>
 <td> 09:00 </td>
-<td class="intvited-lecture"> Invited Lecture <br>
-Macroevolution, phylogenetics and rate time dependency<br>
+<td class="invited-lecture"> Invited Lecture: <br>
+<i>Macroevolution, phylogenetics and rate time dependency</i><br>
 <b>Matthew Pennell</b><br>
-University of British Columbia</td>
-<td rowspan="2" class="lecture"> Lecture <br>
+(Univ. of British Columbia)</td>
+<td rowspan="2" class="lecture"> Lecture: <br>
 Tree Priors, Clocks and Skylines <br>
 <b> Alexei Drummond </b> </td>
-<td class="lecture"> Lecture <br>
-Statistical Methods to Reconstruct Phylogenetic Networks<br>
+<td class="lecture"> Lecture: <br>
+<i>Statistical Methods to Reconstruct Phylogenetic Networks</i><br>
 <b> Claudia Solís-Lemus</b> </td>
-<td class="lecture"> Lecture <br>
-Divergence Time Dating and the Fossilized Birth-Death Model <br>
+<td class="lecture"> Lecture: <br>
+<i>Divergence Time Dating and the Fossilized Birth-Death Model</i> <br>
 <b> Joëlle Barido-Sottani</b> </td>
-<td class="lecture"> Lecture <br>
-Species Trees with StarBeast2 <br>
+<td class="lecture"> Lecture: <br>
+<i>Species Trees with StarBeast2</i> <br>
 <b> Huw Ogilvie </b> </td>
 </tr>
 
 <tr>
 <td> 10:00 </td>
-<td class="lecture"> Lecture <br>
-Basic Principles of Statistical Inference <br>
+<td class="lecture"> Lecture: <br>
+<i>Basic Principles of Statistical Inference</i> <br>
 <b> Alexei Drummond </b> </td>
 <!-- <td> </td> -->
-<td class="tutorial"> Tutorial 5 <br>
-Bayesian Skyline Plot and Birth-Death Skyline Tutorial <br>
+<td class="tutorial"> Tutorial 5: <br>
+<i>Bayesian Skyline Plot and Birth-Death Skyline Tutorial</i> <br>
 <b> Louis du Plessis </b> </td>
-<td class="tutorial"> Tutorial 6 <br>
-Fossilized Birth-Death Model <br>
+<td class="tutorial"> Tutorial 6: <br>
+<i>Fossilized Birth-Death Model</i> <br>
 <b> Joëlle Barido-Sottani </b> </td>
-<td> Tutorial 9 <br>
-Calibrating Species Trees <br>
+<td> Tutorial 9: <br>
+<i>Calibrating Species Trees</i> <br>
 <b> Huw Ogilvie </b> </td>
 </tr>
 
@@ -101,29 +101,27 @@ Calibrating Species Trees <br>
 <tr>
 <td> 11:20 </td>
 <td rowspan="2" class="invited-lecture">
-Invited Lecture <br>
-Evolutionary History of HBV in the Circumpolar Arctic <br>
-<b> Carla Oslowy <br>
-National Microbiology Laboratory <br>
-/ University of Manitoba </b>
-</td>
+Invited Lecture: <br>
+<i>Evolutionary History of HBV in the Circumpolar Arctic</i> <br>
+<b> Carla Oslowy </b> <br>
+(Nat. Microbiology Laboratory / Univ. of Manitoba) </td>
 </tr>
 
 <tr>
 <td> 11:30 </td>
-<td rowspan="2" class="lecture"> Lecture <br>
-First Steps in BEAST 2 <br>
+<td rowspan="2" class="lecture"> Lecture: <br>
+<i>First Steps in BEAST&nbsp;2</i> <br>
 <b> Louis du Plessis </b> </td>
-<td rowspan="2" class="lecture"> Lecture <br>
-Model Selection and Averaging <br>
+<td rowspan="2" class="lecture"> Lecture: <br>
+<i>Model Selection and Averaging</i> <br>
 <b> Remco Bouckaert </b> </td>
-<td rowspan="2" class="lecture"> Lecture <br>
-Structured Coalescent Approximations <br>
+<td rowspan="2" class="lecture"> Lecture: <br>
+<i>Structured Coalescent Approximations</i> <br>
 <b> David Rasmussen </b> </td>
-<td rowspan="2" class="invited-lecture"> Invited Lecture <br>
-Phylogenetic inferences for Big Data <br>
-<b> Claudia Solís-Lemus <br>
-Emory University </b> </td>
+<td rowspan="2" class="invited-lecture"> Invited Lecture: <br>
+<i>Phylogenetic inferences for Big Data</i> <br>
+<b> Claudia Solís-Lemus </b> <br>
+(Emory Univ.) </td>
 </tr>
 
 <tr>
@@ -144,14 +142,14 @@ Emory University </b> </td>
 
 <tr>
 <td> 14:00 </td>
-<td class="tutorial"> Tutorial 1 <br>
-Prior Selection and Clock Calibration <br>
+<td class="tutorial"> Tutorial 1: <br>
+<i>Prior Selection and Clock Calibration</i> <br>
 <b> Louis du plessis </b> </td>
-<td class="tutorial"> Tutorial 3 <br>
-Model Averaging <br>
+<td class="tutorial"> Tutorial 3: <br>
+<i>Model Averaging</i> <br>
 <b> Remco Bouckaert </b> </td>
-<td class="tutorial"> Tutorial 7 <br>
-Phylogeography in BEAST 2 <br>
+<td class="tutorial"> Tutorial 7: <br>
+<i>Phylogeography in BEAST&nbsp;2</i> <br>
 <b> Remco Bouckaert </b> </td>
 <td> Troubleshooting Personal Projects and Closing Remarks </td>
 </tr>
@@ -166,36 +164,36 @@ Phylogeography in BEAST 2 <br>
 
 <tr>
 <td> 15:30 </td>
-<td class="lecture"> Lecture <br>
-Introduction to Infectious Disease Phylodynamics <br>
+<td class="lecture"> Lecture: <br>
+<i>Introduction to Infectious Disease Phylodynamics</i> <br>
 <b> David Rasmussen </b> </td>
-<td class="lecture"> Lecture <br>
-Troubleshooting and Summarizing BEAST 2 Output <br>
+<td class="lecture"> Lecture: <br>
+<i>Troubleshooting and Summarizing BEAST&nbsp;2 Output</i> <br>
 <b> Jūlija Pečerska </b> </td>
-<td class="lecture"> Lecture <br>
-Advanced Birth-Death Models <br>
+<td class="lecture"> Lecture: <br>
+<i>Advanced Birth-Death Models</i> <br>
 <b> Jūlija Pečerska </b> </td>
-<td rowspan="4"> Departure </td>
+<td rowspan="4" class="padding"> Departure </td>
 </tr>
 
 <tr>
 <td> 16:30 </td>
-<td class="tutorial"> Tutorial 2 <br>
-Relaxed Phylogenetics in BEAST 2 <br>
+<td class="tutorial"> Tutorial 2: <br>
+<i>Relaxed Phylogenetics in BEAST&nbsp;2</i> <br>
 <b> Christiaan Swanepoel </b> </td>
-<td class="tutorial"> Tutorial 4 <br>
-Troubleshooting BEAST 2 <br>
+<td class="tutorial"> Tutorial 4: <br>
+<i>Troubleshooting BEAST&nbsp;2</i> <br>
 <b> Jūlija Pečerska </b> </td>
-<td class="tutorial"> Tutorial 8 <br>
-Population Structure using the Multitype Birth-Death Model <br>
+<td class="tutorial"> Tutorial 8: <br>
+<i>Population Structure using the Multitype Birth-Death Model</i> <br>
 <b> Jūlija Pečerska </b> </td>
 </tr>
 
 <tr>
 <td> 17:30 </td>
-<td></td>
-<td></td>
-<td></td>
+<td class="padding"></td>
+<td class="padding"></td>
+<td class="padding"></td>
 </tr>
 
 <tr>
@@ -224,8 +222,8 @@ Slides to lectures are available from [here]( https://github.com/{{ page.repo }}
 
 **You are required to bring your own laptop to the workshop.** Power strips are available for each participant to keep their devices charged during the workshop. The software below **must** be installed prior to arrival. 
 
-- **Java 8 or higher:** This is required by BEAST 2 [(download)](http://java.com/download).
-- **BEAST 2:** BEAST 2 is a cross-platform program for Bayesian phylogenetic analysis of molecular sequences. We will be using this software to perform analyses on the data brought to the workshop. We will be using **BEAST v2.6.0** for the workshop [(download)](http://beast2.org/).
+- **Java 8 or higher:** This is required by BEAST&nbsp;2 [(download)](http://java.com/download).
+- **BEAST&nbsp;2:** BEAST&nbsp;2 is a cross-platform program for Bayesian phylogenetic analysis of molecular sequences. We will be using this software to perform analyses on the data brought to the workshop. We will be using **BEAST v2.6.0** for the workshop [(download)](http://beast2.org/).
 - **FigTree:** FigTree is a graphical viewer of phylogenetic trees, specifically designed to display summarised and annotated trees produced by BEAST [(download)](http://beast.community/figtree).
 - **Tracer:** Tracer is a program for analysing the trace files generated by Bayesian MCMC runs. It can be used to check mixing, ESS, parameter correlations, etc. [(download)](http://beast.community/tracer).
 - **BEAGLE (optional):** BEAGLE is a high-performance library that can perform the core calculations in BEAST2 (and many other phylogenetics packages) much faster. BEAGLE isn't necessary for the workshop, but it will speed up your analyses [(download)](https://github.com/beagle-dev/beagle-lib).
@@ -245,7 +243,7 @@ We are aware that some of the workshop participants do not have a mathematical b
 
 ### Phylogenetics and phylodynamics books
 
-The books below are not all focused on BEAST or even Bayesian phylogenetics. However, each of the books contains at least one background chapter on the theory of molecular evolution, as well as more in-depth chapters on the models implemented in BEAST and BEAST 2. Most of the books also contain at least some discussion of Bayesian inference.
+The books below are not all focused on BEAST or even Bayesian phylogenetics. However, each of the books contains at least one background chapter on the theory of molecular evolution, as well as more in-depth chapters on the models implemented in BEAST and BEAST&nbsp;2. Most of the books also contain at least some discussion of Bayesian inference.
 
 - [Bayesian Evolutionary Analysis with BEAST](https://www.beast2.org/book/), _Alexei J. Drummond, Remco R. Bouckaert_
 - [Molecular Evolution: A Statistical Approach](http://abacus.gene.ucl.ac.uk/MESA/), _Ziheng Yang_
