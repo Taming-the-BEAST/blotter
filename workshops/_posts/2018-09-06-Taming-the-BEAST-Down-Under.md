@@ -8,7 +8,7 @@ longitude: 151.1835
 startdate: 2019-02-17
 enddate: 2019-02-22
 image: /images/workshops/Taming-the-BEAST-Down-Under-Logo.png
-
+repo: Taming-the-BEAST/Taming-the-BEAST-2019-Sydney-Lectures
 homepage: https://sydney.edu.au/science/biology/meep/workshops/
 flyer: /images/workshops/Taming-the-BEAST-Down-Under-Flyer.jpg
 
