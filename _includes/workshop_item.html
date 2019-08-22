@@ -1,0 +1,47 @@
+		
+		<div class="col-md-6 tutorialbox"> 
+			<div class="media">
+				<a class="pull-left" href="{{ workshop.homepage }}">
+					<img style="width: 160px" class="media-object" src="{{ workshop.image | prepend: site.baseurl }}">
+				</a>
+				<div class="media-body"> 
+					<div class="head">
+						<a href="{{ workshop.homepage }}" target="_blank" class="off">{{ workshop.title }}</a>			
+					</div>	
+					<div class="smallspacer"></div>			
+					<div class="pad-left smallnote">
+						<ul class="list-unstyled">
+		                    <div class="smallspacer"></div>
+		                    <li><i class="fa fa-clock-o fa-fw"></i>
+		                    {{ workshop.startdate | date: '%B %d, %Y' }}-{{ workshop.enddate | date: '%B %d, %Y' }}</li> 
+		                    <div class="smallspacer"></div>
+		                    <li><i class="fa fa-map-marker fa-fw"></i>
+		                    {% if workshop.latitude and workshop.longitude %}
+		                        <a class="off" target="_blank" href="http://www.google.com/maps/place/{{ workshop.latitude }},{{ workshop.longitude }}">{{ workshop.location }}</a>
+		                    {% else %}
+		                        {{ workshop.location }}
+		                    {% endif %}
+		                    </li>
+
+		                    {% if workshop.has_programme != false %}
+		                    <div class="smallspacer"></div>
+		                    <li><i class="fa fa-calendar fa-fw"></i>
+		                    <a class="off" href="{{ workshop.url | prepend: site.baseurl }}">Programme</a></li> 
+		                    {% endif %}
+		                    {% if workshop.repo %}
+		                    <div class="smallspacer"></div>
+		                    <li><i class="fa fa-file-text-o fa-fw"></i>
+		                    <a class="off" href="https://github.com/{{ workshop.repo }}">Lecture slides</a></li>
+		                    {% endif %}
+		                    {% if workshop.flyer %}
+		                    <div class="smallspacer"></div>
+		                    <li><i class="fa fa-picture-o fa-fw"></i>
+		                    <a class="off" target="_blank" href="{{ workshop.flyer }}">Flyer</a></li>
+		                    {% endif %}
+		                </ul>
+		    		</div> 
+				</div>		
+			</div>
+			<div class="bigspacer"></div>
+			<div class="bigspacer"></div>		
+		</div>

@@ -16,57 +16,30 @@ categories:
 
 <div class="bigspacer"></div>
 
+{% assign count = 0 %}
 {% for workshop in site.categories.workshops reversed %}
 	{% capture todaysdate %}{{ 'now' | date: '%s '}}{% endcapture %}
 	{% capture workshopdate %}{{ workshop.enddate | date: '%s '}}{% endcapture %}
-	{% if workshopdate >= todaysdate %}
-    {% cycle 'add rows': '<div class="row">', '', '' %}
-		<div class="col-md-6 memberbox">
-			<div class="media">
-  				<a class="pull-left" href="{{ workshop.homepage }}">
-    				<img width=160 class="media-object" src="{{ workshop.image | prepend: site.baseurl }}">
-  				</a>
- 			 	<div class="media-body">
-    				<div class="head media-heading"><a href="{{ workshop.homepage }}" target="_blank" class="off">{{ workshop.title }}</a></div>
-    				<div class="pad-left smallnote">
-    					<ul class="list-unstyled">
-                            <div class="smallspacer"></div>
-    						<li><i class="fa fa-clock-o fa-fw"></i>
-                            {{ workshop.startdate | date: '%B %d, %Y' }}-{{ workshop.enddate | date: '%B %d, %Y' }}</li> 
-                            <div class="smallspacer"></div>
-    						<li><i class="fa fa-map-marker fa-fw"></i>
-                            {% if workshop.latitude and workshop.longitude %}
-                                <a class="off" target="_blank" href="http://www.google.com/maps/place/{{ workshop.latitude }},{{ workshop.longitude }}">{{ workshop.location }}</a>
-                            {% else %}
-                                {{ workshop.location }}
-                            {% endif %}
-                            </li>
-                            {% if workshop.has_programme != false %}
-                            <div class="smallspacer"></div>
-                            <li><i class="fa fa-calendar fa-fw"></i>
-                            <a class="off" href="{{ workshop.url | prepend: site.baseurl }}">Programme</a></li> 
-                            {% endif %}
-                            {% if workshop.repo %}
-                            <div class="smallspacer"></div>
-                            <li><i class="fa fa-file-text-o fa-fw"></i>
-                            <a class="off" href="https://github.com/{{ workshop.repo }}">Lecture slides</a></li>
-                            {% endif %}
-                            {% if workshop.flyer %}
-                            <div class="smallspacer"></div>
-    						<li><i class="fa fa-picture-o fa-fw"></i>
-                            <a class="off" target="_blank" href="{{ workshop.flyer }}">Flyer</a></li>
-                            {% endif %}
-    					</ul>
-    				</div>    				
-  				</div>
-			</div>
-			<div class="bigspacer"></div>
-			<div class="bigspacer"></div>			
-        </div>	  
-    {% cycle 'close rows': '', '', '</div>' %}
+	{% if workshopdate >= todaysdate %} 
+        {% cycle 'add rows upcoming': '<div class="row">', '' %}   
+            {% include workshop_item.html %}
+            {% assign count = count | plus: 1 %}  
+        {% cycle 'close rows upcoming': '', '</div>' %}  
     {% endif %}
 {% endfor %}
-{% cycle 'close rows': '', '</div>', '</div>' %}
+
+{% if count == 0 %}
+<div class="row">
+    <div class="col-md-6 tutorialbox"> 
+        <div class="media text-gray">
+                Coming soon...
+        </div>
+        <div class="bigspacer"></div>
+        <div class="bigspacer"></div>
+    </div>
+</div>
+{% endif %}
+
 
 <div class="row">
 	<div class="col-md-12">
@@ -82,51 +55,8 @@ categories:
 	{% capture todaysdate %}{{ 'now' | date: '%s '}}{% endcapture %}
 	{% capture workshopdate %}{{ workshop.enddate | date: '%s '}}{% endcapture %}
 	{% if workshopdate < todaysdate %}
-    {% cycle 'add rows 2': '<div class="row">', '', '' %}
-		<div class="col-md-6 memberbox">
-			<div class="media">
-  				<a class="pull-left" href="{{ workshop.homepage }}">
-    				<img style="width: 160px" class="media-object" src="{{ workshop.image | prepend: site.baseurl }}">
-  				</a>
- 			 	<div class="media-body">
-    				<div class="head media-heading"><a href="{{ workshop.homepage }}" target="_blank" class="off">{{ workshop.title }}</a></div>
-    				<div class="pad-left smallnote">
-    					<ul class="list-unstyled">
-                            <div class="smallspacer"></div>
-                            <li><i class="fa fa-clock-o fa-fw"></i>
-                            {{ workshop.startdate | date: '%B %d, %Y' }}-{{ workshop.enddate | date: '%B %d, %Y' }}</li> 
-                            <div class="smallspacer"></div>
-                            <li><i class="fa fa-map-marker fa-fw"></i>
-                            {% if workshop.latitude and workshop.longitude %}
-                                <a class="off" target="_blank" href="http://www.google.com/maps/place/{{ workshop.latitude }},{{ workshop.longitude }}">{{ workshop.location }}</a>
-                            {% else %}
-                                {{ workshop.location }}
-                            {% endif %}
-                            </li>
-
-                            {% if workshop.has_programme != false %}
-                            <div class="smallspacer"></div>
-                            <li><i class="fa fa-calendar fa-fw"></i>
-                            <a class="off" href="{{ workshop.url | prepend: site.baseurl }}">Programme</a></li> 
-                            {% endif %}
-                            {% if workshop.repo %}
-                            <div class="smallspacer"></div>
-                            <li><i class="fa fa-file-text-o fa-fw"></i>
-                            <a class="off" href="https://github.com/{{ workshop.repo }}">Lecture slides</a></li>
-                            {% endif %}
-                            {% if workshop.flyer %}
-                            <div class="smallspacer"></div>
-                            <li><i class="fa fa-picture-o fa-fw"></i>
-                            <a class="off" target="_blank" href="{{ workshop.flyer }}">Flyer</a></li>
-                            {% endif %}
-                        </ul>
-    				</div>    				
-  				</div>
-			</div>
-			<div class="bigspacer"></div>
-			<div class="bigspacer"></div>			
-        </div>	  
-    {% cycle 'close rows 2': '', '', '</div>' %}
+            {% cycle 'add rows past': '<div class="row">', '' %}
+                {% include workshop_item.html %}
+            {% cycle 'close rows past': '', '</div>' %}
     {% endif %}
 {% endfor %}
-{% cycle 'close rows 2': '', '</div>', '</div>' %}
