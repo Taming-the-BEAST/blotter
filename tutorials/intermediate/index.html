@@ -13,7 +13,9 @@ filter: intermediate
 {% for tutorial in tutorials %}
 	{% assign level = tutorial.level | downcase %}
 	{% if level == page.filter %}
-	    {% include tutorial_item.html %}
+		{% cycle 'add rows': '<div class="row">', '', '' %}
+	    	{% include tutorial_item.html %}
+	   	{% cycle 'close rows': '', '', '</div>' %}
 	{% endif %}
 {% endfor %}
 

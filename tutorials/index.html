@@ -16,10 +16,12 @@ filter: all
 		{% endif %}
 	{% endfor %} 
 		
-    {% include tutorial_item.html %}
+	{% cycle 'add rows': '<div class="row">', '', '' %}
+    	{% include tutorial_item.html %}
+   	{% cycle 'close rows': '', '', '</div>' %}
+
 
 {% endfor %}
-{% cycle 'close rows': '', '</div>', '</div>' %}
 
 <hr>
 
