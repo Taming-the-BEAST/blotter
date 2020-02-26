@@ -8,7 +8,7 @@ We are very happy to announce that registration for the next Taming
 the BEAST workshop, to be held in Oberägeri, Switzerland, is
 [now open](https://bsse.ethz.ch/cevo/taming-the-beast/overview-2020/registration.html)!
 
-The workshop will take place from **May 29 through to June 5, 2020,** 
+The workshop will take place from **May 31 through to June 5, 2020,** 
 and is once again being organized by members of Tanja Stadler's
 Computational Evolution Group, [cEvo](https://www.bsse.ethz.ch/cevo).
 
