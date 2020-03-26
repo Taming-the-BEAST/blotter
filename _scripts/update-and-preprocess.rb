@@ -8,6 +8,11 @@ config = YAML.load_file("_config.yml")
 
 config["tutorials"].each do |repo|
 	name = repo.split('/').drop(1).join('')		
+
+        # if name != "Reassortment-Tutorial"
+        #   next
+        # end
+
 	Dir.chdir($basedir + "/tutorials")			
 	if !Dir.exists?(name)								# clone tutorial repo
 		`git clone --depth 1 https://github.com/#{repo}.git`

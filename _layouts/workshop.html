@@ -27,7 +27,12 @@ layout: default
                         {% endif %}
 		</div>
 		<div class="smallhead">
-			{{ page.startdate | date: '%B %d, %Y' }}-{{ page.enddate | date: '%B %d, %Y' }}</li> 
+                  {% if page.is_postponed %}
+                  <span style="font-weight: bold; color: red;">Postponed</span>
+                  {% else %}
+		  {{ page.startdate | date: '%B %d, %Y' }}-{{ page.enddate | date: '%B %d, %Y' }}
+                  {% endif %}
+</li> 
 		</div>
 	</div>		
 

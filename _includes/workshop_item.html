@@ -13,7 +13,11 @@
 						<ul class="list-unstyled">
 		                    <div class="smallspacer"></div>
 		                    <li><i class="fa fa-clock-o fa-fw"></i>
-		                    {{ workshop.startdate | date: '%B %d, %Y' }}-{{ workshop.enddate | date: '%B %d, %Y' }}</li> 
+                                    {% if workshop.is_postponed %}
+                                      <span style="font-weight: bold; color: red">Postponed</span>
+                                    {% else %}
+                                    {{ workshop.startdate | date: '%B %d, %Y' }}-{{ workshop.enddate | date: '%B %d, %Y' }}</li> 
+                                    {% endif %}
 		                    <div class="smallspacer"></div>
 		                    <li><i class="fa fa-map-marker fa-fw"></i>
 		                    {% if workshop.latitude and workshop.longitude %}

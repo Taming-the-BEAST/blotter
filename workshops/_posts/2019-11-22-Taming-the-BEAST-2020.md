@@ -12,7 +12,12 @@ homepage: https://bsse.ethz.ch/cevo/taming-the-beast/overview-2020.html
 flyer: /images/workshops/Taming-the-BEAST-2020-Flyer.jpg
 
 has_programme: true
+is_postponed: true
 ---
+
+**This workshop has been postponed due to the COVID-19 pandemic.
+New dates for the workshop will be announced when they are available.**
+
 # Workshop Programme
 
 **Important:** this is a draft programme only and may be subject to change.
@@ -22,12 +27,12 @@ has_programme: true
 
 <tr>
 <th></th>
-<th> Sunday <br> 2020/05/31 </th>
-<th> Monday <br> 2020/06/01</th>
-<th> Tuesday <br> 2020/06/02 </th>
-<th> Wednesday <br> 2020/06/03 </th>
-<th> Thursday <br> 2020/06/04 </th>
-<th> Friday <br> 2020/06/05 </th>
+<th> Sunday <!--<br> 2020/05/31 </th>-->
+<th> Monday <!--<br> 2020/06/01</th>-->
+<th> Tuesday <!--<br> 2020/06/02 </th>-->
+<th> Wednesday <!--<br> 2020/06/03 </th>-->
+<th> Thursday <!--<br> 2020/06/04 </th>-->
+<th> Friday <!--<br> 2020/06/05 </th>-->
 </tr>
 
 </thead>
