@@ -27,8 +27,8 @@ layout: default
                         {% endif %}
 		</div>
 		<div class="smallhead">
-                  {% if page.is_postponed %}
-                  <span style="font-weight: bold; color: red;">Postponed</span>
+                  {% if page.is_cancelled %}
+                  <span style="font-weight: bold; color: red;">Cancelled</span>
                   {% else %}
 		  {{ page.startdate | date: '%B %d, %Y' }}-{{ page.enddate | date: '%B %d, %Y' }}
                   {% endif %}

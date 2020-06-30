@@ -13,8 +13,8 @@
 						<ul class="list-unstyled">
 		                    <div class="smallspacer"></div>
 		                    <li><i class="fa fa-clock-o fa-fw"></i>
-                                    {% if workshop.is_postponed %}
-                                      <span style="font-weight: bold; color: red">Postponed</span>
+                                    {% if workshop.is_cancelled %}
+                                      <span style="font-weight: bold; color: red">Cancelled</span>
                                     {% else %}
                                     {{ workshop.startdate | date: '%B %d, %Y' }}-{{ workshop.enddate | date: '%B %d, %Y' }}</li> 
                                     {% endif %}

@@ -12,11 +12,11 @@ homepage: https://bsse.ethz.ch/cevo/taming-the-beast/overview-2020.html
 flyer: /images/workshops/Taming-the-BEAST-2020-Flyer.jpg
 
 has_programme: true
-is_postponed: true
+is_cancelled: true
 ---
 
-**This workshop has been postponed due to the COVID-19 pandemic.
-New dates for the workshop will be announced when they are available.**
+**This workshop has been CANCELLED due to the COVID-19 pandemic.**
+
 
 # Workshop Programme
 
