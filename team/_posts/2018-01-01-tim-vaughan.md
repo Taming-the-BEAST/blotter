@@ -2,7 +2,7 @@
 layout: member
 title: Tim Vaughan
 handle: Tim
-email: tgvaughan@gmail.com
+email: timv@ughan.xyz
 github: tgvaughan
 scholar: u1smC2cAAAAJ
 image: /images/team/tim-vaughan.png
