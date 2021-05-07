@@ -150,7 +150,7 @@ Slides to lectures are available from [here]( https://github.com/{{ page.repo }}
 
 # Required Software
 
-**You are required to bring your own laptop to the workshop.** Power strips are available for each participant to keep their devices charged during the workshop. The software below **must** be installed prior to arrival. 
+Please ensure the following software is installed prior to the start of the workshop.
 
 - **Java 8 or higher:** This is required by BEAST 2 [(download)](https://adoptopenjdk.net/).
 - **BEAST 2:** BEAST 2 is a cross-platform program for Bayesian phylogenetic analysis of molecular sequences. We will be using this software to perform analyses on the data brought to the workshop. We will be using **BEAST v2.6** for the workshop [(download)](http://beast2.org/).
