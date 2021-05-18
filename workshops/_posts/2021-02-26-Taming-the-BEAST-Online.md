@@ -13,7 +13,7 @@ has_programme: true
 
 # Workshop Programme
 
-**Important:** this programme may be subject to change.
+**Important:** this programme may be subject to change. Times are in Central European Summer Time (UTC+2).
 
 <table>
 <thead>
