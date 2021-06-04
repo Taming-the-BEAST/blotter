@@ -134,12 +134,15 @@ has_programme: true
 
 <tr>
 <td> 18:00 </td>
-<td colspan="5"> End of Day </td>
+<td colspan="2"> End of Day </td>
+<td class="social"> Virtual Beers </td>
+<td colspan="2"> End of Day </td>
 <!-- <td> End of Day </td> -->
 <!-- <td> End of Day </td> -->
 <!-- <td> End of Day </td> -->
 <!-- <td> End of Day </td> -->
 </tr>
+
 
 
 </tbody>
