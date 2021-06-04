@@ -74,10 +74,16 @@ has_programme: true
 <tr>
 <td> 12:45 </td>
 <td class="food">Lunch Break</td>
+<td class="food" rowspan="2">Lunch Break</td>
 <td class="food">Lunch Break</td>
-<td class="food">Lunch Break</td>
-<td class="food">Lunch Break</td>
-<td class="food">Lunch Break</td>
+<td class="food" rowspan="2">Lunch Break</td>
+<td class="food" rowspan="2">Lunch Break</td>
+</tr>
+
+<tr>
+<td> 13:30 </td>
+<td class="social">Icebreaker Games</td>
+<td class="social">TTB Pictionary</td>
 </tr>
 
 <tr>
