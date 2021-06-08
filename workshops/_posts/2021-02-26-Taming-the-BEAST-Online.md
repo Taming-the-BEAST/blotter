@@ -34,7 +34,7 @@ has_programme: true
 <tr>
 <td> 09:00</td>
 <td> <b> Workshop Welcome </b> </td>
-<td rowspan="2" class="invited-lecture"> <b>Tanja Stadler</b> <br> Introduction to Phylodynamic Models </td>
+<td rowspan="2" class="invited-lecture"> <b>Tanja Stadler</b> <br> Introduction to Phylodynamic Models (<a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2021-Online-Lectures/raw/master/Day2_Phylodynamics_-_Tanja_Stadler.pdf">slides</a>) </td>
 <td rowspan="2" class="invited-lecture"> <b>Remco Bouckaert </b> <br> Language evolution and phylogeography </td>
 <td rowspan="2" class="invited-lecture"> <b>Denise Kühnert</b> <br> Modelling epidemics with BEAST 2 </td>
 <td rowspan="2" class="lecture"> <b>Tim Vaughan</b> <br> Epidemic trajectory inference and multi-species models </td>
@@ -59,7 +59,7 @@ has_programme: true
 <td> 11:15 </td>
 <td class="tutorial">
     First Steps in BEAST <br>
-     (lecture, tutorial)
+     (lecture (<a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2021-Online-Lectures/raw/master/Day1_First_Steps_-_Ceci_Valenzuela.pdf">slides), tutorial)
      </td>
 <td class="tutorial"> Fossilized Birth Death Model <br>
      (tutorial) </td>
@@ -110,10 +110,10 @@ has_programme: true
 
 <tr>
 <td> 16:15 </td>
-<td class="lecture"> Setting Priors <br>
+<td class="lecture"> Setting Priors (<a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2021-Online-Lectures/raw/master/Day1_Setting_Priors_-_Sarah_Nadeau.pdf">slides</a>) <br>
     (lecture) </td>
 <td class="lecture"> BEAST 2 Trouble-shooting <br>
-    (lecture) </td>
+    (lecture (<a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2021-Online-Lectures/raw/master/Day2_Troubleshooting_-_Tim_Vaughan.pdf">slides</a>)) </td>
 <td class="help-session" rowspan="2"> BEAST Clinic </td>
 <td class="lecture">
     Understanding BEAST&nbsp;2 XML <br>
