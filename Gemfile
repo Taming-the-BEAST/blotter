@@ -1,12 +1,7 @@
 source 'https://rubygems.org'
 
 # jekyll
-gem "jekyll", "3.6.3"
-gem "redcarpet"
-
-# compiling less
-gem 'therubyracer'
-gem 'less'
+gem "jekyll"
 
 # minifying
 gem 'jekyll-press'
@@ -23,3 +18,5 @@ gem 'rouge'
 gem 'listen'
 
 gem 'unicode'
+
+gem 'jekyll-katex'

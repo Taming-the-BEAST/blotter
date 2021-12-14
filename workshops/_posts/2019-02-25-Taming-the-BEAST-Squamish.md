@@ -99,7 +99,6 @@ Tree Priors, Clocks and Skylines <br>
 <i>Bayesian Skyline Plot and Birth-Death Skyline Tutorial</i> <br>
 <b> Louis du Plessis </b><br>
 (<a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2019-Eh-Lectures/raw/master/2019-08-14_Skylines.pdf">slides</a>, <a href="/tutorials/Skyline-plots/">tutorial</a>) </td>
- </td>
 <td class="tutorial"> Tutorial 6: <br>
 <i>Fossilized Birth-Death Model</i> <br>
 <b> Joëlle Barido-Sottani </b><br>
@@ -149,6 +148,7 @@ Invited Lecture: <br>
 <b> Claudia Solís-Lemus </b> <br>
 (Emory Univ.) <br>
 (<a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2019-Eh-Lectures/raw/master/2019-08-16_BigData.pdf">slides</a>)
+</td>
 </tr>
 <tr>
 <td> 12:30 </td>
@@ -214,7 +214,6 @@ Invited Lecture: <br>
 <i>Prior Selection and Clock Calibration</i> <br>
 <b> Louis du plessis </b><br>
 (<a href="https://github.com/Taming-the-BEAST/Taming-the-BEAST-2019-Eh-Lectures/raw/master/2019-08-12_SettingPriors.pdf">slides</a>, <a href="/tutorials/Prior-selection/">tutorial</a>) </td>
-</td>
 <td class="tutorial"> Tutorial 4: <br>
 <i>Troubleshooting BEAST&nbsp;2</i> <br>
 <b> Jūlija Pečerska </b><br>

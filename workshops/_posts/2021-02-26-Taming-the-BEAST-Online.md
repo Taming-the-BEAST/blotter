@@ -21,11 +21,11 @@ has_programme: true
 
 <tr>
 <th></th>
-<th> Monday
-<th> Tuesday
-<th> Wednesday
-<th> Thursday
-<th> Friday
+<th> Monday </th>
+<th> Tuesday </th>
+<th> Wednesday </th>
+<th> Thursday </th>
+<th> Friday </th>
 </tr>
 
 </thead>

@@ -27,12 +27,12 @@ is_cancelled: true
 
 <tr>
 <th></th>
-<th> Sunday <!--<br> 2020/05/31 </th>-->
-<th> Monday <!--<br> 2020/06/01</th>-->
-<th> Tuesday <!--<br> 2020/06/02 </th>-->
-<th> Wednesday <!--<br> 2020/06/03 </th>-->
-<th> Thursday <!--<br> 2020/06/04 </th>-->
-<th> Friday <!--<br> 2020/06/05 </th>-->
+<th> Sunday </th> <!--<br> 2020/05/31 </th>-->
+<th> Monday </th> <!--<br> 2020/06/01</th>-->
+<th> Tuesday </th> <!--<br> 2020/06/02 </th>-->
+<th> Wednesday </th> <!--<br> 2020/06/03 </th>-->
+<th> Thursday </th> <!--<br> 2020/06/04 </th>-->
+<th> Friday </th> <!--<br> 2020/06/05 </th>-->
 </tr>
 
 </thead>
