@@ -1,6 +1,6 @@
 ---
 ---
-@import "bootstrap.min.css";
+// @import "../bootstrap/css/bootstrap.min.css";
 
 $brand-primary: #DD2D2D;
 $line-height-base: 1.6;
@@ -37,15 +37,6 @@ h6, .h6 { font-size: ceil($font-size-base * 0.85); }  /* ~12px */
 .reduced-gutter {
   padding-right: 10px;
   padding-left: 10px;
-}
-
-/* typekit */
-
-.wf-loading {
-    visibility: hidden;
-}
-.wf-active {
-	visibility: visible;
 }
 
 /* general */
@@ -104,17 +95,14 @@ h6 {
 .navbar-brand { 
 	font-size: 60px; 
 	font-weight: 100;
-	/* Museo */	
 }
 .navbar-nav { 
 	font-size: 30px; 
 	font-weight: 100;
-	/* Museo */	
 }
 .navbar-text {
 	font-size: 15px;
 	font-weight: 300;	
-	/* Museo */		
 }
 
 /* headings */
@@ -377,7 +365,6 @@ table td.lecture {
 
 table td.help-session {
     background-color: #faa;
-    // color: black;
 }
 
 table td.invited-lecture {

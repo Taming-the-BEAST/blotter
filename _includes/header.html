@@ -1,55 +1,37 @@
-<div id="header">
-	<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
-		<div class="container">	
+<!-- <div id="header"> -->
 
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-element" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				{% if page.categories.first != 'home' %}					
-				<a class="navbar-brand" href="{{ site.baseurl }}/">Taming the BEAST</a>
-				<object class="logo navbar-brand" data="{{ site.baseurl }}/images/logo_bw.svg" type="image/svg+xml"></object>
-				{% endif %}
-			</div>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div clas="container-fluid">
+      <div class="navbar-header"
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           {% if page.categories.first != 'home' %}
+           <a class="navbar-brand" href="{{ site.baseurl }}/">Taming the BEAST</a>
+           <object class="logo navbar-brand" data="{{ site.baseurl }}/images/logo_bw.svg" type="image/svg+xml"></object>
+           {% endif %}
+    </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link {% if page.categories.first == 'news' %} active {% endif %}" aria-current="page" href="{{site.baseurl}}/news/">news</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if page.categories.first == 'workshops' %} active {% endif %}" href="{{site.baseurl}}/workshops/">workshops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if page.categories.first == 'tutorials' %} active {% endif %}" href="{{site.baseurl}}/tutorials/">tutorials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if page.categories.first == 'contribute' %} active {% endif %}" href="{{site.baseurl}}/contribute/">contribute</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" type="application/rss+xml" href="{{ site.baseurl }}/feed.news.xml">
+              <i class="bi bi-rss"></i>
+          </a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </nav>
 
-			<div class="collapse navbar-collapse" id="navbar-collapse-element">
-				<ul class="nav navbar-nav navbar-right">					
-					{% if page.categories.first == 'news' %}
-					<li class="active">
-					{% else %}
-					<li>
-					{% endif %}
-					<a href="{{ site.baseurl }}/news/">news</a></li>
-
-					{% if page.categories.first == 'workshops' %}
-                                        <li class="active">
-					{% else %}
-                                        <li>
-					{% endif %}
-                                        <a href="{{ site.baseurl }}/workshops/">workshops</a></li>
-
-					{% if page.categories.first == 'tutorials' %}
-					<li class="active">
-					{% else %}
-					<li>
-					{% endif %}
-					<a href="{{ site.baseurl }}/tutorials/">tutorials</a></li>	    	  
-
-					{% if page.categories.first == 'contribute' %}
-					<li class="active">
-					{% else %}
-					<li>
-					{% endif %}
-					<a href="{{ site.baseurl }}/contribute/">contribute</a></li>
-					<li><a type="application/rss+xml" href="{{ site.baseurl }}/feed.news.xml"><i class="fa fa-rss"></i></a></li>
-				</ul>
-			</div>
-			
-		</div>
-	</nav>	
-</div>
-
-<!--div class="headerspacer"></div-->
+<!-- </div> -->
