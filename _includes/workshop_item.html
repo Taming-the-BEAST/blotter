@@ -12,14 +12,14 @@
 					<div class="pad-left smallnote">
 						<ul class="list-unstyled">
 		                    <div class="smallspacer"></div>
-		                    <li><i class="fa fa-clock-o fa-fw"></i>
+		                    <li><i class="bi bi-clock"></i>
                                     {% if workshop.is_cancelled %}
                                       <span style="font-weight: bold; color: red">Cancelled</span>
                                     {% else %}
                                     {{ workshop.startdate | date: '%B %d, %Y' }}-{{ workshop.enddate | date: '%B %d, %Y' }}</li> 
                                     {% endif %}
 		                    <div class="smallspacer"></div>
-		                    <li><i class="fa fa-map-marker fa-fw"></i>
+		                    <li><i class="bi bi-pin-map"></i>
 		                    {% if workshop.latitude and workshop.longitude %}
 		                        <a class="off" target="_blank" href="http://www.google.com/maps/place/{{ workshop.latitude }},{{ workshop.longitude }}">{{ workshop.location }}</a>
 		                    {% else %}
@@ -29,17 +29,17 @@
 
 		                    {% if workshop.has_programme != false %}
 		                    <div class="smallspacer"></div>
-		                    <li><i class="fa fa-calendar fa-fw"></i>
+		                    <li><i class="bi bi-calendar-week"></i>
 		                    <a class="off" href="{{ workshop.url | prepend: site.baseurl }}">Programme</a></li> 
 		                    {% endif %}
 		                    {% if workshop.repo %}
 		                    <div class="smallspacer"></div>
-		                    <li><i class="fa fa-file-text-o fa-fw"></i>
+		                    <li><i class="bi bi-file-text"></i>
 		                    <a class="off" href="https://github.com/{{ workshop.repo }}">Lecture slides</a></li>
 		                    {% endif %}
 		                    {% if workshop.flyer %}
 		                    <div class="smallspacer"></div>
-		                    <li><i class="fa fa-picture-o fa-fw"></i>
+		                    <li><i class="bi bi-file-image"></i>
 		                    <a class="off" target="_blank" href="{{ workshop.flyer }}">Flyer</a></li>
 		                    {% endif %}
 		                </ul>
