@@ -7,103 +7,97 @@ category: news
 ---
 
 <div class="row">
-	<div class="col-md-12">
-		<div class="centered-pills">
-			<ul class="nav nav-pills note">
-				<li role="presentation" class="active">
-					<a class="off" href="{{ site.baseurl }}/news/">
-						<i class="bi bi-arrow-repeat"></i> Timeline
-					</a>
-				</li>
-				<li role="presentation">
-					<a class="off" href="{{ site.baseurl }}/news/archive/">
-						<i class="bi bi-list-ul"></i> Index
-					</a>
-				</li>
-				<li role="presentation">
-					<a class="off" href="{{ site.baseurl }}/news/archive/">
-						<a class="off" type="application/rss+xml" href="{{ site.baseurl }}/feed.news.xml"><i class="bi bi-rss"></i> Subscribe</a>
-					</a>
-				</li>
-			</ul>
-		</div>
-		<div class="bigspacer"></div>
-	</div>
+  <div class="col-md-12">
+    <ul class="nav nav-pills justify-content-center">
+      <a class="nav-link" href="{{ site.baseurl }}/news/">
+        <i class="bi bi-arrow-repeat"></i> Timeline
+      </a>
+      <a class="nav-link" href="{{ site.baseurl }}/news/archive/">
+        <i class="bi bi-list-ul"></i> Index
+      </a>
+      <a class="nav-link" type="application/rss+xml"
+         href="{{ site.baseurl }}/feed.news.xml">
+        <i class="bi bi-rss"></i> Subscribe
+      </a>
+    </ul>
+  </div>
 </div>
+
+<div class="bigspacer"></div>
 
 <div class="post-list">
 
 {% for post in site.categories.news limit: 8 %}
 
-	{% for member in site.categories.team %}
-		{% if member.title == post.author %}
-			{% assign author = member %}
-		{% endif %}
-	{% endfor %}
+    {% for member in site.categories.team %}
+        {% if member.title == post.author %}
+            {% assign author = member %}
+        {% endif %}
+    {% endfor %}
 
-	<div class="blog-post">
-		<div class="row">
-			<div class="col-md-2"></div>	
-			<div class="col-md-8">
-				<div class="media">
-					<div class="media-body">
-						<div class="title media-heading">
-							<a href="{{ post.url | prepend: site.baseurl }}" class="off">{{ post.title }}</a>
-						</div>
-						<p>
-						<div class="smallhead">
-							{{ post.date | date: "%-d %b %Y" }}
-							{% if author %}
-							by <a class="off" href="{{ author.url | prepend: site.baseurl }}">{{ author.handle }}</a>
-							{% endif %}		
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-1"></div>					
-		</div>
+    <div class="blog-post">
+      <div class="row">
+        <div class="col-md-2"></div>	
+        <div class="col-md-8">
+          <div class="media">
+            <div class="media-body">
+              <div class="title media-heading">
+                <a href="{{ post.url | prepend: site.baseurl }}" class="off">{{ post.title }}</a>
+              </div>
+              <p>
+                <div class="smallhead">
+                  {{ post.date | date: "%-d %b %Y" }}
+                  {% if author %}
+                    by <a class="off" href="{{ author.url | prepend: site.baseurl }}">{{ author.handle }}</a>
+                  {% endif %}		
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>					
+      </div>
 
-		<div class="bigspacer"></div>
+      <div class="bigspacer"></div>
 
-		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-8">	
-				{% if post.image %}
-				{% if post.link %}
-				<a href="{{ post.link  | prepend: site.baseurl }}">
-					<img class="offset" src="{{ post.image  | prepend: site.baseurl }}">
-				</a>			
-				{% else %}
-				<img class="offset" src="{{ post.image  | prepend: site.baseurl }}">
-				{% endif %}				
-				{% endif %}
-				<div class="post">
-					{{ post.content }}
-				</div>	
-			</div>			
-			<div class="col-md-1"></div>
-		</div>
-	
-		<div class="bigspacer"></div>
-		<div class="spacer"></div>	
-	
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">	
+          {% if post.image %}
+            {% if post.link %}
+                <a href="{{ post.link  | prepend: site.baseurl }}">
+                    <img class="offset" src="{{ post.image  | prepend: site.baseurl }}">
+                </a>			
+            {% else %}
+                <img class="offset" src="{{ post.image  | prepend: site.baseurl }}">
+            {% endif %}				
+          {% endif %}
+          <div class="post">
+            {{ post.content }}
+          </div>	
+        </div>			
+        <div class="col-md-1"></div>
+      </div>
 
-	</div>
+      <div class="bigspacer"></div>
+      <div class="spacer"></div>	
+
+
+    </div>
 
 {% endfor %}
 
 </div>
 
 <div class="row">
-	<div class="col-md-12">
-		<div id="scroll" class="centered-pills">
-			<ul class="nav nav-pills note">
-				<li role="presentation">
-					<a class="off" href="{{ site.baseurl }}/news/">
-						<i class="bi bi-arrow-up-square"></i> Back to top
-					</a>
-				</li>				
-			</ul>
-		</div>
-	</div>
+  <div class="col-md-12">
+    <div id="scroll" class="centered-pills">
+      <ul class="nav nav-pills note">
+        <li role="presentation">
+          <a class="off" href="{{ site.baseurl }}/news/">
+            <i class="bi bi-arrow-up-square"></i> Back to top
+          </a>
+        </li>				
+      </ul>
+    </div>
+  </div>
 </div>

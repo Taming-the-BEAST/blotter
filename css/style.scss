@@ -1,6 +1,7 @@
 ---
 ---
-// @import "../bootstrap/css/bootstrap.min.css";
+
+@import "bootstrap/scss/bootstrap.scss";
 
 $brand-primary: #DD2D2D;
 $line-height-base: 1.6;
@@ -236,6 +237,7 @@ table {
 }
 
 img {
+    @include img-fluid();
 }
 
 img.offset {
@@ -281,10 +283,6 @@ figcaption {
 .feedbox {
     height: 320px;
     overflow: hidden;    
-	-webkit-mask-image: -webkit-gradient(linear, left 85%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));   
-/*	-webkit-box-shadow: inset 0 -30px 10px -10px white; */
-/*	   -moz-box-shadow: inset 0 -30px 10px -10px white; */
-/*	        box-shadow: inset 0 -30px 10px -10px white; */
 }
 
 .postbox {
