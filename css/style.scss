@@ -1,9 +1,9 @@
 ---
 ---
 
-@import "bootstrap/scss/bootstrap.scss";
+$primary: #DD2D2D;
 
-$brand-primary: #DD2D2D;
+
 $line-height-base: 1.6;
 $navbar-height: 100px;
 $navbar-margin-bottom: 30px;
@@ -17,10 +17,10 @@ $navbar-default-bg: #f8f8f8;
 $navbar-default-border: #e7e7e7;
 $blockquote-bg: #eeeef8;  
 $nav-pills-active-link-hover-bg: $navbar-default-bg;
+$nav-pills-link-active-color: black;
+$nav-pills-link-active-bg: $navbar-default-bg;
 
-// @import "/css/font-awesome/font-awesome.less";
-
-$font-size-base: 1em;
+$font-size-base: 1rem;
 
 h1, .h1 { font-size: floor($font-size-base * 2.50); } /* ~34px */
 h2, .h2 { font-size: floor($font-size-base * 2.15); } /* ~30px */
@@ -29,32 +29,10 @@ h4, .h4 { font-size: ceil($font-size-base * 1.25); }  /* ~18px */
 h5, .h5 { font-size:  $font-size-base; }
 h6, .h6 { font-size: ceil($font-size-base * 0.85); }  /* ~12px */
 
-// 20px gutter
-.reduced-gutter.row {
-  margin-right: -10px;
-  margin-left: -10px;
-}
-.reduced-gutter {
-  padding-right: 10px;
-  padding-left: 10px;
-}
+@import "bootstrap/scss/bootstrap";
+
 
 /* general */
-
-.container {
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-weight: 300;
-	/* Museo */	
-}
 
 a {
     text-decoration: none;
@@ -102,7 +80,7 @@ a:hover {
 
 #header {
     background-color: $navbar-default-bg;
-    border-color: $navbar-default-border;
+    border-bottom: 1px solid $navbar-default-border;
 }
 
 
@@ -117,6 +95,10 @@ a:hover {
 .navbar-text {
 	font-size: 15px;
 	font-weight: 300;	
+}
+
+a.nav-link {
+    color: $gray-900;
 }
 
 /* headings */
@@ -171,11 +153,11 @@ a:hover {
 }
 
 .text-gray {
-	color: lightgray;
+    color: #777777;
 }
 
 .text-dark-gray {
-	color: gray;
+    color: gray;
 }
 
 /* other */
@@ -234,6 +216,8 @@ pre code {
 }
 
 table {
+    @extend .table;
+    @extend .table-striped;
 }
 
 img {
@@ -340,26 +324,14 @@ figcaption {
 }
 
 .footernav {
-	text-align: center;
-	margin-right: 2px;
-        border: none;
+    @extend .note;
+    @extend .text-gray;
+    text-align: center;
+    margin-right: 2px;
+    border: none;
+    background-color: $navbar-default-bg;
 }
 
-.centered-pills {  
-    text-align: center
-}
-.centered-pills ul.nav-pills {
-    display: inline-block
-}
-.centered-pills li {
-    display: inline
-}
-.centered-pills a {
-    float: left
-}
-* html .centered-pills ul.nav-pills, *+html .centered-pills ul.nav-pills {
-    display: inline
-}
 
 /* Workshop programme styling */
 

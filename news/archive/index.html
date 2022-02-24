@@ -6,24 +6,23 @@ categories:
 ---
 
 <div class="row">
-	<div class="col-md-12">
-		<div class="centered-pills">
-			<ul class="nav nav-pills note">
-				<li role="presentation">
-					<a class="off" href="{{ site.baseurl }}/news/">
-						<i class="bi bi-arrow-repeat"></i> Timeline
-					</a>
-				</li>
-				<li role="presentation" class="active">
-					<a class="off" href="{{ site.baseurl }}/news/archive/">
-						<i class="bi bi-list-ul"></i> Index
-					</a>
-				</li>
-			</ul>
-		</div>
-		<div class="bigspacer"></div>
-	</div>
+  <div class="col-md-12">
+    <ul class="nav nav-pills justify-content-center">
+      <a class="nav-link" href="{{ site.baseurl }}/news/">
+        <i class="bi bi-arrow-repeat"></i> Timeline
+      </a>
+      <a class="nav-link active" href="{{ site.baseurl }}/news/archive/">
+        <i class="bi bi-list-ul"></i> Index
+      </a>
+      <a class="nav-link" type="application/rss+xml"
+         href="{{ site.baseurl }}/feed.news.xml">
+        <i class="bi bi-rss"></i> Subscribe
+      </a>
+    </ul>
+  </div>
 </div>
+
+<div class="bigspacer"></div>
 
 {% for post in site.categories.news %}
 
