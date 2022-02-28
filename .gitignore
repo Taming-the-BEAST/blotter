@@ -8,6 +8,9 @@ projects/
 # Tutorials
 tutorials/
 !tutorials/index.html
+!tutorials/beginner/
+!tutorials/intermediate/
+!tutorials/professional/
 
 # Jekyll metadata
 .jekyll-metadata
