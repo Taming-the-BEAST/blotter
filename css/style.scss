@@ -170,6 +170,11 @@ p {
 	font-weight: 300;
 }
 
+b, strong {
+    font-weight: bold;
+}
+    
+
 .hugespacer {
 	height: 50px;
 }
@@ -240,14 +245,28 @@ img.avatar {
 }
 
 blockquote {
-	p {
-    font-size: ($font-size-base * 1.00);
+    padding: (($line-height-base - 1) / 2);
+    margin: 0 0 ($line-height-base / 2);
+    font-size: ($font-size-base - 1); // 14px to 13px
+    line-height: $line-height-base;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    background-color: $blockquote-bg;
+
+    p {
+        font-size: ($font-size-base * 1.00);
+        color: #777777;
     }
 }
 
+figure {
+    text-align: center;
+}
+
 figcaption {
-	text-align: center;
-	font-size: 90%;
+    color: #777777;
+    text-align: center;
+    font-size: 90%;
 }
 
 .breadcrumb {
