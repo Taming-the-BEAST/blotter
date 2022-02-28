@@ -97,6 +97,7 @@ tutorials:
   - nicfel/CoupledMCMC-Tutorial
   - KonstantinHoffmann/LanguagePhylogenies
   - nicfel/Reassortment-Tutorial
+  - boskovav/PIQMEE-Tutorial
 
 plugins:
   - jekyll-katex
