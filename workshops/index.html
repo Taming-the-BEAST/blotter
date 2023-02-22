@@ -21,10 +21,10 @@ categories:
 	{% capture todaysdate %}{{ 'now' | date: '%s '}}{% endcapture %}
 	{% capture workshopdate %}{{ workshop.enddate | date: '%s '}}{% endcapture %}
 	{% if workshopdate >= todaysdate %} 
-        {% cycle 'add rows upcoming': '<div class="row">', '' %}   
-            {% include workshop_item.html %}
+            <div class="row">
+                {% include workshop_item.html %}
+            </div>
             {% assign count = count | plus: 1 %}  
-        {% cycle 'close rows upcoming': '', '</div>' %}  
     {% endif %}
 {% endfor %}
 
@@ -40,6 +40,7 @@ categories:
 </div>
 {% endif %}
 
+<div class="bigspacer"></div>
 
 <div class="row">
 	<div class="col-md-12">
