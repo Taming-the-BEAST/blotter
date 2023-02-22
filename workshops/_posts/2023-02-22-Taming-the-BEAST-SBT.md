@@ -6,6 +6,7 @@ startdate: 2023-08-14
 enddate: 2023-08-18
 image: /images/workshops/Taming-the-BEAST-SBT-Logo.png
 homepage: https://ttbcanada.ca/
+repo: false
 flyer: /images/workshops/Taming-the-BEAST-SBT-Flyer.jpg
 
 has_programme: false
