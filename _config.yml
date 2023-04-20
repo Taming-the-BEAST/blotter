@@ -98,6 +98,7 @@ tutorials:
   - KonstantinHoffmann/LanguagePhylogenies
   - nicfel/Reassortment-Tutorial
   - boskovav/PIQMEE-Tutorial
+  - bethany-j-allen/Skyline-analyses-for-macroevolution
 
 plugins:
   - jekyll-katex
