@@ -81,11 +81,11 @@ tutorials:
   - taming-the-beast/Bacter-Tutorial
   - taming-the-beast/StarBeast-Tutorial
   - taming-the-beast/Molecular-Dating-Tutorial
+  - taming-the-BEAST/Mascot-Tutorial
   - genomescale/species-tree-clocks
   - genomescale/calibrated-species-trees
   - taming-the-beast/Structured-coalescent
   - taming-the-beast/Structured-birth-death-model
-  - nicfel/Mascot-Tutorial
   - bjoelle/MSBD-tutorial
   - taming-the-beast/SCOTTI-Tutorial
   - duchene/adequacy_tutorial
