@@ -74,7 +74,8 @@ scholar:
 tutorials:
   - taming-the-beast/Introduction-to-BEAST2
   - taming-the-beast/Prior-selection
-  - taming-the-beast/Troubleshooting
+  - taming-the-beast/Troubleshooting-initialization-issues
+  - taming-the-beast/Troubleshooting-convergence-issues
   - taming-the-beast/Skyline-plots
   - taming-the-beast/Substitution-model-averaging
   - taming-the-beast/FBD-tutorial
