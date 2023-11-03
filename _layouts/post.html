@@ -22,7 +22,7 @@ layout: default
                                           {{ page.date | date_to_string }}
                                           {% endif %}
 						{% if author %}
-						by <a class="off" href="{{ author.url | prepend: site.baseurl }}">{{ author.handle }}</a>
+						by <a class="off" href="{{ author.url | prepend: site.baseurl }}">{{ author.title }}</a>
 						{% endif %}		
 					</div>
 				</div>
