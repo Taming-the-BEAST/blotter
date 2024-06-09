@@ -6,12 +6,21 @@ require 'yaml'
 $basedir = Dir.pwd						
 config = YAML.load_file("_config.yml")
 
+# to_update = ["Mascot-Tutorial",
+#              "FBD-tutorial",
+#              "Prior-selection",
+#              "Troubleshooting",
+#              "Skyline-plots",
+#              "Structured-birth-death-model"]
+
 config["tutorials"].each do |repo|
 	name = repo.split('/').drop(1).join('')		
 
-        # if name != "Reassortment-Tutorial"
-        #   next
-        # end
+        unless (not defined?(to_update)) or to_update.include?(name)
+          next
+        end
+
+        puts "=== Processing tutorial #{name} ==="
 
 	Dir.chdir($basedir + "/tutorials")			
 	if !Dir.exists?(name)								# clone tutorial repo
@@ -20,7 +29,7 @@ config["tutorials"].each do |repo|
 	Dir.chdir($basedir + "/tutorials/" + name)			# drop into blotter dir	
 	`git clean -f`										# remove untracked files, but keep directories
 	`git reset --hard HEAD`								# bring back to head state
-	`git pull origin master`							# git pull	
+	`git pull`							# git pull	
 
 	# Check if license files exist
 	if Dir.glob("LICENSE*").length == 0
