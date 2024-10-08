@@ -38,7 +38,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Build the site
-        run: bundle exec jekyll build
+        run: |
+          cd blotter
+          bundle exec jekyll build
       - name: Check if _site was created
         run: |
           if [[ ${{ hashFiles('_site/') == '' }} ]];
