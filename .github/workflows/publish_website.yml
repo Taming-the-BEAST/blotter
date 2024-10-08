@@ -12,7 +12,7 @@ on:
 jobs:
 
   build_web_site:
-    permissions: write
+    permissions: write-all
     runs-on: ubuntu-latest
     container: 
       image: ghcr.io/taming-the-beast/ttb-web-build-env:latest
