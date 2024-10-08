@@ -32,7 +32,7 @@ jobs:
           path: website
           token: ${{secrets.GITHUB_TOKEN}}
       - name: Update and preprocess
-        run: ruby _scripts/update-and-preprocess.rb
+        run: ruby blotter/_scripts/update-and-preprocess.rb
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Build the site
