@@ -33,13 +33,13 @@ docker pull ghcr.io/taming-the-beast/ttb-web-build-env:latest
 ```
 Using this image you can start a new container. To complete all steps successfully you may need to use the run options:
 ```
--env  GITHUB_TOKEN=YOUR_PA -p 4000:4000
+--env  GITHUB_TOKEN=YOUR_PA -p 4000:4000
 ```
 
-The first option is required to avoid API request limits and the second one allows you to view the built site on your local machine (the port 4000 on the container is exposed to port 4000 on your local maxhine).
+The first option is required to avoid API request limits and the second one allows you to view the built site on your local machine (the port 4000 on the container is exposed to port 4000 on your local machine).
 
 Withing the container you can build as you would on your local machine (see below), but you should skip step 2 as all required dependencies are installed.
-
+At step 4 you may need supply the option `--host=0.0.0.0` to be able to view the site.
 
 #### Build directly on locally machine
 
@@ -50,6 +50,7 @@ git clone https://github.com/Taming-the-BEAST/blotter.git
 ```
 
 2. Then install necessary Ruby dependencies by running `bundle install` from within the `blotter` directory.
+   
 3.After this, the site can be be built with:
 ```
 bundle exec jekyll build
