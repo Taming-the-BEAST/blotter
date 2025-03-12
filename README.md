@@ -22,7 +22,8 @@ If you are ready to publish the public version of the website, repeat the same s
 
 #### Using a container
 
-You will have to authenticate to GitHub container registry using your personal access token (YOUR_PA):
+You will have to authenticate to GitHub container registry using your personal access token (YOUR_PA). 
+You need to have repo and read/write packages permissions for the token.
 ```
 export CR_PAT=YOUR_PA
 echo $CR_PAT | docker login ghcr.io -u USERNAME --password-stdin
