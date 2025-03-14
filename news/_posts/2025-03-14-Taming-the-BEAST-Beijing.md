@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Taming the BEAST in Beijing, China, 2025!
-author: Joëlle Barido-Sottani, Rachel Warnock, Chi Zhang
+author: Joëlle Barido-Sottani
 ---
 
 It is our great pleasure to announce the first **Taming the BEAST in China!** It will take place in **Beijing, July 14-18, 2025**.

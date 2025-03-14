@@ -6,8 +6,8 @@ startdate: 2025-07-14
 enddate: 2025-07-18
 image: /images/logo_bw.svg
 flyer: /images/workshops/Taming-the-BEAST-Beijing-Flyer.pdf
-
-has_programme: false
+homepage: /workshops/Taming-the-BEAST-Beijing/index.html
+has_programme: true
 ---
 
 <figure>
