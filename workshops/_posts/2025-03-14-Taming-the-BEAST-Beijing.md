@@ -2,6 +2,8 @@
 title: Taming the BEAST Beijing
 layout: workshop
 location: Beijing, China
+latitude: 39.93784688536864
+longitude: 116.33400508845169
 startdate: 2025-07-14
 enddate: 2025-07-18
 image: /images/logo_bw.svg
