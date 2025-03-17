@@ -14,27 +14,157 @@ has_programme: true
 
 
 <form
-  action="https://formspree.io/f/{FORM_ID}"
+  action="https://formspree.io/f/mrbpbayd"
   class="fs-form fs-layout__2-column"
   target="_top"
   method="POST"
 >
   <fieldset>
+  	<div class="fs-field">
+      <label class="fs-label" for="title">Title</label>
+      <select class="fs-select" id="title" name="title">
+        <option value="Mr.">Mr.</option>
+        <option value="Ms.">Ms.</option>        
+      </select>
+    </div> 	  
+    <div></div>
     <div class="fs-field">
-      <label class="fs-label" for="name">Full Name</label>
-      <input class="fs-input" id="name" name="name" required />
+      <label class="fs-label" for="firstname">First Name <sup>*</sup></label>
+      <input class="fs-input" id="firstname" name="firstname" required />
     </div>
     <div class="fs-field">
-      <label class="fs-label" for="dob">Date of Birth</label>
-      <input
-        class="fs-input"
-        id="dob"
-        name="dob"
-        placeholder="MM-DD-YYYY"
-        required
-      />
+      <label class="fs-label" for="lastname">Last Name <sup>*</sup></label>
+      <input class="fs-input" id="lastname" name="lastname" required />
     </div>
+    <!--div class="fs-field">
+      <label class="fs-label" for="email1">Email address <sup>*</sup></label>
+      <input class="fs-input" id="email1" name="email1" required />
+    </div>
+    <div class="fs-field">
+      <label class="fs-label" for="email2">Confirm email <sup>*</sup></label>
+      <input class="fs-input" id="email2" name="email2" required />
+    </div-->
+    <!-- Gender radios start -->
+	<div class="fs-field">
+	    <label class="fs-label">Gender</label>	    
+	    <div class="fs-radio-group">
+	      <div class="fs-radio-field">
+	        <div class="fs-radio-wrapper">
+	          <input
+	            class="fs-radio"
+	            id="isMale"
+	            name="gender"
+	            required
+	            type="radio"
+	            value="male"
+	          />
+	        </div>
+	        <div>
+	          <label class="fs-label" for="isMale">Male</label>
+	        </div>
+	      </div>
+	      <div class="fs-radio-field">
+	        <div class="fs-radio-wrapper">
+	          <input
+	            class="fs-radio"
+	            id="isFemale"
+	            name="gender"
+	            required
+	            type="radio"
+	            value="female"
+	          />
+	        </div>
+	        <div>
+	          <label class="fs-label" for="isFemale">Female</label>
+	        </div>
+	      </div>	
+	      <div class="fs-radio-field">
+	        <div class="fs-radio-wrapper">
+	          <input
+	            class="fs-radio"
+	            id="isOtherGender"
+	            name="gender"
+	            required
+	            type="radio"
+	            value="other"
+	          />
+	        </div>
+	        <div>
+	          <label class="fs-label" for="isOtherGender">Other</label>
+	        </div>
+	      </div>	      	    
+	    </div>
+  	</div>
+  	<!-- Gender radios end -->
+  	<!-- Position radios start -->
+	<div class="fs-field">
+	    <label class="fs-label">Position</label>
+	    <div class="fs-radio-group">
+	      <div class="fs-radio-field">
+	        <div class="fs-radio-wrapper">
+	          <input
+	            class="fs-radio"
+	            id="isPhD"
+	            name="position"
+	            required
+	            type="radio"
+	            value="phd"
+	          />
+	        </div>
+	        <div>
+	          <label class="fs-label" for="isPhD">PhD student</label>
+	        </div>
+	      </div>
+	      <div class="fs-radio-field">
+	        <div class="fs-radio-wrapper">
+	          <input
+	            class="fs-radio"
+	            id="isERC"
+	            name="position"
+	            required
+	            type="radio"
+	            value="erc"
+	          />
+	        </div>
+	        <div>
+	          <label class="fs-label" for="isERC">Early career researcher</label>
+	        </div>
+	      </div>
+	      <div class="fs-radio-field">
+	        <div class="fs-radio-wrapper">
+	          <input
+	            class="fs-radio"
+	            id="isOtherPosition"
+	            name="position"
+	            required
+	            type="radio"
+	            value="other"
+	          />
+	        </div>
+	        <div>
+	          <label class="fs-label" for="isOtherPosition">Other</label>
+	        </div>
+	      </div>	      
+	    </div>
+  	</div>
+  	<!-- Position radios end -->
+  	<div class="fs-field">
+      <label class="fs-label" for="genderOther">If you selected other above, please specify:</label>
+      <input class="fs-input" id="genderOther" name="genderOther"/>
+      <p class="fs-description" id="dpa-consent-description">
+        We collect information on gender to help ensure equitable representation.
+      </p>
+    </div>    
+    <div class="fs-field">
+      <label class="fs-label" for="positionOther">If you selected other above, please specify:</label>
+      <input class="fs-input" id="positionOther" name="positionOther"/>
+    </div>    
+    <hr>
+    <hr>
+    <br>
+    
   </fieldset>
+  <br>
   <fieldset>
     <div class="fs-field">
       <label class="fs-label" for="address-1">Address line 1</label>
@@ -55,6 +185,10 @@ has_programme: true
     <div class="fs-field">
       <label class="fs-label" for="zip-code">Postal / Zip Code</label>
       <input class="fs-input" id="zip-code" name="zip-code" />
+    </div>
+    <div class="fs-field">
+      <label class="fs-label" for="country">Country</label>
+      <input class="fs-input" id="country" name="country" />
     </div>
   </fieldset>
   <fieldset>
@@ -117,27 +251,6 @@ has_programme: true
     </div>
   </fieldset>
   <fieldset>
-    <div class="fs-field">
-      <label class="fs-label" for="dates">Position you want to apply for</label>
-      <select class="fs-select" id="dates" name="dates">
-        <option value="software-engineer">Software Engineer</option>
-        <option value="senior-software-engineer">
-          Senior Software Engineer
-        </option>
-        <option value="ux-designer">UX designer</option>
-        <option value="marketing-specialist">Marketing Specialist</option>
-      </select>
-    </div>
-    <div class="fs-field">
-      <label class="fs-label" for="start-date">When can you start?</label>
-      <input
-        class="fs-input"
-        id="start-date"
-        name="start-date"
-        placeholder="DD-MM-YYYY"
-        required
-      />
-    </div>
     <div class="fs-field">
       <label class="fs-label" for="dates">How did you learn about us?</label>
       <select class="fs-select" id="dates" name="dates">
