@@ -8,18 +8,26 @@ filter: professional
 
 {% include tutorials_header.html %}
 
-{% assign tutorials = site.data.tutorials | sort:"title" %}
+{% if jekyll.environment == "production" %}
 
-{% for tutorial in tutorials %}
-	{% assign level = tutorial.level | downcase %}
-	{% if level == page.filter %}
-		{% cycle 'add rows': '<div class="row">', '', '' %}
-	    	{% include tutorial_item.html %}
-	   	{% cycle 'close rows': '', '', '</div>' %}
-	{% endif %}
-{% endfor %}
+	{% assign tutorials = site.data.tutorials | sort:"title" %}
 
-{% cycle 'close rows': '', '</div>', '</div>' %}
+	{% for tutorial in tutorials %}
+		{% assign level = tutorial.level | downcase %}
+		{% if level == page.filter %}
+			{% cycle 'add rows': '<div class="row">', '', '' %}
+		    	{% include tutorial_item.html %}
+		   	{% cycle 'close rows': '', '', '</div>' %}
+		{% endif %}
+	{% endfor %}
+
+	{% cycle 'close rows': '', '</div>', '</div>' %}
+
+{% else %}
+
+	Tutorials skipped on site build...
+
+{% endif %}
 
 <hr>
 

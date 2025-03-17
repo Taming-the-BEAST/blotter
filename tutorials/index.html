@@ -8,22 +8,31 @@ filter: all
 
 {% include tutorials_header.html %}
 
-{% for repo in site.tutorials %}
 
-	{% for t in site.data.tutorials %} 
-		{% if t.repo == repo %}
-			{% assign tutorial = t %}
-		{% endif %}
-	{% endfor %} 
-		
-	{% cycle 'add rows': '<div class="row">', '', '' %}
-    	{% include tutorial_item.html %}
-   	{% cycle 'close rows': '', '', '</div>' %}
+{% if jekyll.environment == "production" %}
+
+	{% for repo in site.tutorials %}
+
+		{% for t in site.data.tutorials %} 
+			{% if t.repo == repo %}
+				{% assign tutorial = t %}
+			{% endif %}
+		{% endfor %} 
+			
+		{% cycle 'add rows': '<div class="row">', '', '' %}
+	    	{% include tutorial_item.html %}
+	   	{% cycle 'close rows': '', '', '</div>' %}
 
 
-{% endfor %}
+	{% endfor %}
 
-{% cycle 'close rows': '', '</div>', '</div>' %}
+	{% cycle 'close rows': '', '</div>', '</div>' %}
+
+{% else %}
+
+	Tutorials skipped on site build...
+
+{% endif %}
 
 <hr>
 
