@@ -475,6 +475,11 @@ fieldset {
   row-gap: 1rem;
 }
 
+fieldset:where(.fs-layout__2-column) {
+  column-gap: 0.75rem;
+  grid-template-columns: 1fr 1fr;
+}
+
 .fs-form:where(.fs-layout__2-column) fieldset {
   column-gap: 0.75rem;
   grid-template-columns: 1fr 1fr;
