@@ -8,8 +8,11 @@ filter: intermediate
 
 {% include tutorials_header.html %}
 
-{% if jekyll.environment == "production" %}
+{% if jekyll.environment == "skip_tuts" %}
 
+	Tutorials skipped on site build...
+
+{% else %}
 
 	{% assign tutorials = site.data.tutorials | sort:"title" %}
 
@@ -23,10 +26,6 @@ filter: intermediate
 	{% endfor %}
 
 	{% cycle 'close rows': '', '</div>', '</div>' %}
-
-{% else %}
-
-	Tutorials skipped on site build...
 
 {% endif %}
 

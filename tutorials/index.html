@@ -9,7 +9,11 @@ filter: all
 {% include tutorials_header.html %}
 
 
-{% if jekyll.environment == "production" %}
+{% if jekyll.environment == "skip_tuts" %}
+
+	Tutorials skipped on site build...
+
+{% else %}
 
 	{% for repo in site.tutorials %}
 
@@ -27,10 +31,6 @@ filter: all
 	{% endfor %}
 
 	{% cycle 'close rows': '', '</div>', '</div>' %}
-
-{% else %}
-
-	Tutorials skipped on site build...
 
 {% endif %}
 
