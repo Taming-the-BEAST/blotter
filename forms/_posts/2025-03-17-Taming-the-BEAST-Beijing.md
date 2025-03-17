@@ -315,11 +315,11 @@ has_programme: true
   </fieldset>
   <fieldset>
     <div class="fs-field">
-      <label class="fs-label" for="role-description">Research interests <sup>*</sup></label>
+      <label class="fs-label" for="interests">Research interests <sup>*</sup></label>
       <textarea
         class="fs-textarea"
-        id="role-description"
-        name="role-description"
+        id="interests"
+        name="interests"
         rows=10
         required
       ></textarea>
@@ -328,11 +328,11 @@ has_programme: true
       </p>
     </div>
     <div class="fs-field">
-      <label class="fs-label" for="role-description">Motivation <sup>*</sup></label>
+      <label class="fs-label" for="motivation">Motivation <sup>*</sup></label>
       <textarea
         class="fs-textarea"
-        id="role-description"
-        name="role-description"
+        id="motivation"
+        name="motivation"
         rows=10
         required
       ></textarea>
