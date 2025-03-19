@@ -1,6 +1,7 @@
 ---
 title: Taming the BEAST Beijing
 layout: workshop
+address: IVPP
 location: Beijing, China
 latitude: 39.93784688536864
 longitude: 116.33400508845169

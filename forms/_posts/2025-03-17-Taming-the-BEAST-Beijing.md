@@ -1,16 +1,27 @@
 ---
+formtype: Application form
 title: Taming the BEAST Beijing
-layout: workshop
-opendate: 2025-07-14
-closedate: 2025-07-18
+layout: form
+opendate: 2025-03-17
+closedate: 2025-04-17
 image: /images/workshops/Taming-the-BEAST-Beijing-Logo.svg
 flyer: /images/workshops/Taming-the-BEAST-Beijing-Flyer.pdf
 homepage: /workshops/Taming-the-BEAST-Beijing/index.html
-has_programme: true
 ---
 
 
-# Application form
+
+
+
+
+This is the application form for participants to the [Taming the BEAST Beijing workshop]( {{page.homepage}} ), which will take place at the **IVPP** in **Beijing**, **July 14-18, 2025**. The application fee is **1500 CNY**, and will cover all meals during the workshop. Participants are expected to arrange for their own accomodation as well as travel to and from the workshop.
+
+We welcome applications from researchers at all career stages and research interests. However, we will give priority to early-career applicants as well as applicants who intend to come to the workshop with their own dataset to analyze.
+
+Applications are open until **April 17th**! We expect to contact successful applicants by **May 5th**.
+
+<div class="bigspacer"></div>
+<hr>
 
 
 <form
