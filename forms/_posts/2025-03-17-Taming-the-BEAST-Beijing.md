@@ -9,16 +9,34 @@ flyer: /images/workshops/Taming-the-BEAST-Beijing-Flyer.pdf
 homepage: /workshops/Taming-the-BEAST-Beijing/index.html
 ---
 
+{% capture todaysdate %}{{ 'now' | date: '%s '}}{% endcapture %}
+{% capture formopendate %}{{ page.opendate | date: '%s '}}{% endcapture %}
+{% capture formclosedate %}{{ page.closedate | date: '%s '}}{% endcapture %}
 
+{% if formopendate > todaysdate %} 
 
+  <div class="row">
+  It looks like this form isn't open for responses yet, please check again soon!
+  </div>
 
+{% elsif formclosedate < todaysdate %}
+
+  <div class="row">
+	It looks like this form's deadline has passed 
+	</div>
+
+{% else %}
 
 
 This is the application form for participants to the [Taming the BEAST Beijing workshop]( {{page.homepage}} ), which will take place at the **IVPP** in **Beijing**, **July 14-18, 2025**. The application fee is **1500 CNY**, and will cover all meals during the workshop. Participants are expected to arrange for their own accomodation as well as travel to and from the workshop.
 
-We welcome applications from researchers at all career stages and research interests. However, we will give priority to early-career applicants as well as applicants who intend to come to the workshop with their own dataset to analyze.
+We welcome applications from researchers at all career stages and research interests. However, spaces are limited and we will give priority to early-career applicants as well as applicants who intend to come to the workshop with their own dataset to analyze.
 
 Applications are open until **April 17th**! We expect to contact successful applicants by **May 5th**.
+
+For any questions, please contact the organizing committee at [ttb.beijing@ivpp.ac.cn](mailto:ttb.beijing@ivpp.ac.cn).
+
+
 
 <div class="bigspacer"></div>
 <hr>
@@ -34,19 +52,10 @@ Applications are open until **April 17th**! We expect to contact successful appl
 <p class="fs-description" id="dpa-consent-description">
    	Fields marked with <sup>*</sup> are required.
 </p>
-
+<p></p>
 <!--h2>Personal details </h2-->
 
   <fieldset class ="fs-layout__2-column">
-  	<!-- Why do we need to know title anyway? -->
-  	<!--div class="fs-field">
-      <label class="fs-label" for="title">Title</label>
-      <select class="fs-select" id="title" name="title">
-        <option value="Mr.">Mr.</option>
-        <option value="Ms.">Ms.</option>        
-      </select>
-    </div> 	  
-    <div></div-->
     <div class="fs-field">
       <label class="fs-label" for="firstname">First Name <sup>*</sup></label>
       <input class="fs-input" id="firstname" name="firstname" required />
@@ -72,10 +81,11 @@ Applications are open until **April 17th**! We expect to contact successful appl
 	      <p class="fs-description" id="dpa-consent-description">
         	Please also include any titles, pronouns or special characters that you would like to appear on your namebadge. If left blank this will be simply your first name and last name as entered above.
       	  </p>
-	    </div>
+	    </div> 
 	</fieldset>
-  	<fieldset class ="fs-layout__2-column">
-    <!-- Gender radios start -->
+	<hr>
+  <fieldset class ="fs-layout__2-column">
+  <!-- Gender radios start -->
 	<div class="fs-field">
 	    <label class="fs-label">Gender <sup>*</sup></label>	    
 	    <div class="fs-radio-group">
@@ -237,10 +247,9 @@ Applications are open until **April 17th**! We expect to contact successful appl
       <p class="fs-description" id="gender-description">
         We collect information on career stage to help ensure equitable representation.
       </p>
-    </div>    
-       
+    </div>           
   </fieldset>
-
+  <hr>
 
   <fieldset>
   	<div class="fs-field">
@@ -298,11 +307,13 @@ Applications are open until **April 17th**! We expect to contact successful appl
       <label class="fs-label" for="website">Personal website</label>
       <input class="fs-input" id="website" name="website" />      
       <p class="fs-description">
-        Highly recommended.
+      	Optional, but it's highly recommended to link to a personal or institutional page.
       </p>
     </div>    
-    </fieldset>
-    <fieldset>
+  </fieldset>
+  <hr>
+
+  <fieldset>
     <div class="fs-field">
       <label class="fs-label" for="special-requests">Additional requests and dietary restrictions</label>
       <textarea
@@ -319,11 +330,6 @@ Applications are open until **April 17th**! We expect to contact successful appl
   <hr>
 
   <!--h2>Motivation </h2-->
-  <fieldset class ="fs-layout__2-column">
-
-
-
-  </fieldset>
   <fieldset>
     <div class="fs-field">
       <label class="fs-label" for="interests">Research interests <sup>*</sup></label>
@@ -332,10 +338,11 @@ Applications are open until **April 17th**! We expect to contact successful appl
         id="interests"
         name="interests"
         rows=10
+        maxlength=3000
         required
       ></textarea>
       <p class="fs-description">
-        Please tell us who you are and give a short description of the research you do.
+        Please tell us who you are and give a short description of the research you do (maximum 3000 characters including spaces).
       </p>
     </div>
     <div class="fs-field">
@@ -345,14 +352,17 @@ Applications are open until **April 17th**! We expect to contact successful appl
         id="motivation"
         name="motivation"
         rows=10
+        maxlength=3000
         required
       ></textarea>
       <p class="fs-description">
-        Please outline your reasons for wanting to join the workshop. 
+        Please outline your reasons for wanting to join the workshop (maximum 3000 characters including spaces). 
       </p>
     </div>
   </fieldset>
   <hr>
+
+
   <fieldset>
     <div class="fs-checkbox-field">
 	    <div class="fs-checkbox-wrapper">
@@ -404,10 +414,8 @@ Applications are open until **April 17th**! We expect to contact successful appl
       	</label>
       	</div>
     </div>
-    
-  </fieldset>
-
-  <fieldset class ="fs-layout__2-column">
+  	</fieldset>
+  	<fieldset class ="fs-layout__2-column">
     <div class="fs-field">
       <label class="fs-label" for="discover">How did you learn about this workshop?</label>
       <select class="fs-select" id="discover" name="discover">
@@ -420,16 +428,37 @@ Applications are open until **April 17th**! We expect to contact successful appl
       </select>
     </div>    
   </fieldset>
+  <hr>
+    <fieldset>
+      <p class="fs-label"><b>
+			  The organisers of TTB Beijing will use the data in this form solely for the purpose of evaluating your application and, if your application is successful, managing your involvement in the workshop.  It will not be shared with third parties, and will be deleted once it is no longer needed for the stated purpose. If you requested to receive updates about future workshops your name and email address will be retained. For further details, please contact <a href="mailto:ttb.beijing@ivpp.ac.cn">ttb.beijing@ivpp.ac.cn</a>.
+			</b></p>
+		<div class="fs-checkbox-field">
+	    <div class="fs-checkbox-wrapper">
+	      <input
+	        class="fs-checkbox"
+	        id="understand-declaration"
+	        name="understand-declaration"
+	        required
+	        type="checkbox"
+	        value="understand-declaration"
+	      />
+	    </div>
+    	<div>
+     	<label class="fs-label" for="understand-declaration">
+        	I have read and understood the declaration above. <sup>*</sup>
+      </label>
+      </div>
+    </div>
+  </fieldset>
+
+
 
   <div class="fs-button-group">
     <button class="fs-button" type="submit">Submit</button>
   </div>
+  <p class="fs-description" align="right">By submitting this form, you agree to have your data processed by <a href="http://Formspree.io">Formspree.io</a>.</p>
 </form>
 
 
-
-
-
-
-## Questions
-Please contact the organizing committee at [ttb.beijing@ivpp.ac.cn](mailto:ttb.beijing@ivpp.ac.cn).
+{% endif %}
