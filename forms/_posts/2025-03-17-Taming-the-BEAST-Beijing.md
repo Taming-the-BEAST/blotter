@@ -3,7 +3,7 @@ title: Taming the BEAST Beijing
 layout: workshop
 opendate: 2025-07-14
 closedate: 2025-07-18
-image: /images/logo_bw.svg
+image: /images/workshops/Taming-the-BEAST-Beijing-Logo.svg
 flyer: /images/workshops/Taming-the-BEAST-Beijing-Flyer.pdf
 homepage: /workshops/Taming-the-BEAST-Beijing/index.html
 has_programme: true

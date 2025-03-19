@@ -6,7 +6,7 @@ latitude: 39.93784688536864
 longitude: 116.33400508845169
 startdate: 2025-07-14
 enddate: 2025-07-18
-image: /images/logo_bw.svg
+image: /images/workshops/Taming-the-BEAST-Beijing-Logo.svg
 flyer: /images/workshops/Taming-the-BEAST-Beijing-Flyer.pdf
 homepage: /workshops/Taming-the-BEAST-Beijing/index.html
 has_programme: true
