@@ -444,3 +444,10 @@ For any questions, please contact the organizing committee at [ttb.beijing@ivpp.
 </form>
 
 
+<hr>
+
+<div class="bigspacer"></div>
+<figure>
+	<img src="{{ site.baseurl }}/images/workshops/Taming-the-BEAST-Beijing-Sponsors.jpg" alt="Sponsors of the Beijing workshop">
+</figure>
+
