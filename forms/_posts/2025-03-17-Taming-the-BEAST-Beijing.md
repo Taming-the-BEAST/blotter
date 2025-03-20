@@ -9,23 +9,6 @@ flyer: /images/workshops/Taming-the-BEAST-Beijing-Flyer.pdf
 homepage: /workshops/Taming-the-BEAST-Beijing/index.html
 ---
 
-{% capture todaysdate %}{{ 'now' | date: '%s '}}{% endcapture %}
-{% capture formopendate %}{{ page.opendate | date: '%s '}}{% endcapture %}
-{% capture formclosedate %}{{ page.closedate | date: '%s '}}{% endcapture %}
-
-{% if formopendate > todaysdate %} 
-
-  <div class="row">
-  It looks like this form isn't open for responses yet, please check again soon!
-  </div>
-
-{% elsif formclosedate < todaysdate %}
-
-  <div class="row">
-	It looks like this form's deadline has passed 
-	</div>
-
-{% else %}
 
 
 This is the application form for participants to the [Taming the BEAST Beijing workshop]( {{page.homepage}} ), which will take place at the **IVPP** in **Beijing**, **July 14-18, 2025**. The application fee is **1500 CNY**, and will cover all meals during the workshop. Participants are expected to arrange for their own accomodation as well as travel to and from the workshop.
@@ -307,7 +290,7 @@ For any questions, please contact the organizing committee at [ttb.beijing@ivpp.
       <label class="fs-label" for="website">Personal website</label>
       <input class="fs-input" id="website" name="website" />      
       <p class="fs-description">
-      	Optional, but it's highly recommended to link to a personal or institutional page.
+      	Optional, but it's highly recommended to link to a personal or institutional webpage.
       </p>
     </div>    
   </fieldset>
@@ -461,4 +444,3 @@ For any questions, please contact the organizing committee at [ttb.beijing@ivpp.
 </form>
 
 
-{% endif %}
