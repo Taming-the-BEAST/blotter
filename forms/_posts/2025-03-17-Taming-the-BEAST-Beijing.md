@@ -26,7 +26,7 @@ For any questions, please contact the organizing committee at [ttb.beijing@ivpp.
 
 
 <form
-  action="https://formspree.io/f/mrbpbayd"
+  action="https://formspree.io/f/mkgjoady"
   class="fs-form"
   target="_top"
   method="POST"
@@ -59,10 +59,10 @@ For any questions, please contact the organizing committee at [ttb.beijing@ivpp.
 	</fieldset>
 	<fieldset>
 	    <div class="fs-field">
-	      <label class="fs-label" for="displayname">Full name as you would like it to appear on your namebadge</label>
+	      <label class="fs-label" for="displayname">Full name as you would like it to appear on your name badge</label>
 	      <input class="fs-input" id="displayname" name="displayname"/>
 	      <p class="fs-description" id="dpa-consent-description">
-        	Please also include any titles, pronouns or special characters that you would like to appear on your namebadge. If left blank this will be simply your first name and last name as entered above.
+        	Please also include any titles, pronouns or special characters that you would like to appear on your name badge. If left blank this will be simply your first name and last name as entered above.
       	  </p>
 	    </div> 
 	</fieldset>
