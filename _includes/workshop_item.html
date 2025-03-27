@@ -20,28 +20,35 @@
                                     {% endif %}
 		                    <div class="smallspacer"></div>
 		                    <li><i class="bi bi-pin-map"></i>
-		                    {% if workshop.latitude and workshop.longitude %}
+		                  {% if workshop.latitude and workshop.longitude %}
 		                        <a class="off" target="_blank" href="http://www.google.com/maps/place/{{ workshop.latitude }},{{ workshop.longitude }}">{{ workshop.location }}</a>
-		                    {% else %}
+		                  {% else %}
 		                        {{ workshop.location }}
-		                    {% endif %}
+		                  {% endif %}
 		                    </li>
 
-		                    {% if workshop.has_programme != false %}
+		                  {% if workshop.has_programme != false %}
 		                    <div class="smallspacer"></div>
 		                    <li><i class="bi bi-calendar-week"></i>
 		                    <a class="off" href="{{ workshop.url | prepend: site.baseurl }}">Programme</a></li> 
-		                    {% endif %}
-		                    {% if workshop.repo %}
+		                  {% endif %}
+		                  {% for form in site.categories.forms %}
+		                  	{% if form.title == workshop.title and form.open %}
+		                    <div class="smallspacer"></div>
+		                    <li><i class="bi bi-pencil-square"></i>
+		                    <a class="off" href="{{ form.url | prepend: site.baseurl }}">Application form</a></li>
+		                  	{% endif %}
+		                  {% endfor %}
+		                  {% if workshop.repo %}
 		                    <div class="smallspacer"></div>
 		                    <li><i class="bi bi-file-text"></i>
 		                    <a class="off" href="https://github.com/{{ workshop.repo }}">Lecture slides</a></li>
-		                    {% endif %}
-		                    {% if workshop.flyer %}
+		                  {% endif %}
+		                  {% if workshop.flyer %}
 		                    <div class="smallspacer"></div>
 		                    <li><i class="bi bi-file-image"></i>
 		                    <a class="off" target="_blank" href="{{ workshop.flyer }}">Flyer</a></li>
-		                    {% endif %}
+		                  {% endif %}
 		                </ul>
 		    		</div> 
 				</div>		

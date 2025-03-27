@@ -10,7 +10,7 @@ enddate: 2025-07-18
 image: /images/workshops/Taming-the-BEAST-Beijing-Logo.svg
 flyer: /images/workshops/Taming-the-BEAST-Beijing-Flyer.pdf
 homepage: /workshops/Taming-the-BEAST-Beijing/index.html
-has_programme: true
+has_programme: false
 ---
 
 <figure>
@@ -20,12 +20,18 @@ has_programme: true
 <div class="bigspacer"></div>
 
 
+{% for form in site.categories.forms %}
+{% if form.title == page.title and form.open %}
+
 # Applications
 We are now accepting applications! The application fee is **1500 CNY**, and will cover all meals during the workshop.
 
-**Please click [here]({{ site.baseurl }}/forms/Taming-the-BEAST-Beijing/) to apply.**
+**Please click [here]({{ form.url | prepend:site.baseurl }}) to apply.**
 
 Applications are open until **17 April 2025**!
+
+{% endif %}
+{% endfor %}
 
 <div class="bigspacer"></div>
 
