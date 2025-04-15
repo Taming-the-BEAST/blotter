@@ -38,6 +38,8 @@ Applications are open until **17 April 2025**!
 
 # Preliminary Programme
 
+_(subject to change)_
+
 <table style="width:40%">
 <tbody>
 <tr>
@@ -83,24 +85,24 @@ Applications are open until **17 April 2025**!
 <tr>
 <td> 09:00 </td>
 	<!-- Mon -->
-	<td rowspan="4" class="lecture"><b>TBA</b><br>
+	<td rowspan="4" class="lecture"><b>Joëlle Barido-Sottani</b><br>
 									<i>Introduction to Bayesian phylogenetics</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)-->
 	</td>
 	<!-- Tue -->
 	<td rowspan="4" class="invited-lecture"><b>Simon Ho</b><br><i>TBA</i>
-											(<a href="">link</a>)
+											(<a href="https://www.sydney.edu.au/science/about/our-people/academic-staff/simon-ho.html">link</a>)
 	</td>
 	<!-- Wed -->
 	<td rowspan="4" class="invited-lecture"><b>Arong Luo</b><br><i>Molecular data and their use in macroevolutionary studies</i>
-											(<a href="">link</a>)
+											(<a href="http://english.ioz.cas.cn/sourcedb/scs/202310/t20231030_431237.html">link</a>)
 	</td>
 	<!-- Thu -->
 	<td rowspan="4" class="invited-lecture"><b>Xing Xu</b><br><i>Morphology-based phylogenetic analysis: Taxon sampling, character formulation and coding</i>
-											(<a href="">link</a>)
+											(<a href="http://english.casad.cas.cn/members/casm/does/202404/t20240416_660183.html">link</a>)
 	</td>
 	<!-- Fri -->
 	<td rowspan="4" class="invited-lecture"><b>Sasha Gavryushkina</b><br><i>TBA</i>
-											(<a href="">link</a>)</td>
+											(<a href="https://researchers.adelaide.edu.au/profile/sasha.gavryushkina">link</a>)</td>
 </tr>
 <!-- 9.15 -->
 <tr>
@@ -133,11 +135,11 @@ Applications are open until **17 April 2025**!
 <tr>
 <td> 10:15 </td>
 	<!-- Mon -->
-	<td rowspan="4" class="lecture"><b>TBA</b><br>
+	<td rowspan="4" class="lecture"><b>Chi Zhang</b><br>
 									<i>First steps in BEAST2 and setting priors</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)-->
 	</td>
 	<!-- Tue -->
-	<td rowspan="4" class="lecture"><b>TBA</b><br>
+	<td rowspan="4" class="lecture"><b>Chi Zhang</b><br>
 									<i>Tree priors</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)-->
 	</td>
 	<!-- Wed -->
@@ -247,10 +249,10 @@ Applications are open until **17 April 2025**!
 	<td rowspan="4" class="lecture"><b>Walter Xie</b><br>
 									<i>LinguaPhylo and LPhyBEAST</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 	<!-- Thu -->
-	<td rowspan="4" class="lecture"><b>TBD</b><br>
-									<i>Lecture</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
+	<td rowspan="4" class="lecture"><b>Chi Zhang</b><br>
+									<i>Species tree inference and the multispecies coalescent</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 	<!-- Fri -->
-	<td rowspan="4" class="lecture"><b>TBD</b><br>
+	<td rowspan="4" class="lecture"><b>TBA</b><br>
 									<i>Lecture</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 </tr>
 
@@ -278,12 +280,12 @@ Applications are open until **17 April 2025**!
 									(<a href="/tutorials/Prior-selection/">tutorial</a>)</td>
 	<!-- Tue -->
 	<td rowspan="4" class="tutorial"><b>Analysing Time-Stamped Data with LinguaPhylo and BEAST</b><br>
-									(<a href="/tutorials/Introduction-to-BEAST2/">tutorial</a>)</td>
+									(<a href="https://linguaphylo.github.io/tutorials/time-stamped-data/">tutorial</a>)</td>
 	<!-- Thu -->
-	<td rowspan="4" class="tutorial"><b>TBD</b><br>
-									(<a href="/tutorials/Introduction-to-BEAST2/">tutorial</a>)</td>
+	<td rowspan="4" class="tutorial"><b>Estimating species trees using StarBEAST3</b><br>
+									(<a href="/tutorials/">tutorial</a>)</td>
 	<!-- Fri -->
-	<td rowspan="4" class="tutorial"><b>TBD</b><br>
+	<td rowspan="4" class="tutorial"><b>TBA</b><br>
 									(<a href="/tutorials/">tutorial</a>)</td>
 </tr>
 
@@ -318,17 +320,17 @@ Applications are open until **17 April 2025**!
 <tr>
 <td> 15:30 </td>
 	<!-- Mon -->
-	<td rowspan="4" class="lecture"><b>TBD</b><br>
+	<td rowspan="4" class="lecture"><b>Joëlle Barido-Sottani</b><br>
 									<i>Troubleshooting & practical tips</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 	<!-- Tue -->
 	<td rowspan="4" class="lecture"><b>Rong Zhang</b><br>
 									<i>Inference using continuous traits</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 	<!-- Thu -->
-	<td rowspan="4" class="lecture"><b>TBD</b><br>
+	<td rowspan="4" class="lecture"><b>TBA</b><br>
 									<i>Lecture</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 	<!-- Fri -->
-	<td rowspan="2" class="help-session"><b>Free Q&A session</b><br>(optional)</td>	
-</tr>
+	<td rowspan="4" class="lecture"><b>TBA</b><br>
+									<i>Lecture</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td></tr>
 
 <!-- 15:45 -->
 <tr>
@@ -341,7 +343,7 @@ Applications are open until **17 April 2025**!
 <tr>
 <td> 16:00 </td>
 	<!-- Fri -->
-	<td rowspan="1" class="padding">Departure</td>
+	<!--td rowspan="1" class="padding">Departure</td>-->
 </tr>
 
 <tr>
@@ -352,12 +354,15 @@ Applications are open until **17 April 2025**!
 <td> 16:30 </td>
 	<!-- Mon -->
 	<td rowspan="2" class="tutorial"><b>BEAST2 convergence</b><br>
-								(<a href="/tutorials/Troubleshooting/">tutorial</a>)</td>
+								(<a href="/tutorials/Troubleshooting-convergence-issues/">tutorial</a>)</td>
 	<!-- Tue -->
 	<td rowspan="4" class="tutorial"><b>Modelling continuous trait evolution in BEAST2</b><br>
 									(<a href="/tutorials/">tutorial</a>)</td>
 	<!-- Thu -->
-	<td rowspan="4" class="tutorial"><b>TBD</b><br>
+	<td rowspan="4" class="tutorial"><b>TBA</b><br>
+									(<a href="/tutorials/">tutorial</a>)</td>
+	<!-- Fri -->
+	<td rowspan="4" class="tutorial"><b>TBA</b><br>
 									(<a href="/tutorials/">tutorial</a>)</td>
 </tr>
 
@@ -369,7 +374,7 @@ Applications are open until **17 April 2025**!
 <td> 17:00 </td>
 	<!-- Mon -->
 	<td rowspan="2" class="tutorial"><b>BEAST2 initialization</b><br>
-									(<a href="/tutorials/">tutorial</a>)</td>
+									(<a href="/tutorials/Troubleshooting-initialization-issues/">tutorial</a>)</td>
 </tr>
 
 <tr>
@@ -384,6 +389,8 @@ Applications are open until **17 April 2025**!
 	<td rowspan="2" class="help-session"><b>BEAST Clinic & Tutorial catch-up</b><br>(optional)</td>
 	<!-- Thu -->
 	<td rowspan="2" class="help-session"><b>BEAST Clinic & Tutorial catch-up</b><br>(optional)</td>
+	<!-- Fri -->
+	<td rowspan="2" class="help-session"><b>Free Q&A session and wrap-up</b><br>(optional)</td>
 </tr>
 
 <tr>
