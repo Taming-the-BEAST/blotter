@@ -28,7 +28,7 @@ We are now accepting applications! The registration fee is **1500 CNY**, and wil
 
 **Please click [here]({{ form.url | prepend:site.baseurl }}) to apply.**
 
-Applications are open until **17 April 2025**!
+Applications are open until **25 April 2025**!
 
 {% endif %}
 {% endfor %}

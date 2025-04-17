@@ -3,7 +3,7 @@ formtype: Application form
 title: Taming the BEAST Beijing
 layout: form
 opendate: 2025-03-17
-closedate: 2025-04-17
+closedate: 2025-04-25
 image: /images/workshops/Taming-the-BEAST-Beijing-Logo.svg
 flyer: /images/workshops/Taming-the-BEAST-Beijing-Flyer.pdf
 homepage: /workshops/Taming-the-BEAST-Beijing/index.html
@@ -14,7 +14,7 @@ This is the application form for participants to the [Taming the BEAST Beijing w
 
 We welcome applications from researchers at all career stages and research interests. However, spaces are limited and we will give priority to early-career applicants as well as applicants who intend to come to the workshop with their own dataset to analyze.
 
-Applications are open until **April 17th**! We expect to contact successful applicants by **May 5th**.
+Applications are open until **April 25th**! We expect to contact successful applicants by **May 6th**.
 
 For any questions, please contact the organizing committee at [ttb.beijing@ivpp.ac.cn](mailto:ttb.beijing@ivpp.ac.cn).
 
