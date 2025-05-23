@@ -102,6 +102,7 @@ tutorials:
   - nicfel/Reassortment-Tutorial
   - boskovav/PIQMEE-Tutorial
   - bethany-j-allen/Skyline-analyses-for-macroevolution
+  - taming-the-beast/Visualizing-BEAST2-results
 
 plugins:
   - jekyll-katex
