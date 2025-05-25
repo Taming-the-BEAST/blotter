@@ -11,23 +11,23 @@ You can choose to set up a build environment locally or use a container image. B
 #### Build and publish TESTING version of the site within GitHub
 
   All changes should be made to [blotter_test](https://github.com/Taming-the-BEAST/blotter_test) repository first:
-    - sync [blotter_test](https://github.com/Taming-the-BEAST/blotter_test) with [blotter](https://github.com/Taming-the-BEAST/blotter)
-    - push changes to [blotter_test](https://github.com/Taming-the-BEAST/blotter_test)
-    - publish testing version of the website:
-        - go to the https://github.com/Taming-the-BEAST/web-testing repository
-        - select `Actions` tab
-        - select `Publish TTB website` action
-        - click `Run workflow` and wait for it to finish.
+  - sync [blotter_test](https://github.com/Taming-the-BEAST/blotter_test) with [blotter](https://github.com/Taming-the-BEAST/blotter)
+  - push changes to [blotter_test](https://github.com/Taming-the-BEAST/blotter_test)
+  - publish testing version of the website:
+    - go to the https://github.com/Taming-the-BEAST/web-testing repository
+    - select `Actions` tab
+    - select `Publish TTB website` action
+    - click `Run workflow` and wait for it to finish.
   
   Hopefully, you can see your changes now on the [taming-the-beast.org/web-testing/](taming-the-beast.org/web-testing/)  
 
 #### Build and publish PRODUCTION version of the site within GitHub   
 
   If you are ready to publish the public version of the website, repeat the same steps as above but from the https://github.com/Taming-the-BEAST/Taming-the-BEAST.github.io repository:
-    - go to the [https://github.com/Taming-the-BEAST/web-testing](https://github.com/Taming-the-BEAST/Taming-the-BEAST.github.io) repository
-    - select `Actions` tab
-    - select `Publish TTB website` action
-    - click `Run workflow` and wait for it to finish. 
+  - go to the [https://github.com/Taming-the-BEAST/web-testing](https://github.com/Taming-the-BEAST/Taming-the-BEAST.github.io) repository
+  - select `Actions` tab
+  - select `Publish TTB website` action
+  - click `Run workflow` and wait for it to finish. 
   
   You should see the changes on the https://taming-the-beast.org website.
 
