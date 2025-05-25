@@ -4,19 +4,32 @@ Taming the BEAST is a platform for collating a comprehensive and cohesive set of
 
 ## Build site
 
-You can choose to set up a build environment locally or use a container image. Building and publishing with a container image can also be done directly on GitHub. 
+You can choose to set up a build environment locally or use a container image. Building and publishing with a container image can also be done directly on GitHub. You may also first use the testing set up to check any changes.
 
-### Build and publish site within GitHub
+### Build and test within GitHub
 
-If you would like to build the website for testing purposes:
-  - go to the https://github.com/Taming-the-BEAST/web-testing repository
+#### Build and publish TESTING version of the site within GitHub
+
+All changes should be made to [blotter_test](https://github.com/Taming-the-BEAST/blotter_test) repository first:
+  - sync [blotter_test](https://github.com/Taming-the-BEAST/blotter_test) with [blotter](https://github.com/Taming-the-BEAST/blotter)
+  - push changes to [blotter_test](https://github.com/Taming-the-BEAST/blotter_test)
+  - publish testing version of the website:
+      - go to the https://github.com/Taming-the-BEAST/web-testing repository
+      - select `Actions` tab
+      - select `Publish TTB website` action
+      - click `Run workflow` and wait for it to finish.
+
+Hopefully, you can see your changes now on the [taming-the-beast.org/web-testing/](taming-the-beast.org/web-testing/)  
+
+#### Build and publish PRODUCTION version of the site within GitHub   
+
+If you are ready to publish the public version of the website, repeat the same steps as above but from the https://github.com/Taming-the-BEAST/Taming-the-BEAST.github.io repository:
+  - go to the [https://github.com/Taming-the-BEAST/web-testing](https://github.com/Taming-the-BEAST/Taming-the-BEAST.github.io) repository
   - select `Actions` tab
   - select `Publish TTB website` action
-  - click `Run workflow` and wait for it to finish.
+  - click `Run workflow` and wait for it to finish. 
 
-Hopefully, you can see your changes now on the [taming-the-beast.org/web-testing/](taming-the-beast.org/web-testing/)     
-
-If you are ready to publish the public version of the website, repeat the same steps as above but from the https://github.com/Taming-the-BEAST/Taming-the-BEAST.github.io repository. You should see the changes on the https://taming-the-beast.org website.
+You should see the changes on the https://taming-the-beast.org website.
 
 ### Build site locally
 
