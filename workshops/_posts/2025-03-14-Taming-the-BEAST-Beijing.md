@@ -10,14 +10,14 @@ enddate: 2025-07-18
 image: /images/workshops/Taming-the-BEAST-Beijing-Logo.svg
 flyer: /images/workshops/Taming-the-BEAST-Beijing-Flyer.pdf
 homepage: /workshops/Taming-the-BEAST-Beijing/index.html
-has_programme: false
+has_programme: true
 ---
 
-<figure>
+<!--figure>
 	<img src="{{ site.baseurl }}/images/workshops/Taming-the-BEAST-Beijing-Flyer.jpg" alt="TTB Beijing flyer">
 </figure>
 
-<div class="bigspacer"></div>
+<div class="bigspacer"></div-->
 
 
 {% for form in site.categories.forms %}
@@ -33,7 +33,7 @@ Applications are open until **25 April 2025**!
 {% endif %}
 {% endfor %}
 
-<div class="bigspacer"></div>
+<!--div class="bigspacer"></div-->
 
 
 # Preliminary Programme
@@ -93,16 +93,17 @@ _(subject to change)_
 											(<a href="https://www.sydney.edu.au/science/about/our-people/academic-staff/simon-ho.html">link</a>)
 	</td>
 	<!-- Wed -->
+	<td rowspan="4" class="invited-lecture"><b>Sasha Gavryushkina</b><br><i>Birth-death models for estimating speciation and epidemiological parameters</i>
+											(<a href="https://researchers.adelaide.edu.au/profile/sasha.gavryushkina">link</a>)
+	</td>
+	<!-- Thu -->
 	<td rowspan="4" class="invited-lecture"><b>Arong Luo</b><br><i>Molecular data and their use in macroevolutionary studies</i>
 											(<a href="http://english.ioz.cas.cn/sourcedb/scs/202310/t20231030_431237.html">link</a>)
 	</td>
-	<!-- Thu -->
+	<!-- Fri -->
 	<td rowspan="4" class="invited-lecture"><b>Xing Xu</b><br><i>Morphology-based phylogenetic analysis: Taxon sampling, character formulation and coding</i>
 											(<a href="http://english.casad.cas.cn/members/casm/does/202404/t20240416_660183.html">link</a>)
 	</td>
-	<!-- Fri -->
-	<td rowspan="4" class="invited-lecture"><b>Sasha Gavryushkina</b><br><i>TBA</i>
-											(<a href="https://researchers.adelaide.edu.au/profile/sasha.gavryushkina">link</a>)</td>
 </tr>
 <!-- 9.15 -->
 <tr>
@@ -138,9 +139,9 @@ _(subject to change)_
 	<td rowspan="4" class="lecture"><b>Chi Zhang</b><br>
 									<i>First steps in BEAST2 and setting priors</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)-->
 	</td>
-	<!-- Tue -->
-	<td rowspan="4" class="lecture"><b>Chi Zhang</b><br>
-									<i>Tree priors</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)-->
+	<!-- Tue -->	
+	<td rowspan="4" class="lecture"><b>Walter Xie</b><br>
+									<i>LinguaPhylo and LPhyBEAST</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)-->
 	</td>
 	<!-- Wed -->
 	<td rowspan="4" class="lecture"><b>Rachel Warnock</b><br>
@@ -176,17 +177,16 @@ _(subject to change)_
 <tr>
 <td> 11:15 </td>
 	<!-- Mon -->
-	<td rowspan="4" class="tutorial"><b>Introduction to BEAST2</b><br>
+	<td rowspan="2" class="tutorial"><b>Introduction to BEAST2</b><br>
 									(<a href="/tutorials/Introduction-to-BEAST2/">tutorial</a>)</td>
 	<!-- Tue -->
-	<td rowspan="4" class="tutorial"><b>Inference of past population dynamics using skyline models</b><br>
-									(<a href="/tutorials/Skyline-plots/">BEAST2 tutorial</a>
-									,<a href="https://linguaphylo.github.io/tutorials/skyline-plots/">LPhyBEAST tutorial</a>)</td>
+	<td rowspan="4" class="tutorial"><b>Analysing Time-Stamped Data with LinguaPhylo and BEAST</b><br>
+									(<a href="https://linguaphylo.github.io/tutorials/time-stamped-data/">tutorial</a>)</td>
 	<!-- Wed -->
 	<td rowspan="4" class="tutorial"><b>Dating species divergences with the fossilized birth-death process</b><br>
 									(<a href="/tutorials/FBD-tutorial/">tutorial</a>)</td>
 	<!-- Thu -->
-	<td rowspan="4" class="tutorial"><b>Modelling macro-evolution with BDMM-prime</b><br>
+	<td rowspan="2" class="tutorial"><b>Modelling macro-evolution with BDMM-prime</b><br>
 									(<a href="/tutorials/">tutorial</a>)</td>
 	<!-- Fri -->
 	<td rowspan="4" class="tutorial"><b>Estimating single-cell trees from lineage tracing data with TiDeTree</b><br>
@@ -204,6 +204,12 @@ _(subject to change)_
 <!-- 11:45 -->
 <tr>
 <td> 11:45 </td>
+	<!-- Mon -->
+	<td rowspan="2" class="tutorial"><b>Visualizing BEAST2 results in R</b><br>
+									(<a href="/tutorials/Visualizing-BEAST2-results/">tutorial</a>)</td>
+	<!-- Thu -->
+	<td rowspan="2" class="tutorial"><b>Modelling pathogen spread with MASCOT</b><br>
+									(<a href="/tutorials/Mascot-Tutorial/">tutorial</a>)</td>
 </tr>
 
 
@@ -246,14 +252,14 @@ _(subject to change)_
 	<td rowspan="4" class="lecture"><b>Simon Ho</b><br>
 									<i>Molecular clock dating and modelling rate variation</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 	<!-- Tue -->
-	<td rowspan="4" class="lecture"><b>Walter Xie</b><br>
-									<i>LinguaPhylo and LPhyBEAST</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
+	<td rowspan="4" class="lecture"><b>Rong Zhang</b><br>
+									<i>Inference using continuous traits</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 	<!-- Thu -->
 	<td rowspan="4" class="lecture"><b>Chi Zhang</b><br>
 									<i>Species tree inference and the multispecies coalescent</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 	<!-- Fri -->
-	<td rowspan="4" class="lecture"><b>TBA</b><br>
-									<i>Lecture</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
+	<td rowspan="4" class="lecture"><b>Joëlle Barido-Sottani</b><br>
+									<i>Morphological models and total-evidence dating</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 </tr>
 
 <!-- 13:30 -->
@@ -269,7 +275,6 @@ _(subject to change)_
 <!-- 14:00 -->
 <tr>
 <td> 14:00 </td>
-
 </tr>
 
 <!-- 14:15 -->
@@ -279,13 +284,13 @@ _(subject to change)_
 	<td rowspan="4" class="tutorial"><b>Prior selection and clock calibration</b><br>
 									(<a href="/tutorials/Prior-selection/">tutorial</a>)</td>
 	<!-- Tue -->
-	<td rowspan="4" class="tutorial"><b>Analysing Time-Stamped Data with LinguaPhylo and BEAST</b><br>
-									(<a href="https://linguaphylo.github.io/tutorials/time-stamped-data/">tutorial</a>)</td>
+	<td rowspan="4" class="tutorial"><b>Modelling continuous trait evolution in BEAST2</b><br>
+									(<a href="/tutorials/">tutorial</a>)</td>
 	<!-- Thu -->
 	<td rowspan="4" class="tutorial"><b>Estimating species trees using StarBEAST3</b><br>
 									(<a href="/tutorials/">tutorial</a>)</td>
 	<!-- Fri -->
-	<td rowspan="4" class="tutorial"><b>TBA</b><br>
+	<td rowspan="4" class="tutorial"><b>Modelling morphological evolution in BEAST2</b><br>
 									(<a href="/tutorials/">tutorial</a>)</td>
 </tr>
 
@@ -320,18 +325,18 @@ _(subject to change)_
 <tr>
 <td> 15:30 </td>
 	<!-- Mon -->
+	<td rowspan="4" class="lecture"><b>Chi Zhang</b><br>
+									<i>Tree priors</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
+	<!-- Tue -->
 	<td rowspan="4" class="lecture"><b>Joëlle Barido-Sottani</b><br>
 									<i>Troubleshooting & practical tips</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
-	<!-- Tue -->
-	<td rowspan="4" class="lecture"><b>Rong Zhang</b><br>
-									<i>Inference using continuous traits</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 	<!-- Thu -->
-	<td rowspan="4" class="lecture"><b>TBA</b><br>
-									<i>Lecture</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
+	<td rowspan="4" class="lecture"><b>Robert Yuan</b><br>
+									<i>Model selection & model averaging</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 	<!-- Fri -->
-	<td rowspan="4" class="lecture"><b>TBA</b><br>
-									<i>Lecture</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td></tr>
-
+	<td rowspan="6" class="help-session"><b>Free Q&A session and wrap-up</b><br>(optional)</td>
+</tr>
+	
 <!-- 15:45 -->
 <tr>
 <td> 15:45 </td>
@@ -342,8 +347,6 @@ _(subject to change)_
 <!-- 16:00 -->
 <tr>
 <td> 16:00 </td>
-	<!-- Fri -->
-	<!--td rowspan="1" class="padding">Departure</td>-->
 </tr>
 
 <tr>
@@ -353,17 +356,15 @@ _(subject to change)_
 <tr>
 <td> 16:30 </td>
 	<!-- Mon -->
-	<td rowspan="2" class="tutorial"><b>BEAST2 convergence</b><br>
-								(<a href="/tutorials/Troubleshooting-convergence-issues/">tutorial</a>)</td>
-	<!-- Tue -->
-	<td rowspan="4" class="tutorial"><b>Modelling continuous trait evolution in BEAST2</b><br>
-									(<a href="/tutorials/">tutorial</a>)</td>
+	<td rowspan="4" class="tutorial"><b>Inference of past population dynamics using skyline models</b><br>
+									(<a href="/tutorials/Skyline-plots/">BEAST2 tutorial</a>
+									,<a href="https://linguaphylo.github.io/tutorials/skyline-plots/">LPhyBEAST tutorial</a>)</td>
+	<!-- Tue -->		
+	<td rowspan="2" class="tutorial"><b>BEAST2 initialization</b><br>
+									(<a href="/tutorials/Troubleshooting-initialization-issues/">tutorial</a>)</td>
 	<!-- Thu -->
-	<td rowspan="4" class="tutorial"><b>TBA</b><br>
-									(<a href="/tutorials/">tutorial</a>)</td>
-	<!-- Fri -->
-	<td rowspan="4" class="tutorial"><b>TBA</b><br>
-									(<a href="/tutorials/">tutorial</a>)</td>
+	<td rowspan="2" class="tutorial"><b>Clock model selection</b><br>
+									(<a href="/tutorials/">tutorial</a>)</td>	
 </tr>
 
 <tr>
@@ -372,9 +373,14 @@ _(subject to change)_
 
 <tr>
 <td> 17:00 </td>
-	<!-- Mon -->
-	<td rowspan="2" class="tutorial"><b>BEAST2 initialization</b><br>
-									(<a href="/tutorials/Troubleshooting-initialization-issues/">tutorial</a>)</td>
+	<!-- Tue -->
+	<td rowspan="2" class="tutorial"><b>BEAST2 convergence</b><br>
+								(<a href="/tutorials/Troubleshooting-convergence-issues/">tutorial</a>)</td>
+	<!-- Thu -->
+	<td rowspan="2" class="tutorial"><b>Model selection with nested sampling</b><br>
+									(<a href="/tutorials/NS-tutorial/">tutorial</a>)</td>	
+	<!-- Fri -->
+	<td rowspan="4" class="padding">Departure</td>									
 </tr>
 
 <tr>
@@ -389,39 +395,98 @@ _(subject to change)_
 	<td rowspan="2" class="help-session"><b>BEAST Clinic & Tutorial catch-up</b><br>(optional)</td>
 	<!-- Thu -->
 	<td rowspan="2" class="help-session"><b>BEAST Clinic & Tutorial catch-up</b><br>(optional)</td>
-	<!-- Fri -->
-	<td rowspan="2" class="help-session"><b>Free Q&A session and wrap-up</b><br>(optional)</td>
 </tr>
 
 <tr>
 <td> 17:45 </td>
 </tr>
 
-
-<!------------------------------------------------------------------>
-<!-- 18:00 -->
-<!--tr>
-<td> 18:00 </td>
-
-<td rowspan="1" class="food"> <b>Welcome event</b>  <br><i>A-Frame Brewing &amp; Flipside Burgers</i> </td>
-<td rowspan="1" class="food"> <b>Dinner</b>  <br><i>Howe Sound Brewery</i> </td>
-<td rowspan="1" class="food"> <b>Dinner</b>  <br><i>Howe Sound Brewery</i> </td>
-<td rowspan="1" class="food"> <b>Dinner</b>  <br><i>Beach BBQ</i> </td>
-<td rowspan="1" class="food"> <b>Farewell dinner</b>  <br><i>Free Bird</i> </td>
-
-</tr-->
-
-
 </tbody>
 </table>
 
-
-
-
-
-
-
 <div class="bigspacer"></div>
+
+
+# Workshop committee 
+
+<table style="text-align: center">
+	<tr>
+		<td class="padding"></td><td><b>Affiliation</b></td><td><b>Organizing committee</b></td><td><b>Speaker / Instructor</b></td><td><b>Teaching Assistant</b></td><td><b>Logistics</b></td>
+	</tr>
+	<tr><td style="text-align: left">Joëlle Barido Sottani</td><td style="text-align: left">Ecole Normale Supérieure</td>
+		<td><i class="bi-check-lg"></i></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
+	<tr><td style="text-align: left">Louis du Plessis</td><td style="text-align: left">ETH Zürich</td>
+		<td><i class="bi-check-lg"></i></td><td></td><td></td><td></td></tr>
+	<tr><td>Sasha Gavryushkina</td><td>University of Adelaide</td>
+		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
+	<tr><td>Simon Ho</td><td>University of Sydney</td>
+		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
+	<tr><td>Arong Luo</td><td>Chinese Academy of Sciences</td>
+		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
+	<tr><td>Sophie Seidel</td><td>University of Washington</td>
+		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
+	<tr><td>Rachel Warnock</td><td>Friedrich-Alexander Universität</td>
+		<td><i class="bi-check-lg"></i></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
+	<tr><td>Walter Xie</td><td>University of Auckland</td>
+		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
+	<tr><td>Xing Xu</td><td>Chinese Academy of Sciences</td>
+		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
+	<tr><td>Robert Yuan</td><td>ETH Zürich</td>
+		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
+	<tr><td>Chi Zhang</td><td>Chinese Academy of Sciences</td>
+		<td><i class="bi-check-lg"></i></td><td><i class="bi-check-lg"></i></td><td></td><td><i class="bi-check-lg"></i></td></tr>
+	<tr><td>Rong Zhang</td><td>Duke-NUS Medical School</td>
+		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
+
+
+</table>
+
+
+- [Joëlle Barido-Sottani](https://bjoelle.github.io) (Institut de Biologie de l'ENS)
+
+
+- [Louis du Plessis](https://bsse.ethz.ch/cevo/the-group/people/person-detail.lduplessis.html) (ETH Zürich)
+
+
+
+{% if page.repo %}
+
+# Lecture slides
+
+Slides to lectures are available from [here]( https://github.com/{{ page.repo }} ).
+
+{% endif %}
+
+
+# Required Software
+
+Please ensure the following software is installed prior to the start of the workshop.
+
+- **BEAST 2:** BEAST 2 is a cross-platform program for Bayesian phylogenetic analysis of molecular sequences. We will be using this software to perform analyses on the data brought to the workshop. We will be using **BEAST v2.7** for the workshop [(download)](http://beast2.org/).
+- **FigTree:** FigTree is a graphical viewer of phylogenetic trees, specifically designed to display summarised and annotated trees produced by BEAST [(download)](http://beast.community/figtree).
+- **Tracer:** Tracer is a program for analysing the trace files generated by Bayesian MCMC runs. It can be used to check mixing, ESS, parameter correlations, etc. [(download)](http://beast.community/tracer).
+- **BEAGLE (optional):** BEAGLE is a high-performance library that can perform the core calculations in BEAST2 (and many other phylogenetics packages) much faster. BEAGLE isn't necessary for the workshop, but it will speed up your analyses [(download)](http://beast.community/beagle).
+- **R:** R is a free software environment that provides a wide variety of statistical (linear and nonlinear modelling, classical statistical tests, time-series analysis, classification, clustering) and graphical techniques, and is highly extensible [(download)](https://www.r-project.org/).
+- **RStudio (optional):** RStudio provides a friendly front-end for R [(download)](https://posit.co/download/rstudio-desktop/).
+
+
+# Pre-workshop recommended reading
+
+### Phylogenetics and phylodynamics books
+
+- [Decoding Genomes: From Sequences to Phylodynamics](https://decodinggenomes.org), _Tanja Stadler, Carsten Magnus, Timothy Vaughan, Joëlle Barido-Sottani, Veronika Bošková, Jana S. Huisman, Jūlija Pečerska_ **(PDF available free of charge from the website)**
+- [Bayesian Evolutionary Analysis with BEAST](https://www.beast2.org/book/), _Alexei J. Drummond, Remco R. Bouckaert_
+- [Molecular Evolution: A Statistical Approach](http://abacus.gene.ucl.ac.uk/MESA/), _Ziheng Yang_
+- [Inferring Phylogenies](https://www.amazon.co.uk/Inferring-Phylogenies-Joseph-Felsenstein/dp/0878931775), _Joseph Felsenstein_
+
+
+### Statistics and Bayesian inference
+
+- [Information Theory, Inference and Learning Algorithms](https://www.inference.org.uk/itila/book.html) _David MacKay_ **(PDF available free of charge from the website)** 
+- Ziheng Yang's [statistics primer](http://abacus.gene.ucl.ac.uk/PPS/PrimerProbabilityStatistics.pdf) gives a short overview of the topic (excluding Bayesian inference).
+- Richard McElreath's [Statistical Rethinking](https://github.com/rmcelreath/stat_rethinking_2025) course uses Bayesian inference to teach data analysis.
+
+
 
 
 # Venue and travel information
