@@ -411,51 +411,54 @@ _(subject to change)_
 
 <table style="text-align: center">
 	<tr>
-		<td class="padding"></td><td><b>Affiliation</b></td><td><b>Organizing committee</b></td><td><b>Speaker / Instructor</b></td><td><b>Teaching Assistant</b></td><td><b>Logistics</b></td>
+		<td class="tutorial"></td><td  style="text-align: left" class="tutorial"><b>Affiliation</b></td><td class="tutorial"><b>Organizing committee</b></td><td class="tutorial"><b>Speaker / Instructor</b></td><td class="tutorial"><b>Teaching Assistant</b></td><td class="tutorial"><b>Logistics</b></td>
 	</tr>
-	<tr><td style="text-align: left">Joëlle Barido Sottani</td><td style="text-align: left">Ecole Normale Supérieure</td>
+	<tr><td style="text-align: left"><b>Joëlle Barido Sottani</b></td><td style="text-align: left">Ecole Normale Supérieure</td>
 		<td><i class="bi-check-lg"></i></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td style="text-align: left">Louis du Plessis</td><td style="text-align: left">ETH Zürich</td>
+	<tr><td style="text-align: left"><b>Yindi Cao</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
+		<td></td><td></td><td></td><td><i class="bi-check-lg"></i></td></tr>
+	<tr><td style="text-align: left"><b>Minghao Du</b></td><td style="text-align: left">Ecole Normale Supérieure</td>
+		<td></td><td></td><td><i class="bi-check-lg"></i></td><td></td></tr>
+	<tr><td style="text-align: left"><b>Louis du Plessis</b></td><td style="text-align: left">ETH Zürich</td>
 		<td><i class="bi-check-lg"></i></td><td></td><td></td><td></td></tr>
-	<tr><td>Sasha Gavryushkina</td><td>University of Adelaide</td>
+	<tr><td style="text-align: left"><b>Sasha Gavryushkina</b></td><td style="text-align: left">University of Adelaide</td>
 		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td>Simon Ho</td><td>University of Sydney</td>
+	<tr><td style="text-align: left"><b>Simon Ho</b></td><td style="text-align: left">University of Sydney</td>
 		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td>Arong Luo</td><td>Chinese Academy of Sciences</td>
+	<tr><td style="text-align: left"><b>Arong Luo</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
 		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td>Sophie Seidel</td><td>University of Washington</td>
+	<tr><td style="text-align: left"><b>Zhaohui Pan</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
+		<td></td><td></td><td></td><td><i class="bi-check-lg"></i></td></tr>
+	<tr><td style="text-align: left"><b>Sophie Seidel</b></td><td style="text-align: left">University of Washington</td>
 		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td>Rachel Warnock</td><td>Friedrich-Alexander Universität</td>
+	<tr><td style="text-align: left"><b>Rachel Warnock</b></td><td style="text-align: left">Friedrich-Alexander Universität</td>
 		<td><i class="bi-check-lg"></i></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td>Walter Xie</td><td>University of Auckland</td>
+	<tr><td style="text-align: left"><b>Walter (Dong) Xie</b></td><td style="text-align: left">University of Auckland</td>
 		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td>Xing Xu</td><td>Chinese Academy of Sciences</td>
+	<tr><td style="text-align: left"><b>Xing Xu</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
 		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td>Robert Yuan</td><td>ETH Zürich</td>
+	<tr><td style="text-align: left"><b>Robert (Haobo) Yuan</b></td><td style="text-align: left">ETH Zürich</td>
 		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td>Chi Zhang</td><td>Chinese Academy of Sciences</td>
+	<tr><td style="text-align: left"><b>Chi Zhang</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
 		<td><i class="bi-check-lg"></i></td><td><i class="bi-check-lg"></i></td><td></td><td><i class="bi-check-lg"></i></td></tr>
-	<tr><td>Rong Zhang</td><td>Duke-NUS Medical School</td>
+	<tr><td style="text-align: left"><b>Rong Zhang</b></td><td style="text-align: left">Duke-NUS Medical School</td>
 		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
 
 
 </table>
 
 
-- [Joëlle Barido-Sottani](https://bjoelle.github.io) (Institut de Biologie de l'ENS)
-
-
-- [Louis du Plessis](https://bsse.ethz.ch/cevo/the-group/people/person-detail.lduplessis.html) (ETH Zürich)
-
-
-
 {% if page.repo %}
+
+<div class="bigspacer"></div>
 
 # Lecture slides
 
 Slides to lectures are available from [here]( https://github.com/{{ page.repo }} ).
 
 {% endif %}
+
+<div class="bigspacer"></div>
 
 
 # Required Software
@@ -468,6 +471,8 @@ Please ensure the following software is installed prior to the start of the work
 - **BEAGLE (optional):** BEAGLE is a high-performance library that can perform the core calculations in BEAST2 (and many other phylogenetics packages) much faster. BEAGLE isn't necessary for the workshop, but it will speed up your analyses [(download)](http://beast.community/beagle).
 - **R:** R is a free software environment that provides a wide variety of statistical (linear and nonlinear modelling, classical statistical tests, time-series analysis, classification, clustering) and graphical techniques, and is highly extensible [(download)](https://www.r-project.org/).
 - **RStudio (optional):** RStudio provides a friendly front-end for R [(download)](https://posit.co/download/rstudio-desktop/).
+
+<div class="bigspacer"></div>
 
 
 # Pre-workshop recommended reading
@@ -482,11 +487,12 @@ Please ensure the following software is installed prior to the start of the work
 
 ### Statistics and Bayesian inference
 
-- [Information Theory, Inference and Learning Algorithms](https://www.inference.org.uk/itila/book.html) _David MacKay_ **(PDF available free of charge from the website)** 
-- Ziheng Yang's [statistics primer](http://abacus.gene.ucl.ac.uk/PPS/PrimerProbabilityStatistics.pdf) gives a short overview of the topic (excluding Bayesian inference).
-- Richard McElreath's [Statistical Rethinking](https://github.com/rmcelreath/stat_rethinking_2025) course uses Bayesian inference to teach data analysis.
+- [Information Theory, Inference and Learning Algorithms](https://www.inference.org.uk/itila/book.html), _David MacKay_ **(PDF available free of charge from the website)** 
+- _Ziheng Yang's_ [statistics primer](http://abacus.gene.ucl.ac.uk/PPS/PrimerProbabilityStatistics.pdf) gives a short overview of the topic (excluding Bayesian inference).
+- _Richard McElreath's_ [Statistical Rethinking](https://github.com/rmcelreath/stat_rethinking_2025) course uses Bayesian inference to teach data analysis.
 
 
+<div class="bigspacer"></div>
 
 
 # Venue and travel information
