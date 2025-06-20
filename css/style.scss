@@ -408,6 +408,8 @@ table td.padding {
 
 /** Base **/
 
+/** These two break bullet/list padding **/
+/**
 *,
 ::before,
 ::after {
@@ -419,6 +421,8 @@ table td.padding {
   margin: 0;
   padding: 0;
 }
+
+**/
 
 body {
   -webkit-font-smoothing: antialiased;
