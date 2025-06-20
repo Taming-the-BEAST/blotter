@@ -96,13 +96,13 @@ _(subject to change)_
 	<td rowspan="4" class="invited-lecture"><b>Sasha Gavryushkina</b><br><i>Birth-death models for estimating speciation and epidemiological parameters</i>
 											(<a href="https://researchers.adelaide.edu.au/profile/sasha.gavryushkina">link</a>)
 	</td>
-	<!-- Thu -->
-	<td rowspan="4" class="invited-lecture"><b>Arong Luo</b><br><i>Molecular data and their use in macroevolutionary studies</i>
-											(<a href="http://english.ioz.cas.cn/sourcedb/scs/202310/t20231030_431237.html">link</a>)
-	</td>
-	<!-- Fri -->
+	<!-- Thu -->	
 	<td rowspan="4" class="invited-lecture"><b>Xing Xu</b><br><i>Morphology-based phylogenetic analysis: Taxon sampling, character formulation and coding</i>
 											(<a href="http://english.casad.cas.cn/members/casm/does/202404/t20240416_660183.html">link</a>)
+	</td>
+	<!-- Fri -->
+	<td rowspan="4" class="invited-lecture"><b>Arong Luo</b><br><i>Molecular data and their use in macroevolutionary studies</i>
+											(<a href="http://english.ioz.cas.cn/sourcedb/scs/202310/t20231030_431237.html">link</a>)
 	</td>
 </tr>
 <!-- 9.15 -->
@@ -258,7 +258,7 @@ _(subject to change)_
 	<td rowspan="4" class="lecture"><b>Chi Zhang</b><br>
 									<i>Species tree inference and the multispecies coalescent</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 	<!-- Fri -->
-	<td rowspan="4" class="lecture"><b>Joëlle Barido-Sottani</b><br>
+	<td rowspan="4" class="lecture"><b>Rachel Warnock</b><br>
 									<i>Morphological models and total-evidence dating</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 </tr>
 
@@ -413,36 +413,54 @@ _(subject to change)_
 	<tr>
 		<td class="tutorial"></td><td  style="text-align: left" class="tutorial"><b>Affiliation</b></td><td class="tutorial"><b>Organizing committee</b></td><td class="tutorial"><b>Speaker / Instructor</b></td><td class="tutorial"><b>Teaching Assistant</b></td><td class="tutorial"><b>Logistics</b></td>
 	</tr>
-	<tr><td style="text-align: left"><b>Joëlle Barido Sottani</b></td><td style="text-align: left">Ecole Normale Supérieure</td>
+	<tr><td style="text-align: left"><b><a href="https://bjoelle.github.io" target="_blank">Joëlle Barido Sottani</a></b></td><td style="text-align: left">Ecole Normale Supérieure</td>
 		<td><i class="bi-check-lg"></i></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
 	<tr><td style="text-align: left"><b>Yindi Cao</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
+		<td></td><td></td><td></td><td><i class="bi-check-lg"></i></td></tr>
+	<tr><td style="text-align: left"><b>Meijing Chang</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
 		<td></td><td></td><td></td><td><i class="bi-check-lg"></i></td></tr>
 	<tr><td style="text-align: left"><b>Minghao Du</b></td><td style="text-align: left">Ecole Normale Supérieure</td>
 		<td></td><td></td><td><i class="bi-check-lg"></i></td><td></td></tr>
 	<tr><td style="text-align: left"><b>Louis du Plessis</b></td><td style="text-align: left">ETH Zürich</td>
 		<td><i class="bi-check-lg"></i></td><td></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b>Sasha Gavryushkina</b></td><td style="text-align: left">University of Adelaide</td>
+	<tr><td style="text-align: left"><b><a href="https://researchers.adelaide.edu.au/profile/sasha.gavryushkina" target="_blank">Sasha Gavryushkina</a></b></td><td style="text-align: left">University of Adelaide</td>
 		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b>Simon Ho</b></td><td style="text-align: left">University of Sydney</td>
+	<tr><td style="text-align: left"><b><a href="https://www.sydney.edu.au/science/about/our-people/academic-staff/simon-ho.html" target="_blank">Simon Ho</a></b></td><td style="text-align: left">University of Sydney</td>
 		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b>Arong Luo</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
+	<tr><td style="text-align: left"><b>Eva (Yutong) Li</b></td><td style="text-align: left">University of Auckland</td>
+		<td></td><td></td><td><i class="bi-check-lg"></i></td><td></td></tr>
+	<tr><td style="text-align: left"><b>Xue'er Liu</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
+		<td></td><td></td><td></td><td><i class="bi-check-lg"></i></td></tr>
+	<tr><td style="text-align: left"><b><a href="http://english.ioz.cas.cn/sourcedb/scs/202310/t20231030_431237.html" target="_blank">Arong Luo</a></b></td><td style="text-align: left">Chinese Academy of Sciences</td>
 		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
 	<tr><td style="text-align: left"><b>Zhaohui Pan</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
 		<td></td><td></td><td></td><td><i class="bi-check-lg"></i></td></tr>
-	<tr><td style="text-align: left"><b>Sophie Seidel</b></td><td style="text-align: left">University of Washington</td>
+	<tr><td style="text-align: left"><b><a href="https://www.researchgate.net/profile/Sophie-Seidel" target="_blank">Sophie Seidel</a></b></td><td style="text-align: left">University of Washington</td>
 		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b>Rachel Warnock</b></td><td style="text-align: left">Friedrich-Alexander Universität</td>
+	<tr><td style="text-align: left"><b>Yutai Shi</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
+		<td></td><td></td><td></td><td><i class="bi-check-lg"></i></td></tr>
+	<tr><td style="text-align: left"><b>Timothy Vaughn</b></td><td style="text-align: left">ETH Zürich</td>
+		<td><i class="bi-check-lg"></i></td><td></td><td></td><td></td></tr>
+	<tr><td style="text-align: left"><b><a href="https://palaeobiology.nat.fau.de/people/instructors/warnock/" target="_blank">Rachel Warnock</a></b></td><td style="text-align: left">Friedrich-Alexander Universität</td>
 		<td><i class="bi-check-lg"></i></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b>Walter (Dong) Xie</b></td><td style="text-align: left">University of Auckland</td>
+	<tr><td style="text-align: left"><b><a href="https://profiles.auckland.ac.nz/dxie004" target="_blank">Walter (Dong) Xie</a></b></td><td style="text-align: left">University of Auckland</td>
 		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b>Xing Xu</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
+	<tr><td style="text-align: left"><b>Jiabao Xing</b></td><td style="text-align: left">Fudan University</td>
+		<td></td><td></td><td><i class="bi-check-lg"></i></td><td></td></tr>
+	<tr><td style="text-align: left"><b><a href="https://www.geolsoc.org.uk/membership/already-a-member/honorary-fellows/list-of-honorary-fellows/prof-xing-xu/" target="_blank">Xing Xu</a></b></td><td style="text-align: left">Chinese Academy of Sciences</td>
 		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b>Robert (Haobo) Yuan</b></td><td style="text-align: left">ETH Zürich</td>
+	<tr><td style="text-align: left"><b>Yuan Xu</b></td><td style="text-align: left">University of Auckland</td>
+		<td></td><td></td><td><i class="bi-check-lg"></i></td><td></td></tr>
+	<tr><td style="text-align: left"><b>Xiao Yao</b></td><td style="text-align: left">University of Auckland</td>
+		<td></td><td></td><td><i class="bi-check-lg"></i></td><td></td></tr>
+	<tr><td style="text-align: left"><b><a href="https://www.researchgate.net/profile/Robert-Haobo-Yuan" target="_blank">Robert (Haobo) Yuan</a></b></td><td style="text-align: left">ETH Zürich</td>
 		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b>Chi Zhang</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
+	<tr><td style="text-align: left"><b><a href="https://sites.google.com/view/zhangchicool/home" target="_blank">Chi Zhang</a></b></td><td style="text-align: left">Chinese Academy of Sciences</td>
 		<td><i class="bi-check-lg"></i></td><td><i class="bi-check-lg"></i></td><td></td><td><i class="bi-check-lg"></i></td></tr>
-	<tr><td style="text-align: left"><b>Rong Zhang</b></td><td style="text-align: left">Duke-NUS Medical School</td>
+	<tr><td style="text-align: left"><b><a href="" target="_blank">Rong Zhang</a></b></td><td style="text-align: left">Duke-NUS Medical School</td>
 		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
+	<tr><td style="text-align: left"><b>Yinan Zhang</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
+		<td></td><td></td><td></td><td><i class="bi-check-lg"></i></td></tr>
 
 
 </table>
@@ -475,25 +493,6 @@ Please ensure the following software is installed prior to the start of the work
 <div class="bigspacer"></div>
 
 
-# Pre-workshop recommended reading
-
-### Phylogenetics and phylodynamics books
-
-- [Decoding Genomes: From Sequences to Phylodynamics](https://decodinggenomes.org), _Tanja Stadler, Carsten Magnus, Timothy Vaughan, Joëlle Barido-Sottani, Veronika Bošková, Jana S. Huisman, Jūlija Pečerska_ **(PDF available free of charge from the website)**
-- [Bayesian Evolutionary Analysis with BEAST](https://www.beast2.org/book/), _Alexei J. Drummond, Remco R. Bouckaert_
-- [Molecular Evolution: A Statistical Approach](http://abacus.gene.ucl.ac.uk/MESA/), _Ziheng Yang_
-- [Inferring Phylogenies](https://www.amazon.co.uk/Inferring-Phylogenies-Joseph-Felsenstein/dp/0878931775), _Joseph Felsenstein_
-
-
-### Statistics and Bayesian inference
-
-- [Information Theory, Inference and Learning Algorithms](https://www.inference.org.uk/itila/book.html), _David MacKay_ **(PDF available free of charge from the website)** 
-- _Ziheng Yang's_ [statistics primer](http://abacus.gene.ucl.ac.uk/PPS/PrimerProbabilityStatistics.pdf) gives a short overview of the topic (excluding Bayesian inference).
-- _Richard McElreath's_ [Statistical Rethinking](https://github.com/rmcelreath/stat_rethinking_2025) course uses Bayesian inference to teach data analysis.
-
-
-<div class="bigspacer"></div>
-
 
 # Venue and travel information
 
@@ -517,6 +516,34 @@ The workshop will take place at the [Institute for Vertebrate Paleontology and P
 - Location in [Baidu maps](https://map.baidu.com/poi/中国古动物馆/@12951021.40805023,4830010.474834426,19.21z)
 
 Travellers from many countries are able to visit China without needing to apply for a visa. Please see [here](https://www.travelchinaguide.com/embassy/china-visa-free-policy.htm) and [here](https://smbe2025.scimeeting.cn/en/web/index/25070_2132279) for further details. The SMBE 2025 website has list of [practical information and tips](https://smbe2025.scimeeting.cn/en/web/index/25070_2132280) for travelling to Beijing this July.  
+
+
+<div class="bigspacer"></div>
+
+
+# Additional resources
+
+There are a lot of great resources for brushing up or deepening your knowledge of the models used in BEAST2. This is a selection of resources that we consider especially useful, several of which are freely available on the internet. It is not expected that you've worked through _any_ of these before the workshop!  
+
+
+### Phylogenetics and phylodynamics
+
+- _Paul Lewis'_ Phyloseminar Phylogenetics 101 primer is an excellent introduction to the topic (4 hours of content):
+	- [Part 1: Trees and Likelihood](https://www.youtube.com/watch?v=1r4z0YJq580)
+	- [Part 2: Substitution models](https://www.youtube.com/watch?v=UsLeY0wZr4Y)
+	- [Part 3a: Bayesian statistics and MCMC](https://www.youtube.com/watch?v=4PWlnNsfz90)
+	- [Part 3b: Bayesian phylogenetics](https://www.youtube.com/watch?v=TLtOS--YwkU)
+- [Decoding Genomes: From Sequences to Phylodynamics](https://decodinggenomes.org), _Tanja Stadler, Carsten Magnus, Timothy Vaughan, Joëlle Barido-Sottani, Veronika Bošková, Jana S. Huisman, Jūlija Pečerska_ **(PDF available free of charge from the website)**
+- [Bayesian Evolutionary Analysis with BEAST](https://www.beast2.org/book/), _Alexei J. Drummond, Remco R. Bouckaert_
+- [Molecular Evolution: A Statistical Approach](http://abacus.gene.ucl.ac.uk/MESA/), _Ziheng Yang_
+- [Inferring Phylogenies](https://www.amazon.co.uk/Inferring-Phylogenies-Joseph-Felsenstein/dp/0878931775), _Joseph Felsenstein_
+
+
+### Statistics and Bayesian inference
+
+- [Information Theory, Inference and Learning Algorithms](https://www.inference.org.uk/itila/book.html), _David MacKay_ **(PDF available free of charge from the website)** 
+- _Ziheng Yang's_ [statistics primer](http://abacus.gene.ucl.ac.uk/PPS/PrimerProbabilityStatistics.pdf) gives a short overview of the topic (excluding Bayesian inference).
+- _Richard McElreath's_ [Statistical Rethinking](https://github.com/rmcelreath/stat_rethinking_2025) course uses Bayesian inference to teach data analysis.
 
 
 <div class="bigspacer"></div>
