@@ -104,7 +104,7 @@ The workshop dinner will take place on **July 17** at **6:30pm** in the **Xiyuan
 <figure>
    <a id="fig:venue"></a>
 	<!--img src="{{ site.baseurl }}/images/workshops/Taming-the-BEAST-Beijing-Venue3.jpg" width="50%;" alt="Event locations"-->
-	<img src="../images/workshops/Taming-the-BEAST-Beijing-Venue3.jpg" width="50%;" alt="Event locations">
+	<img src="../../images/workshops/Taming-the-BEAST-Beijing-Venue3.jpg" width="50%;" alt="Event locations">
 </figure>
 
 
