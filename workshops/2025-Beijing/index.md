@@ -15,8 +15,9 @@ image: /images/workshops/Taming-the-BEAST-Beijing-Logo.svg
 	<div class="col-md-3">
 	<div id="sidebar">
 		<div class="bigspacer">
-			<div class="head"><a href="../Taming-the-BEAST-Beijing/">Workshop programme</a></div>
+			<div class="head"><a href="../Taming-the-BEAST-Beijing/">Programme page</a></div>
 				<div class="pad-left smallhead">Programme</div>
+				<div class="pad-left smallhead">Lecture slides</div>
 				<div class="pad-left smallhead">Required software</div>
 				<div class="pad-left smallhead">Additional resources</div>
 			<div class="smallspacer"></div>
