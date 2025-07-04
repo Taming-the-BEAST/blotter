@@ -9,8 +9,10 @@ startdate: 2025-07-14
 enddate: 2025-07-18
 image: /images/workshops/Taming-the-BEAST-Beijing-Logo.svg
 flyer: /images/workshops/Taming-the-BEAST-Beijing-Flyer.pdf
-homepage: /workshops/Taming-the-BEAST-Beijing/index.html
+homepage: /workshops/2025-Beijing/index.html
 has_programme: true
+repo: Taming-the-BEAST/Taming-the-BEAST-2025-Beijing-Lectures
+
 ---
 
 <!--figure>
@@ -18,6 +20,8 @@ has_programme: true
 </figure>
 
 <div class="bigspacer"></div-->
+
+Please visit the [workshop page](../2025-Beijing/) for information about the venue, travel and the workshop committee.
 
 
 {% for form in site.categories.forms %}
@@ -72,7 +76,7 @@ _(subject to change)_
 <!-- 8.45 -->
 <tr>
 <td> 08:45 </td>
-<td rowspan="37" class="padding"> Arrival </td>
+<td rowspan="21" class="padding"> Arrival </td>
 <td> Welcome </td>
 <td> Housekeeping </td>
 <td> Housekeeping </td>
@@ -224,7 +228,7 @@ _(subject to change)_
 <td> 12:15 </td>
 <td rowspan="4" class="food"> <b>Lunch</b> <br><i>IVPP</i>  </td>
 <td rowspan="4" class="food"> <b>Lunch</b> <br><i>IVPP</i>  </td>
-<td rowspan="23" class="padding">Free afternoon</td>
+<td rowspan="28" class="padding">Free afternoon</td>
 <td rowspan="4" class="food"> <b>Lunch</b> <br><i>IVPP</i>  </td>
 <td rowspan="4" class="food"> <b>Lunch</b> <br><i>IVPP</i>  </td>
 </tr>
@@ -275,6 +279,7 @@ _(subject to change)_
 <!-- 14:00 -->
 <tr>
 <td> 14:00 </td>
+	<td rowspan="20" class="help-session"><b>Registration</b><br><i>IVPP<br>(main buildiing)</i></td>
 </tr>
 
 <!-- 14:15 -->
@@ -380,7 +385,7 @@ _(subject to change)_
 	<td rowspan="2" class="tutorial"><b>Model selection with nested sampling</b><br>
 									(<a href="/tutorials/NS-tutorial/">tutorial</a>)</td>	
 	<!-- Fri -->
-	<td rowspan="4" class="padding">Departure</td>									
+	<td rowspan="9" class="padding">Departure</td>									
 </tr>
 
 <tr>
@@ -401,75 +406,47 @@ _(subject to change)_
 <td> 17:45 </td>
 </tr>
 
+<tr>
+<td> 18:00 </td>
+	<!-- Mon -->
+	<td rowspan="5" class="food"><b>Dinner</b><br><i>IVPP<br>(conference room)</i></td>
+	<!-- Tue -->
+	<td rowspan="5" class="food"><b>Dinner</b><br><i>IVPP<br>(conference room)</i></td>	
+</tr>
+
+<tr>
+<td> 18:15 </td>
+</tr>
+
+<tr>
+<td> 18:30 </td>
+	<!-- Thu -->
+	<td rowspan="4" class="food"><b>Gala dinner</b><br><i>Xiyuan dining room (Xiyuan hotel 2nd floor)</i></td>
+</tr>
+
+<tr>
+<td> 18:45 </td>
+</tr>
+
+<tr>
+<td> 19:00 </td>
+	<!-- Sun -->
+	<td rowspan="1" class="food"><b>Opening event</b><br><i>IVPP<br>(main building)</i></td>
+</tr>
+
+
 </tbody>
 </table>
 
-<div class="bigspacer"></div>
 
 
-# Workshop committee 
-
-<table style="text-align: center">
-	<tr>
-		<td class="tutorial"></td><td  style="text-align: left" class="tutorial"><b>Affiliation</b></td><td class="tutorial"><b>Organizing committee</b></td><td class="tutorial"><b>Speaker / Instructor</b></td><td class="tutorial"><b>Teaching Assistant</b></td><td class="tutorial"><b>Logistics</b></td>
-	</tr>
-	<tr><td style="text-align: left"><b><a href="https://bjoelle.github.io" target="_blank">Joëlle Barido Sottani</a></b></td><td style="text-align: left">Ecole Normale Supérieure</td>
-		<td><i class="bi-check-lg"></i></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b>Yindi Cao</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
-		<td></td><td></td><td></td><td><i class="bi-check-lg"></i></td></tr>
-	<tr><td style="text-align: left"><b>Meijing Chang</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
-		<td></td><td></td><td></td><td><i class="bi-check-lg"></i></td></tr>
-	<tr><td style="text-align: left"><b>Minghao Du</b></td><td style="text-align: left">Ecole Normale Supérieure</td>
-		<td></td><td></td><td><i class="bi-check-lg"></i></td><td></td></tr>
-	<tr><td style="text-align: left"><b>Louis du Plessis</b></td><td style="text-align: left">ETH Zürich</td>
-		<td><i class="bi-check-lg"></i></td><td></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b><a href="https://researchers.adelaide.edu.au/profile/sasha.gavryushkina" target="_blank">Sasha Gavryushkina</a></b></td><td style="text-align: left">University of Adelaide</td>
-		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b><a href="https://www.sydney.edu.au/science/about/our-people/academic-staff/simon-ho.html" target="_blank">Simon Ho</a></b></td><td style="text-align: left">University of Sydney</td>
-		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b>Eva (Yutong) Li</b></td><td style="text-align: left">University of Auckland</td>
-		<td></td><td></td><td><i class="bi-check-lg"></i></td><td></td></tr>
-	<tr><td style="text-align: left"><b>Xue'er Liu</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
-		<td></td><td></td><td></td><td><i class="bi-check-lg"></i></td></tr>
-	<tr><td style="text-align: left"><b><a href="http://english.ioz.cas.cn/sourcedb/scs/202310/t20231030_431237.html" target="_blank">Arong Luo</a></b></td><td style="text-align: left">Chinese Academy of Sciences</td>
-		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b>Zhaohui Pan</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
-		<td></td><td></td><td></td><td><i class="bi-check-lg"></i></td></tr>
-	<tr><td style="text-align: left"><b><a href="https://www.researchgate.net/profile/Sophie-Seidel" target="_blank">Sophie Seidel</a></b></td><td style="text-align: left">University of Washington</td>
-		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b>Yutai Shi</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
-		<td></td><td></td><td></td><td><i class="bi-check-lg"></i></td></tr>
-	<tr><td style="text-align: left"><b>Timothy Vaughn</b></td><td style="text-align: left">ETH Zürich</td>
-		<td><i class="bi-check-lg"></i></td><td></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b><a href="https://palaeobiology.nat.fau.de/people/instructors/warnock/" target="_blank">Rachel Warnock</a></b></td><td style="text-align: left">Friedrich-Alexander Universität</td>
-		<td><i class="bi-check-lg"></i></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b><a href="https://profiles.auckland.ac.nz/dxie004" target="_blank">Walter (Dong) Xie</a></b></td><td style="text-align: left">University of Auckland</td>
-		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b>Jiabao Xing</b></td><td style="text-align: left">Fudan University</td>
-		<td></td><td></td><td><i class="bi-check-lg"></i></td><td></td></tr>
-	<tr><td style="text-align: left"><b><a href="https://www.geolsoc.org.uk/membership/already-a-member/honorary-fellows/list-of-honorary-fellows/prof-xing-xu/" target="_blank">Xing Xu</a></b></td><td style="text-align: left">Chinese Academy of Sciences</td>
-		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b>Yuan Xu</b></td><td style="text-align: left">University of Auckland</td>
-		<td></td><td></td><td><i class="bi-check-lg"></i></td><td></td></tr>
-	<tr><td style="text-align: left"><b>Xiao Yao</b></td><td style="text-align: left">University of Auckland</td>
-		<td></td><td></td><td><i class="bi-check-lg"></i></td><td></td></tr>
-	<tr><td style="text-align: left"><b><a href="https://www.researchgate.net/profile/Robert-Haobo-Yuan" target="_blank">Robert (Haobo) Yuan</a></b></td><td style="text-align: left">ETH Zürich</td>
-		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b><a href="https://sites.google.com/view/zhangchicool/home" target="_blank">Chi Zhang</a></b></td><td style="text-align: left">Chinese Academy of Sciences</td>
-		<td><i class="bi-check-lg"></i></td><td><i class="bi-check-lg"></i></td><td></td><td><i class="bi-check-lg"></i></td></tr>
-	<tr><td style="text-align: left"><b><a href="" target="_blank">Rong Zhang</a></b></td><td style="text-align: left">Duke-NUS Medical School</td>
-		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
-	<tr><td style="text-align: left"><b>Yinan Zhang</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
-		<td></td><td></td><td></td><td><i class="bi-check-lg"></i></td></tr>
-
-
-</table>
 
 
 {% if page.repo %}
 
 <div class="bigspacer"></div>
-
+<hr>
+<div class="bigspacer"></div>
 # Lecture slides
 
 Slides to lectures are available from [here]( https://github.com/{{ page.repo }} ).
@@ -477,9 +454,10 @@ Slides to lectures are available from [here]( https://github.com/{{ page.repo }}
 {% endif %}
 
 <div class="bigspacer"></div>
+<hr>
+<div class="bigspacer"></div>
 
-
-# Required Software
+# Required software
 
 Please ensure the following software is installed prior to the start of the workshop.
 
@@ -490,36 +468,11 @@ Please ensure the following software is installed prior to the start of the work
 - **R:** R is a free software environment that provides a wide variety of statistical (linear and nonlinear modelling, classical statistical tests, time-series analysis, classification, clustering) and graphical techniques, and is highly extensible [(download)](https://www.r-project.org/).
 - **RStudio (optional):** RStudio provides a friendly front-end for R [(download)](https://posit.co/download/rstudio-desktop/).
 
-<div class="bigspacer"></div>
-
-
-
-# Venue and travel information
-
-<div class="row">
-	<div class="col-md-6">
-		<figure>
-			<img src="{{ site.baseurl }}/images/workshops/Taming-the-BEAST-Beijing-Venue1.jpeg" alt="IVPP outside">
-		</figure>
-	</div>
-	<div class="col-md-6">
-		<figure>
-			<img src="{{ site.baseurl }}/images/workshops/Taming-the-BEAST-Beijing-Venue2.jpeg" alt="IVPP inside">
-		</figure>
-	</div>
-</div>
-
-
-The workshop will take place at the [Institute for Vertebrate Paleontology and Paleoanthropology](http://www.ivpp.ac.cn/) (中国科学院古脊椎动物与古人类研究所) in Beijing, China. Participants are expected to book their own accommodation Beijing. The workshop organisers are not responsible for organising daily travel to and from the IVPP. 
-
-- Location in [Google maps](http://www.google.com/maps/place/{{ page.latitude }},{{ page.longitude }})
-- Location in [Baidu maps](https://map.baidu.com/poi/中国古动物馆/@12951021.40805023,4830010.474834426,19.21z)
-
-Travellers from many countries are able to visit China without needing to apply for a visa. Please see [here](https://www.travelchinaguide.com/embassy/china-visa-free-policy.htm) and [here](https://smbe2025.scimeeting.cn/en/web/index/25070_2132279) for further details. The SMBE 2025 website has list of [practical information and tips](https://smbe2025.scimeeting.cn/en/web/index/25070_2132280) for travelling to Beijing this July.  
 
 
 <div class="bigspacer"></div>
-
+<hr>
+<div class="bigspacer"></div>
 
 # Additional resources
 
@@ -547,7 +500,8 @@ There are a lot of great resources for brushing up or deepening your knowledge o
 
 
 <div class="bigspacer"></div>
-
+<hr>
+<div class="bigspacer"></div>
 
 
 
@@ -555,6 +509,7 @@ There are a lot of great resources for brushing up or deepening your knowledge o
 # Questions
 Please contact the organizing committee at [ttb.beijing@ivpp.ac.cn](mailto:ttb.beijing@ivpp.ac.cn).
 
+<div class="hugespacer"></div>
 <hr>
 
 <div class="bigspacer"></div>
