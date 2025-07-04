@@ -103,7 +103,8 @@ tutorials:
   - boskovav/PIQMEE-Tutorial
   - bethany-j-allen/Skyline-analyses-for-macroevolution
   - taming-the-beast/Visualizing-BEAST2-results
-#  - bethany-j-allen/Total-Evidence-Tutorial
+  - bethany-j-allen/Total-Evidence-Tutorial
+
 
 plugins:
   - jekyll-katex

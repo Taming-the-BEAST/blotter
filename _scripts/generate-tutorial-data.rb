@@ -82,6 +82,8 @@ module Tutorials
 				tutorial_description = octokit_repo.description
 				tutorial_url = "/tutorials/#{reponame}/"
 				tutorial_date = octokit_repo.updated_at
+				tutorial_default_branch = octokit_repo.default_branch
+				#puts "\t\tDefault branch #{tutorial_default_branch}"
 
 				# load tutorial header metadata
 				# overwrite description with tutorial header description if not empty
@@ -163,6 +165,7 @@ module Tutorials
 					"level" => tutorial_level,
 					"beastversion" => tutorial_beast,
 					"commits" => tutorial_commits,
+					"default_branch" => tutorial_default_branch,
 					"pdfs" => pdf_array,
 					"data" => data_array,
 					"xmls" => xml_array,
