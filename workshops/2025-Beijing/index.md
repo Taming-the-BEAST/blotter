@@ -103,8 +103,8 @@ The workshop dinner will take place on **July 17** at **6:30pm** in the **Xiyuan
 
 <figure>
    <a id="fig:venue"></a>
-	<!--img src="{{ site.baseurl }}/images/workshops/Taming-the-BEAST-Beijing-Venue3.jpg" width="50%;" alt="Event locations"-->
-	<img src="../../images/workshops/Taming-the-BEAST-Beijing-Venue3.jpg" width="50%;" alt="Event locations">
+	<img src="{{ site.baseurl }}/images/workshops/Taming-the-BEAST-Beijing-Venue3.jpg" width="50%;" alt="Event locations">
+	<!--img src="../../images/workshops/Taming-the-BEAST-Beijing-Venue3.jpg" width="50%;" alt="Event locations"-->
 </figure>
 
 
@@ -151,7 +151,7 @@ There are plenty of taxis in Beijing and there are also ride-hailing services li
 
 ## Travel tips
 
-The SMBE 2025 website has a list of [practical information and tips](https://smbe2025.scimeeting.cn/en/web/index/25070_2132280) for travelling to Beijing this July.
+The SMBE 2025 website has a list of [practical information and tips](https://smbe2025.scimeeting.cn/en/web/index/25070_2132280) for travelling to Beijing this July. In particular, the SMBE 2025 website contains instructions for setting up WeChat pay or AliPay, which would make it a lot more convienent and easier to pay for things in China. 
 
 > ### Places to visit
 >
