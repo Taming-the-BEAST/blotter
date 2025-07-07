@@ -162,7 +162,7 @@ The SMBE 2025 website has a list of [practical information and tips](https://smb
 > - Tiananmen square (天安门广场) and the Forbidden City (故宫) are close to Jingshan park. Keep in mind that you may have to queue for a long time to enter the [Palace Museum](https://intl.dpm.org.cn/index.html?l=en). There are several monuments and museums around the square.
 > - [Temple of Heaven](http://www.tiantanpark.com/english/) (天坛). Symbol of Beijing, situated in a large park.
 > - Summer palace (颐和园). Located a little outside of the city center, it may take some time to reach （actually older than the old summer palace). 
-> - YuanMingYuan (圆明园) park. The old summer palace, destroyed during the Seconod Opium War.
+> - YuanMingYuan (圆明园) park. The old summer palace, destroyed during the Second Opium War.
 > - Lama temple (雍和宫). Large Buddhist temple and monastery complex. 
 > - Beijing Hutong / Sanlitun / Citywalk
 > - The Great Wall (长城) can be visited at several locations. It's a little too far away to easily visit for a half-day excursion, but it's a great option for a full day. 
@@ -218,7 +218,7 @@ The SMBE 2025 website has a list of [practical information and tips](https://smb
 		<td></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
 	<tr><td style="text-align: left"><b>Yutai Shi</b></td><td style="text-align: left">Chinese Academy of Sciences</td>
 		<td></td><td></td><td></td><td><i class="bi-check-lg"></i></td></tr>
-	<tr><td style="text-align: left"><b>Timothy Vaughn</b></td><td style="text-align: left">ETH Zürich</td>
+	<tr><td style="text-align: left"><b>Timothy Vaughan</b></td><td style="text-align: left">ETH Zürich</td>
 		<td><i class="bi-check-lg"></i></td><td></td><td></td><td></td></tr>
 	<tr><td style="text-align: left"><b><a href="https://palaeobiology.nat.fau.de/people/instructors/warnock/" target="_blank">Rachel Warnock</a></b></td><td style="text-align: left">Friedrich-Alexander Universität</td>
 		<td><i class="bi-check-lg"></i></td><td><i class="bi-check-lg"></i></td><td></td><td></td></tr>
