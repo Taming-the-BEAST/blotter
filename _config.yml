@@ -95,7 +95,8 @@ tutorials:
   - genomescale/starbeast2-tutorial
   - mmatschiner/CladeAge-Tutorial
   - nicfel/AIM-Tutorial
-  - rbouckaert/NS-tutorial
+  #- rbouckaert/NS-tutorial
+  - sgtRoberty/NS-tutorial
   - walterxie/MEP-tutorial
   - nicfel/CoupledMCMC-Tutorial
   - KonstantinHoffmann/LanguagePhylogenies
