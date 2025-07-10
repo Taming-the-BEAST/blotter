@@ -40,9 +40,7 @@ Applications are open until **25 April 2025**!
 <!--div class="bigspacer"></div-->
 
 
-# Preliminary Programme
-
-_(subject to change)_
+# Programme
 
 <table style="width:40%">
 <tbody>
@@ -191,7 +189,7 @@ _(subject to change)_
 									(<a href="/tutorials/FBD-tutorial/">tutorial</a>)</td>
 	<!-- Thu -->
 	<td rowspan="2" class="tutorial"><b>Modelling macro-evolution with BDMM-prime</b><br>
-									(<a href="/tutorials/">tutorial</a>)</td>
+									(<a href="/tutorials/BDMM-Prime-for-macroevolution/">tutorial</a>)</td>
 	<!-- Fri -->
 	<td rowspan="4" class="tutorial"><b>Estimating single-cell trees from lineage tracing data with TiDeTree</b><br>
 									(<a href="/tutorials/">tutorial</a>)</td>
@@ -210,10 +208,10 @@ _(subject to change)_
 <td> 11:45 </td>
 	<!-- Mon -->
 	<td rowspan="2" class="tutorial"><b>Visualizing BEAST2 results in R</b><br>
-									(<a href="/tutorials/Visualizing-BEAST2-results/">tutorial</a>)</td>
+									(<a href="/tutorials/Visualizing-BEAST2-results/">optional tutorial</a>)</td>
 	<!-- Thu -->
 	<td rowspan="2" class="tutorial"><b>Modelling pathogen spread with MASCOT</b><br>
-									(<a href="/tutorials/Mascot-Tutorial/">tutorial</a>)</td>
+									(<a href="/tutorials/Mascot-Tutorial/">optional tutorial</a>)</td>
 </tr>
 
 
@@ -253,8 +251,8 @@ _(subject to change)_
 <tr>
 <td> 13:15 </td>
 	<!-- Mon -->
-	<td rowspan="4" class="lecture"><b>Simon Ho</b><br>
-									<i>Molecular clock dating and modelling rate variation</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
+	<td rowspan="2" class="lecture"><b>Joëlle Barido-Sottani</b><br>
+									<i>Molecular clock models</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 	<!-- Tue -->
 	<td rowspan="4" class="lecture"><b>Rong Zhang</b><br>
 									<i>Inference using continuous traits</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
@@ -274,35 +272,38 @@ _(subject to change)_
 <!-- 13:45 -->
 <tr>
 <td> 13:45 </td>
+	<!-- Mon -->
+	<td rowspan="3" class="tutorial"><b>Molecular clock dating and modelling rate variation</b><br>
+									(<a href="/tutorials/Molecular-clock-dating-and-modelling-rate-variation/">tutorial</a>)</td>
 </tr>
 
 <!-- 14:00 -->
 <tr>
 <td> 14:00 </td>
-	<td rowspan="20" class="help-session"><b>Registration</b><br><i>IVPP<br>(main buildiing)</i></td>
+	<td rowspan="20" class="help-session"><b>Registration</b><br><i>IVPP<br>(main building)</i></td>
 </tr>
 
 <!-- 14:15 -->
 <tr>
 <td> 14:15 </td>
-	<!-- Mon -->
-	<td rowspan="4" class="tutorial"><b>Prior selection and clock calibration</b><br>
-									(<a href="/tutorials/Prior-selection/">tutorial</a>)</td>
 	<!-- Tue -->
 	<td rowspan="4" class="tutorial"><b>Modelling continuous trait evolution in BEAST2</b><br>
 									(<a href="/tutorials/">tutorial</a>)</td>
 	<!-- Thu -->
 	<td rowspan="4" class="tutorial"><b>Estimating species trees using StarBEAST3</b><br>
-									(<a href="/tutorials/">tutorial</a>)</td>
+									(<a href="/tutorials/StarBeast3-Tutorial/">tutorial</a>)</td>
 	<!-- Fri -->
 	<td rowspan="4" class="tutorial"><b>Modelling morphological evolution in BEAST2</b><br>
-									(<a href="/tutorials/">tutorial</a>)</td>
+									(<a href="/tutorials/Total-Evidence-Tutorial/">tutorial</a>)</td>
 </tr>
 
 <!------------------------------------------------------------------>
 <!-- 14:30 -->
 <tr>
 <td> 14:30 </td>
+	<!-- Mon -->
+	<td rowspan="3" class="tutorial"><b>Prior selection and clock calibration</b><br>
+									(<a href="/tutorials/Prior-selection/">optional tutorial</a>)</td>
 </tr>
 
 <!-- 14:45 -->
@@ -368,8 +369,8 @@ _(subject to change)_
 	<td rowspan="2" class="tutorial"><b>BEAST2 initialization</b><br>
 									(<a href="/tutorials/Troubleshooting-initialization-issues/">tutorial</a>)</td>
 	<!-- Thu -->
-	<td rowspan="2" class="tutorial"><b>Clock model selection</b><br>
-									(<a href="/tutorials/">tutorial</a>)</td>	
+	<td rowspan="4" class="tutorial"><b>Model selection with nested sampling</b><br>
+									(<a href="/tutorials/NS-tutorial/">tutorial</a>)</td>		
 </tr>
 
 <tr>
@@ -380,10 +381,7 @@ _(subject to change)_
 <td> 17:00 </td>
 	<!-- Tue -->
 	<td rowspan="2" class="tutorial"><b>BEAST2 convergence</b><br>
-								(<a href="/tutorials/Troubleshooting-convergence-issues/">tutorial</a>)</td>
-	<!-- Thu -->
-	<td rowspan="2" class="tutorial"><b>Model selection with nested sampling</b><br>
-									(<a href="/tutorials/NS-tutorial/">tutorial</a>)</td>	
+								(<a href="/tutorials/Troubleshooting-convergence-issues/">optional tutorial</a>)</td>
 	<!-- Fri -->
 	<td rowspan="9" class="padding">Departure</td>									
 </tr>
@@ -459,15 +457,37 @@ Slides to lectures are available from [here]( https://github.com/{{ page.repo }}
 
 # Required software
 
-Please ensure the following software is installed prior to the start of the workshop.
+Please ensure the following software is installed _prior_ to the start of the workshop. 
 
 - **BEAST 2:** BEAST 2 is a cross-platform program for Bayesian phylogenetic analysis of molecular sequences. We will be using this software to perform analyses on the data brought to the workshop. We will be using **BEAST v2.7** for the workshop [(download)](http://beast2.org/). If you want to use the latest release of BEAST 2 you can upgrade the downloaded version to **BEAST v2.7.8** by updating Beast.Base from the Package Manager in **BEAUti**. The developers would appreciate in any feedback you have about the new version! 
 - **BEAGLE (optional, but strongly recommended):** BEAGLE is a high-performance library that can perform the core calculations in BEAST2 (and many other phylogenetics packages) much faster. BEAGLE isn't necessary for the workshop, but it will speed up your analyses [(download)](http://beast.community/beagle).
 - **FigTree:** FigTree is a graphical viewer of phylogenetic trees, specifically designed to display summarised and annotated trees produced by BEAST [(download)](http://beast.community/figtree).
 - **Tracer:** Tracer is a program for analysing the trace files generated by Bayesian MCMC runs. It can be used to check mixing, ESS, parameter correlations, etc. [(download)](http://beast.community/tracer).
 - **Java:** The official BEAST 2 releases come bundled with Zulu Java 17 and don't need a separate Java installation anymore. However, FigTree and Tracer still require a Java Runtime Environment (JRE) to be installed. If you don't have a suitable version of Java already installed, you can install Zulu Java 17 from Azul Systems. [(download)](https://www.azul.com/downloads/?version=java-17-lts&package=jre#zulu).
+- **LPhy Studio:** We will be using LinguaPhylo for a tutorial. Please see the installation instructions on the [website](https://linguaphylo.github.io/setup/). You will also need to install the LPhyBEAST package in BEAST 2. 
 - **R:** R is a free software environment that provides a wide variety of statistical (linear and nonlinear modelling, classical statistical tests, time-series analysis, classification, clustering) and graphical techniques, and is highly extensible [(download)](https://www.r-project.org/).
 - **RStudio (optional):** RStudio provides a friendly front-end for R [(download)](https://posit.co/download/rstudio-desktop/).
+
+### BEAST 2 packages
+
+As with the software above, it is highly recommended to pre-install all of the BEAST2 packages we will be using over the course of the week. We will be using the following packages:
+
+- BDMM-Prime
+- BDSKY
+- BEAST_CLASSIC
+- BEASTLabs
+- bModelTest
+- CCD
+- ClaDS
+- contraband
+- Mascot
+- MM
+- MSBD
+- NS
+- SA
+- starbeast3
+- TiDeTree
+- TreeStat2
 
 
 
