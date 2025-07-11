@@ -42,6 +42,8 @@ Applications are open until **25 April 2025**!
 
 # Programme
 
+In case GitHub is not accessible and tutorial files cannot be downloaded, all of the tutorials for this workshop are mirrored on [GitLab](https://gitlab.com/ttb2025-group).
+
 <table style="width:40%">
 <tbody>
 <tr>
@@ -447,7 +449,7 @@ Applications are open until **25 April 2025**!
 <div class="bigspacer"></div>
 # Lecture slides
 
-Slides to lectures are available from [here]( https://github.com/{{ page.repo }} ).
+Slides to lectures are available from [GitHub]( https://github.com/{{ page.repo }} ) and mirrored on [GitLab]( https://gitlab.com/ttb2025-group/Taming-the-BEAST-2025-Beijing-Lectures ) (in case GitHub is not accessible). 
 
 {% endif %}
 
