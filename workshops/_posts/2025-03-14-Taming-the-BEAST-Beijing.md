@@ -194,7 +194,7 @@ In case GitHub is not accessible and tutorial files cannot be downloaded, all of
 									(<a href="/tutorials/BDMM-Prime-for-macroevolution/">tutorial</a>)</td>
 	<!-- Fri -->
 	<td rowspan="4" class="tutorial"><b>Estimating single-cell trees from lineage tracing data with TiDeTree</b><br>
-									(<a href="/tutorials/">tutorial</a>)</td>
+									(<a href="/tutorials/TiDeTree-Tutorial/">tutorial</a>)</td>
 </tr>
 
 
