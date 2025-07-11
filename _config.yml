@@ -83,7 +83,7 @@ tutorials:
   - nicfel/AIM-Tutorial
   - taming-the-beast/Bacter-Tutorial
   - nicfel/CoupledMCMC-Tutorial
-  #- rachelwarnock/BDMM-Prime-for-macroevolution
+  - rachelwarnock/BDMM-Prime-for-macroevolution
   - genomescale/calibrated-species-trees
   - mmatschiner/CladeAge-Tutorial
   - bjoelle/ClaDS-tutorial
