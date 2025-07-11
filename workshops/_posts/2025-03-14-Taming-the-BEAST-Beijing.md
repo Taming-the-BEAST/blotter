@@ -340,7 +340,7 @@ In case GitHub is not accessible and tutorial files cannot be downloaded, all of
 									<i>Troubleshooting & practical tips</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 	<!-- Thu -->
 	<td rowspan="4" class="lecture"><b>Robert Yuan</b><br>
-									<i>Model selection & model averaging</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
+									<i>Model selection via marginal likelihood estimation</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 	<!-- Fri -->
 	<td rowspan="6" class="help-session"><b>Free Q&A session and wrap-up</b><br>(optional)</td>
 </tr>
