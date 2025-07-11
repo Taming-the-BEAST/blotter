@@ -5,14 +5,18 @@ url: https://taming-the-beast.org/
 permalink: /:categories/:title/
 future: true
 
+# Excluding files that should not be on the production static website
+# (generally just makes things smaller, but if you are hosting zip files
+# and can't find them they are probably included here)
 exclude:
   - "*.branches"
   - "*.kml"
   - "*.log"
-  - "*.log,gz"
+  - "*.log.gz"
   - "*.nb"
   - "*.trees"
   - "*.trees.gz"
+  - "*.zip"
   - "*.cpp"
   - "*.h"
   - "*.hh"
@@ -27,6 +31,7 @@ exclude:
   - "*.tips"
   - "*.fasta"
   - "*.nex"
+  - "*.nexus"
   - "Gemfile"
   - "Gemfile.lock"
   - "github.token"
