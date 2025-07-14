@@ -148,8 +148,8 @@ In case GitHub is not accessible and tutorial files cannot be downloaded, all of
 									<i>LinguaPhylo and LPhyBEAST</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)-->
 	</td>
 	<!-- Wed -->
-	<td rowspan="4" class="lecture"><b>Rachel Warnock</b><br>
-									<i>Divergence time estimation and total evidence dating</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)-->
+	<td rowspan="4" class="lecture"><b>Rong Zhang</b><br>
+									<i>Inference using continuous traits</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)-->
 	</td>
 	<!-- Thu -->
 	<td rowspan="4" class="lecture"><b>Joëlle Barido-Sottani</b><br>
@@ -187,8 +187,8 @@ In case GitHub is not accessible and tutorial files cannot be downloaded, all of
 	<td rowspan="4" class="tutorial"><b>Analysing Time-Stamped Data with LinguaPhylo and BEAST</b><br>
 									(<a href="https://linguaphylo.github.io/tutorials/time-stamped-data/">tutorial</a>)</td>
 	<!-- Wed -->
-	<td rowspan="4" class="tutorial"><b>Dating species divergences with the fossilized birth-death process</b><br>
-									(<a href="/tutorials/FBD-tutorial/">tutorial</a>)</td>
+	<td rowspan="4" class="tutorial"><b>Modelling continuous trait evolution in BEAST2</b><br>
+									(<a href="/tutorials/">tutorial</a>)</td>
 	<!-- Thu -->
 	<td rowspan="2" class="tutorial"><b>Modelling macro-evolution with BDMM-prime</b><br>
 									(<a href="/tutorials/BDMM-Prime-for-macroevolution/">tutorial</a>)</td>
@@ -256,8 +256,8 @@ In case GitHub is not accessible and tutorial files cannot be downloaded, all of
 	<td rowspan="2" class="lecture"><b>Joëlle Barido-Sottani</b><br>
 									<i>Molecular clock models</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 	<!-- Tue -->
-	<td rowspan="4" class="lecture"><b>Rong Zhang</b><br>
-									<i>Inference using continuous traits</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
+	<td rowspan="4" class="lecture"><b>Rachel Warnock</b><br>
+									<i>Divergence time estimation and total evidence dating</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
 	<!-- Thu -->
 	<td rowspan="4" class="lecture"><b>Chi Zhang</b><br>
 									<i>Species tree inference and the multispecies coalescent</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)--></td>
@@ -289,8 +289,8 @@ In case GitHub is not accessible and tutorial files cannot be downloaded, all of
 <tr>
 <td> 14:15 </td>
 	<!-- Tue -->
-	<td rowspan="4" class="tutorial"><b>Modelling continuous trait evolution in BEAST2</b><br>
-									(<a href="/tutorials/">tutorial</a>)</td>
+	<td rowspan="4" class="tutorial"><b>Dating species divergences with the fossilized birth-death process</b><br>
+									(<a href="/tutorials/FBD-tutorial/">tutorial</a>)</td>
 	<!-- Thu -->
 	<td rowspan="4" class="tutorial"><b>Estimating species trees using StarBEAST3</b><br>
 									(<a href="/tutorials/StarBeast3-Tutorial/">tutorial</a>)</td>
