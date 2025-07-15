@@ -188,7 +188,7 @@ In case GitHub is not accessible and tutorial files cannot be downloaded, all of
 									(<a href="https://linguaphylo.github.io/tutorials/time-stamped-data/">tutorial</a>)</td>
 	<!-- Wed -->
 	<td rowspan="4" class="tutorial"><b>Modelling continuous trait evolution in BEAST2</b><br>
-									(<a href="/tutorials/">tutorial</a>)</td>
+									(<a href="/tutorials/contraband-tutorial/">tutorial</a>)</td>
 	<!-- Thu -->
 	<td rowspan="2" class="tutorial"><b>Modelling macro-evolution with BDMM-prime</b><br>
 									(<a href="/tutorials/BDMM-Prime-for-macroevolution/">tutorial</a>)</td>
