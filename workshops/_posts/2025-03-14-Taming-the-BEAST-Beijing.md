@@ -101,8 +101,8 @@ In case GitHub is not accessible and tutorial files cannot be downloaded, all of
 											(<a href="https://researchers.adelaide.edu.au/profile/sasha.gavryushkina">link</a>)
 	</td>
 	<!-- Thu -->	
-	<td rowspan="4" class="invited-lecture"><b>Xing Xu</b><br><i>Morphology-based phylogenetic analysis: Taxon sampling, character formulation and coding</i>
-											(<a href="http://english.casad.cas.cn/members/casm/does/202404/t20240416_660183.html">link</a>)
+	<td rowspan="4" class="lecture"><b>Joëlle Barido-Sottani</b><br>
+									<i>Structured models in phylodynamics</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)-->
 	</td>
 	<!-- Fri -->
 	<td rowspan="4" class="invited-lecture"><b>Arong Luo</b><br><i>Molecular data and their use in macroevolutionary studies</i>
@@ -151,10 +151,9 @@ In case GitHub is not accessible and tutorial files cannot be downloaded, all of
 	<td rowspan="4" class="lecture"><b>Rong Zhang</b><br>
 									<i>Inference using continuous traits</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)-->
 	</td>
-	<!-- Thu -->
-	<td rowspan="4" class="lecture"><b>Joëlle Barido-Sottani</b><br>
-									<i>Structured models in phylodynamics</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)-->
-	</td>
+	<!-- Thu -->	
+	<td rowspan="2" class="tutorial"><b>Modelling macro-evolution with BDMM-prime</b><br>
+									(<a href="/tutorials/BDMM-Prime-for-macroevolution/">tutorial</a>)</td>
 	<!-- Fri -->
 	<td rowspan="4" class="lecture"><b>Sophie Seidel</b><br>
 									<i>Single-cell phylogenetics for developmental biology</i><br><!--(<a href="https://github.com/Taming-the-BEAST/Squamish-BEAST-Tamers-2023-Lectures/raw/master/">slides</a>)-->
@@ -169,6 +168,9 @@ In case GitHub is not accessible and tutorial files cannot be downloaded, all of
 <!-- 10:45 -->
 <tr>
 <td> 10:45 </td>
+	<!-- Thu -->
+	<td rowspan="2" class="tutorial"><b>Modelling pathogen spread with MASCOT</b><br>
+									(<a href="/tutorials/Mascot-Tutorial/">optional tutorial</a>)</td>
 </tr>
 
 <!-- 11:00 -->
@@ -190,8 +192,9 @@ In case GitHub is not accessible and tutorial files cannot be downloaded, all of
 	<td rowspan="4" class="tutorial"><b>Modelling continuous trait evolution in BEAST2</b><br>
 									(<a href="/tutorials/contraband-tutorial/">tutorial</a>)</td>
 	<!-- Thu -->
-	<td rowspan="2" class="tutorial"><b>Modelling macro-evolution with BDMM-prime</b><br>
-									(<a href="/tutorials/BDMM-Prime-for-macroevolution/">tutorial</a>)</td>
+	<td rowspan="4" class="invited-lecture"><b>Xing Xu</b><br><i>Morphology-based phylogenetic analysis: Taxon sampling, character formulation and coding</i>
+											(<a href="http://english.casad.cas.cn/members/casm/does/202404/t20240416_660183.html">link</a>)
+	</td>
 	<!-- Fri -->
 	<td rowspan="4" class="tutorial"><b>Estimating single-cell trees from lineage tracing data with TiDeTree</b><br>
 									(<a href="/tutorials/TiDeTree-Tutorial/">tutorial</a>)</td>
@@ -210,10 +213,7 @@ In case GitHub is not accessible and tutorial files cannot be downloaded, all of
 <td> 11:45 </td>
 	<!-- Mon -->
 	<td rowspan="2" class="tutorial"><b>Visualizing BEAST2 results in R</b><br>
-									(<a href="/tutorials/Visualizing-BEAST2-results/">optional tutorial</a>)</td>
-	<!-- Thu -->
-	<td rowspan="2" class="tutorial"><b>Modelling pathogen spread with MASCOT</b><br>
-									(<a href="/tutorials/Mascot-Tutorial/">optional tutorial</a>)</td>
+									(<a href="/tutorials/Visualizing-BEAST2-results/">optional tutorial</a>)</td>	
 </tr>
 
 
