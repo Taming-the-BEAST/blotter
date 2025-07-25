@@ -87,8 +87,7 @@ tutorials:
   - genomescale/calibrated-species-trees
   - mmatschiner/CladeAge-Tutorial
   - bjoelle/ClaDS-tutorial
-  #- Rong419/contraband-tutorial
-  - laduplessis/contraband-tutorial
+  #- Rong419/contraband-tutorial  
   - taming-the-beast/FBD-tutorial
   - nicfel/Reassortment-Tutorial
   - KonstantinHoffmann/LanguagePhylogenies
