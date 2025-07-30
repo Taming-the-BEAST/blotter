@@ -7,7 +7,7 @@ closedate: 2025-08-14
 image: /images/workshops/Taming-the-BEAST-Beijing-Logo.svg
 flyer: /images/workshops/Taming-the-BEAST-Beijing-Flyer.pdf
 homepage: /workshops/Taming-the-BEAST-Beijing/index.html
-open: false
+open: true
 ---
 
 This is the feedback form for instructors and TAs at the 2025 [Taming the BEAST Beijing workshop]( {{page.homepage}} ), which took place at the **IVPP** in **Beijing**, **July 14-18, 2025**. 
@@ -19,11 +19,12 @@ For any questions, please contact the organizing committee at [ttb.beijing@ivpp.
 <hr>
 
 <form
-  action=""
+  action="https://formspree.io/f/xkgzzwre"
   class="fs-form"
   target="_top"
   method="POST"
 >
+
 
 <p class="fs-description" id="dpa-consent-description">
    	Fields marked with <sup>*</sup> are required.
@@ -83,37 +84,37 @@ For any questions, please contact the organizing committee at [ttb.beijing@ivpp.
 	        <div class="fs-radio-wrapper">
 	          <input
 	            class="fs-radio"
-	            id="isNotEnough"
+	            id="wasTooFull"
 	            name="programme-impression"
 	            required
 	            type="radio"
-	            value="notenough"
+	            value="toofull"
 	          />
 	        </div>
 	        <div>
-	          <label class="fs-label" for="isNotEnough">It was too full, I am exhausted!</label>
+	          <label class="fs-label" for="wasTooFull">It was too full, I am <b>still</b> exhausted!</label>
 	        </div>
 	      </div>
 	      <div class="fs-radio-field">
 	        <div class="fs-radio-wrapper">
 	          <input
 	            class="fs-radio"
-	            id="isTooMany"
+	            id="wasTooEmpty"
 	            name="programme-impression"
 	            required
 	            type="radio"
-	            value="toomany"
+	            value="tooempty"
 	          />
 	        </div>
 	        <div>
-	          <label class="fs-label" for="isTooMany">It was too empty, I felt like I didn't have much to do...</label>
+	          <label class="fs-label" for="wasTooEmpty">It was too empty, I felt like I didn't have much to do...</label>
 	        </div>
 	      </div>
 	      <div class="fs-radio-field">
 	        <div class="fs-radio-wrapper">
 	          <input
 	            class="fs-radio"
-	            id="isBalanced"
+	            id="wasBalancedProgramme"
 	            name="programme-impression"
 	            required
 	            type="radio"
@@ -121,7 +122,7 @@ For any questions, please contact the organizing committee at [ttb.beijing@ivpp.
 	          />
 	        </div>
 	        <div>
-	          <label class="fs-label" for="isBalanced">It was about right</label>
+	          <label class="fs-label" for="wasBalancedProgramme">It was about right</label>
 	        </div>
 	      </div>	
 	    </div>      
@@ -201,7 +202,7 @@ For any questions, please contact the organizing committee at [ttb.beijing@ivpp.
 	        <div class="fs-radio-wrapper">
 	          <input
 	            class="fs-radio"
-	            id="wantMorelectures"
+	            id="wantMoreLectures"
 	            name="research-ratio"
 	            required
 	            type="radio"
@@ -209,7 +210,7 @@ For any questions, please contact the organizing committee at [ttb.beijing@ivpp.
 	          />
 	        </div>
 	        <div>
-	          <label class="fs-label" for="wantMorelectures">More lectures</label>
+	          <label class="fs-label" for="wantMoreLectures">More lectures</label>
 	        </div>
 	      </div>
 	      <div class="fs-radio-field">
@@ -238,45 +239,45 @@ For any questions, please contact the organizing committee at [ttb.beijing@ivpp.
 	        <div class="fs-radio-wrapper">
 	          <input
 	            class="fs-radio"
-	            id="wantMoreResearch"
-	            name="research-ratio"
+	            id="wantMoreSocial"
+	            name="work-ratio"
 	            required
 	            type="radio"
-	            value="moreresearch"
+	            value="moresocial"
 	          />
 	        </div>
 	        <div>
-	          <label class="fs-label" for="wantMoreResearch">More social activities and opportunities for networking please!</label>
+	          <label class="fs-label" for="wantMoreSocial">More social activities and opportunities for networking please!</label>
 	        </div>
 	      </div>
 	      <div class="fs-radio-field">
 	        <div class="fs-radio-wrapper">
 	          <input
 	            class="fs-radio"
-	            id="wantMorelectures"
-	            name="research-ratio"
+	            id="wantMoreWork"
+	            name="work-ratio"
 	            required
 	            type="radio"
-	            value="morelectures"
+	            value="morework"
 	          />
 	        </div>
 	        <div>
-	          <label class="fs-label" for="wantMorelectures">More lectures and tutorials please!</label>
+	          <label class="fs-label" for="wantMoreWork">More lectures and tutorials please!</label>
 	        </div>
 	      </div>
 	      <div class="fs-radio-field">
 	        <div class="fs-radio-wrapper">
 	          <input
 	            class="fs-radio"
-	            id="isBalancedResearch"
-	            name="research-ratio"
+	            id="isBalancedWork"
+	            name="work-ratio"
 	            required
 	            type="radio"
 	            value="balanced"
 	          />
 	        </div>
 	        <div>
-	          <label class="fs-label" for="isBalancedResearch">The balance was about right</label>
+	          <label class="fs-label" for="isBalancedWork">The balance was about right</label>
 	        </div>
 	      </div>	
 	    </div>      
@@ -286,16 +287,16 @@ For any questions, please contact the organizing committee at [ttb.beijing@ivpp.
 		<!-- Pre-workshop communication satisfaction -->
 		<hr>
 		<div class="fs-field" style="margin-bottom: 2rem">
-			<label class="fs-label" for="speaker-satisfaction">
+			<label class="fs-label" for="preworkshop-communication">
 			  1.6. What was your level of satisfaction with communication <b>before</b> the workshop?<sup>*</sup> (0 &#x3D; Not
 			  at all satsified, 10 &#x3D; Completely satisfied)
 			</label>
 			<input
 			  class="fs-slider"
-			  id="speaker-satisfaction"
+			  id="preworkshop-communication"
 			  max="10"
 			  min="0"
-			  name="speaker-satisfaction"
+			  name="preworkshop-communication"
 			  required
 			  step="1"
 			  type="range"
@@ -318,16 +319,16 @@ For any questions, please contact the organizing committee at [ttb.beijing@ivpp.
 		<!-- During workshop communication satisfaction -->
 		<hr>
 		<div class="fs-field" style="margin-bottom: 2rem">
-			<label class="fs-label" for="speaker-satisfaction">
+			<label class="fs-label" for="workshop-communication">
 			  1.7. What was your level of satisfaction with communication <b>during</b> the workshop?<sup>*</sup> (0 &#x3D; Not
 			  at all satsified, 10 &#x3D; Completely satisfied)
 			</label>
 			<input
 			  class="fs-slider"
-			  id="speaker-satisfaction"
+			  id="workshop-communication"
 			  max="10"
 			  min="0"
-			  name="speaker-satisfaction"
+			  name="workshop-communication"
 			  required
 			  step="1"
 			  type="range"
@@ -415,15 +416,15 @@ For any questions, please contact the organizing committee at [ttb.beijing@ivpp.
 		</div>
 		<!-- Food satisfaction -->
 		<div class="fs-field" style="margin-bottom: 2rem">
-			<label class="fs-label" for="food-satisfaction">
+			<label class="fs-label" for="accessibility-satisfaction">
 			  2.3. What was your level of satisfaction with the accessibility of the venue (transport to and from IVPP)?<sup>*</sup> (0 &#x3D; Not at all satisfied, 10 &#x3D; Completely satisfied)
 			</label>
 			<input
 			  class="fs-slider"
-			  id="food-satisfaction"
+			  id="accessibility-satisfaction"
 			  max="10"
 			  min="0"
-			  name="food-satisfaction"
+			  name="accessibility-satisfaction"
 			  required
 			  step="1"
 			  type="range"
@@ -525,7 +526,7 @@ For any questions, please contact the organizing committee at [ttb.beijing@ivpp.
 	<fieldset class ="fs-layout__2-column">
 	    <div class="fs-field">
 	      <label class="fs-label" for="beast">If you would like to discuss any of your answers with us please tell us who you are. <i>(Completely optional)</i></label>
-	      <input class="fs-input" id="beast" name="beast" required/>
+	      <input class="fs-input" id="name" name="name"/>
 	    </div> 
 	</fieldset>
 

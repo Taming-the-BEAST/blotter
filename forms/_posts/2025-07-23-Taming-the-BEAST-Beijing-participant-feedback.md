@@ -7,7 +7,7 @@ closedate: 2025-08-14
 image: /images/workshops/Taming-the-BEAST-Beijing-Logo.svg
 flyer: /images/workshops/Taming-the-BEAST-Beijing-Flyer.pdf
 homepage: /workshops/Taming-the-BEAST-Beijing/index.html
-open: false
+open: true
 ---
 
 This is the feedback form for participants at the 2025 [Taming the BEAST Beijing workshop]( {{page.homepage}} ), which took place at the **IVPP** in **Beijing**, **July 14-18, 2025**. 
@@ -19,7 +19,7 @@ For any questions, please contact the organizing committee at [ttb.beijing@ivpp.
 <hr>
 
 <form
-  action=""
+  action="https://formspree.io/f/mblkgnpb"
   class="fs-form"
   target="_top"
   method="POST"
