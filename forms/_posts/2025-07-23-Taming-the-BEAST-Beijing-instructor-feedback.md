@@ -25,6 +25,7 @@ For any questions, please contact the organizing committee at [ttb.beijing@ivpp.
   method="POST"
 >
 
+
 <p class="fs-description" id="dpa-consent-description">
    	Fields marked with <sup>*</sup> are required.
 </p>
@@ -525,7 +526,7 @@ For any questions, please contact the organizing committee at [ttb.beijing@ivpp.
 	<fieldset class ="fs-layout__2-column">
 	    <div class="fs-field">
 	      <label class="fs-label" for="beast">If you would like to discuss any of your answers with us please tell us who you are. <i>(Completely optional)</i></label>
-	      <input class="fs-input" id="beast" name="beast"/>
+	      <input class="fs-input" id="name" name="name"/>
 	    </div> 
 	</fieldset>
 
