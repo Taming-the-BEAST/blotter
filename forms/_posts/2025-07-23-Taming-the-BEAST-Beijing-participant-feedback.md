@@ -7,7 +7,7 @@ closedate: 2025-08-14
 image: /images/workshops/Taming-the-BEAST-Beijing-Logo.svg
 flyer: /images/workshops/Taming-the-BEAST-Beijing-Flyer.pdf
 homepage: /workshops/Taming-the-BEAST-Beijing/index.html
-open: true
+open: false
 ---
 
 This is the feedback form for participants at the 2025 [Taming the BEAST Beijing workshop]( {{page.homepage}} ), which took place at the **IVPP** in **Beijing**, **July 14-18, 2025**. 
