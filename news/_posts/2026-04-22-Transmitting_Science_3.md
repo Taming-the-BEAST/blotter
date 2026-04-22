@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Next online Transmitting Science BEAST2 course
+title: Next online Transmitting Science BEAST2 course - 2026
 author: Joëlle Barido-Sottani
 ---
 
